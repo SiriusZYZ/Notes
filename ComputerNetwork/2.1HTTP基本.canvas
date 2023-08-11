@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"type":"group","id":"b8a27872714fa9c4","x":-140,"y":1840,"width":1240,"height":980,"label":"http缓存技术"},
+		{"type":"group","id":"9bb34bb9eeaa7112","x":-140,"y":120,"width":1240,"height":840,"label":"http 报文常见字段"},
+		{"type":"group","id":"b0579963934592f1","x":-140,"y":1020,"width":1240,"height":760,"label":"GET / POST"},
+		{"type":"group","id":"86ccb40ae3df6def","x":1160,"y":120,"width":1020,"height":840,"label":"http状态码"},
+		{"type":"group","id":"d5cdbfa49701fcdc","x":1160,"y":1020,"width":1020,"height":760,"label":"http/1.1"},
+		{"type":"group","id":"1aba076e731782c5","x":-140,"y":-400,"width":1240,"height":460,"label":"http组成"},
+		{"type":"text","text":"### Accept-Encoding\n客户端发送的信息, 表示愿意接受的返回数据压缩类型\n`Accept-Encoding: gzip, deflate`\n","id":"540f5f11b0dce50a","x":-100,"y":740,"width":420,"height":180},
+		{"type":"text","text":"### Content-Encoding\n服务端表示自己响应报文的数据压缩类型`Content-Encoding: gzip`","id":"e3718d65f8cfa1d2","x":640,"y":740,"width":425,"height":180},
+		{"type":"text","text":"## HTTP 组成","id":"22652f8f4a98aff1","x":-120,"y":-380,"width":260,"height":57},
+		{"type":"text","text":"==协议==: HTTP 是一个用在计算机世界里的**协议**。它使用计算机能够理解的语言确立了一种计算机之间交流通信的规范（**两个以上的参与者**），以及相关的各种控制和错误处理方式（**行为约定和规范**）。","id":"e9d6ed287da0b020","x":140,"y":-300,"width":720,"height":100},
+		{"type":"text","text":"==传输== : HTTP 是一个在计算机世界里专门用来在**两点之间传输数据**的约定和规范","id":"1a6aeaef93ae1b9b","x":140,"y":-180,"width":720,"height":60},
+		{"type":"text","text":"==超文本== : 再来理解「超文本」，它就是**超越了普通文本的文本**，它是文字、图片、视频等的混合体，最关键有超链接，**能从一个超文本跳转到另外一个超文本**。","id":"4c8bb219bfc3061f","x":140,"y":-80,"width":720,"height":100},
+		{"type":"text","text":"## GET\n**GET 的语义是从服务器获取指定的资源**\n- 资源类型：静态的文本、页面、图片视频等。\n- **GET 请求的参数位置一般是写在 URL 中**，URL 规定只能支持 ASCII，所以 GET 请求的参数只允许 ASCII 字符 ，而且浏览器会对 URL 的长度有限制（HTTP协议本身对 URL长度并没有做任何规定）。\n- GET可以带body，但是没有必要，因为其作用是请求资源","id":"56c7ac250bcab904","x":-105,"y":1040,"width":425,"height":380},
+		{"type":"text","text":"## GET / POST 安全性和幂等性\n- **GET 方法就是安全且幂等的**，因为它是「只读」操作，无论操作多少次，服务器上的数据都是安全的，且每次的结果都是相同的。所以，**可以对 GET 请求的数据做缓存，这个缓存可以做到浏览器本身上（彻底避免浏览器发请求），也可以做到代理上（如nginx），而且在浏览器中 GET 请求可以保存为书签**。\n- **POST** 因为是「新增或提交数据」的操作，会修改服务器上的资源，所以是**不安全**的，且多次提交数据就会创建多个资源，所以**不是幂等**的。所以，**浏览器一般不会缓存 POST 请求，也不能把 POST 请求保存为书签**","id":"582f2f6112d0d1d2","x":-105,"y":1460,"width":1170,"height":300},
+		{"type":"text","text":"### Accept\n客户端发送的信息, 表示愿意接受的超文本返回类型及字符集\n`Accept: */*\n`","id":"c280fc49bcc2a77a","x":-100,"y":520,"width":420,"height":180},
+		{"type":"text","text":"### Content-Type\n服务端表示自己响应报文的数据类型和字符集`Content-Type: text/html; Charset-utf-8`","id":"1e297594ecdcbb0e","x":640,"y":520,"width":425,"height":180},
+		{"type":"text","text":"### Host\n客户端发送请求时指定服务器域名","id":"635cacb72110e28f","x":-100,"y":160,"width":420,"height":140},
+		{"type":"text","text":"### Connection\n`Keep Alive` 用于建立长连接机制，只要任意一端没有明确提出断开连接就继续保持TCP连接状态","id":"e98a01b5a1c1941e","x":-100,"y":320,"width":1165,"height":180},
+		{"type":"text","text":"| 状态码 | 短语 | 含义 |\n| --- | --- | ---|\n| `1xx` | |提示信息, 一种协议处理中的中间形态,实际用到较少 |\n| `2xx` | |表示服务器**成功处理**了请求 |\n| `200` |`OK` |最常见的成功状态码, 表示一切正常, 响应有body数据|\n| `204` |`No Content` |成功状态码, 但响应头没有body数据 |\n| `206` |`Partial Content` |成功状态码, 用于分块或断点续传 |\n| `3xx` | |**重定向**, 表示客户端请求的资源已经移到别处 |\n| `301`| `Moved Permanently` | 永久重定向, 说明当前请求资源已永久移到新的`Location`|\n| `302`| `Found` | 临时重定向, 资源存在，但需要临时使用`Location` 访问|\n| `304` | `Not Modified` | 表示缓存和请求资源一致，客户端可以直接去使用缓存 |\n| `4xx` | |表示**客户端发送的报文有误**, 服务端无法处理 |\n| `400` | `Bad Request` | 笼统表示客户端发送的报文有误 |\n| `403` | `Forbidden` | 报文无误, 但服务器禁止访问该资源 |\n| `404` | `Not Found` | 请求的资源不存在, 或无法找到 |\n| `5xx` | | 客户端报文无误, **但服务器处理时发生内部错误** |\n| `500` | `Internal Server Error` | 笼统表示服务器内部错误 |\n| `501` | `Not Implemented` | 请求的功能尚未支持 |\n| `502` | `Bad Gateway` | 服务器作为网关或代理时发生错误, 服务器正常，但后端服务器异常|\n| `503` | `Service Unavaliable` | 服务器正忙 |\n\n\n\n","id":"e311a3fc1f0326a6","x":1200,"y":160,"width":940,"height":760},
+		{"type":"text","text":"## POST\n**POST 的语义是根据请求负荷（报文body）对指定的资源做出处理**\n- 具体的处理方式视资源类型而不同。\n- **POST 请求携带数据的位置一般是写在报文 body 中**，body 中的数据可以是任意格式的数据，只要客户端与服务端协商好即可，而且浏览器不会对 body 大小做限制。","id":"98b5f7f63cac259f","x":640,"y":1040,"width":425,"height":380},
+		{"type":"text","text":"### Content-Length\n表示这次http报文的**数据**长度, 用于解决TCP包的拆包问题","id":"e2d3d4aa5e0d0800","x":647,"y":160,"width":412,"height":140},
+		{"type":"text","text":"## 特点\n\n| 特点 | 描述 | 优点 | 缺点 |\n| ---| --- | --- | ---|\n| 报文简单 | `header + body` 形式, `header`采用键值对 | 简单易于理解 | |\n| 可扩展 | 请求方法、URL、状态码、头部字段都可以进行扩展变化| ... | |\n| 可变更下层 | 如https为http再加一层SSL/TLS安全传输层、 http/3.0变更TCP为UDP等 | ... | |\n| 跨平台 | |... | |\n| 无状态 |  服务器不维护HTTP的连接状态 | 减少服务器维护成本 | 关联操作时出问题 |\n| 明文传输 | body信息不加密 | 减少加密解密成本, 便于调试 | 易被攻击 |\n| 不安全 | 通信明文, 无法验证对方身份, 无法验证报文未经篡改 |  | ...|\n","id":"65b5a86be2361dd7","x":1200,"y":1060,"width":940,"height":500},
+		{"type":"text","text":"### 无状态解决方法-Cookie\n`Cookie` 通过在请求和响应报文中写入 Cookie 信息来控制客户端的状态。\n相当于，**在客户端第一次请求后，服务器会下发一个装有客户信息的「小贴纸」，后续客户端请求服务器的时候，带上「小贴纸」，服务器就能认得了了**","id":"68db779a4e4d76b5","x":1200,"y":1580,"width":920,"height":160},
+		{"type":"text","text":"## 强制缓存\n- 强缓存指的是**只要浏览器判断缓存没有过期，则直接使用浏览器的本地缓存**，决定是否使用缓存的主动性在于浏览器这边。\n- 实现方式: 之前返回的响应头\n  - `Cache-Control` ： 从发送开始, 缓存的有效时间\n  - `Expires` : 缓存有效的截至日期\n  - 前者优先级高于后者\n- 当请求一个资源时，如果`Cache-Control` 或`Expires` 证明缓存内的资源没过期时，就可以使用。否则去服务器申请，响应报文会更新这两个值。","id":"9e7a28a6a6a2b916","x":-105,"y":1860,"width":531,"height":420},
+		{"type":"text","text":"## 协商缓存\n- 协商缓存：服务器返回状态码`304`, 即请求资源没有改变所以客户端可以直接去找本地缓存。\n- 两种实现方式：\n  1. 请求头部`If-Modified-Since` 标记本地缓存的时间+响应头部的`Last-Modified` 标识请求资源的最后修改时间。服务器先检查请求资源在客户端缓存后是否最新，若非返回200否则304。并返回最新资源的时间，客户端更新缓存及缓存的时间。\n  2. 请求头部的`If-None-Match + Etag`表示缓存的标识符+响应头部的`Etag`表示最新资源的标识符 。服务器接收到请求的标识符后与最新资源做对比，如果etag不同则说明修改过，返回200否则304。服务端继续返回etag，客户端更新缓存及缓存etag。\n- 显然etag的准确性更高，也是缓存检查的高优先级。能解决服务器端最后修改时间不准、服务器无法获取最后修改时间等问题。","id":"1c46051166e36bd9","x":480,"y":1860,"width":531,"height":660},
+		{"type":"file","file":"assets/Pasted image 20230804100130.png","id":"1da3790e5c6dd0f3","x":-105,"y":2340,"width":531,"height":442},
+		{"type":"text","text":"1. 浏览器先检查`Cache-Control` 是否过期，未过期就进行强制缓存\n2. 过期后先检查缓存是否有etag，有的话使用`If-None-Match`请求\n3. 缓存不带etag，则使用`Last-Modified`请求","id":"36dc5136043bf0f4","x":480,"y":2561,"width":531,"height":221}
+	],
+	"edges":[
+		{"id":"da0a4e462985c9d7","fromNode":"22652f8f4a98aff1","fromSide":"bottom","toNode":"e9d6ed287da0b020","toSide":"left"},
+		{"id":"4e147383bb9a381e","fromNode":"22652f8f4a98aff1","fromSide":"bottom","toNode":"1a6aeaef93ae1b9b","toSide":"left"},
+		{"id":"ed59b2753af0afc3","fromNode":"22652f8f4a98aff1","fromSide":"bottom","toNode":"4c8bb219bfc3061f","toSide":"left"},
+		{"id":"29c6fc4a57e68612","fromNode":"c280fc49bcc2a77a","fromSide":"right","toNode":"1e297594ecdcbb0e","toSide":"left"},
+		{"id":"142c5599f7b731c2","fromNode":"540f5f11b0dce50a","fromSide":"right","toNode":"e3718d65f8cfa1d2","toSide":"left"},
+		{"id":"d5c6dd7d351cc6ab","fromNode":"56c7ac250bcab904","fromSide":"right","toNode":"98b5f7f63cac259f","toSide":"left"},
+		{"id":"4fa82929588e06ab","fromNode":"98b5f7f63cac259f","fromSide":"left","toNode":"56c7ac250bcab904","toSide":"right","label":"V.S."},
+		{"id":"600324555c84cb44","fromNode":"9e7a28a6a6a2b916","fromSide":"right","toNode":"1c46051166e36bd9","toSide":"left"},
+		{"id":"c4575180c5d7fa65","fromNode":"36dc5136043bf0f4","fromSide":"left","toNode":"1da3790e5c6dd0f3","toSide":"right"}
+	]
+}

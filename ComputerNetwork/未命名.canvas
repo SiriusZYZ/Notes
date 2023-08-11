@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"93f65f2f19741ff4","x":-580,"y":-100,"width":280,"height":60,"type":"text","text":"# 计网体系结构"},
+		{"id":"d33a7769cf06894d","x":-240,"y":-240,"width":365,"height":60,"type":"text","text":"## 计算机网络"},
+		{"id":"0958fe6b38c5717a","x":300,"y":-500,"width":625,"height":146,"type":"text","text":"==**概念**==： 将分散、具有独立功能的**计算机**系统通过**通信设备**与**线路**连接起来，由功能完善的**软件**实现**资源共享和信息传递**的系统\n==**功能**==： 数据通信、资源共享、分布式处理(如Hadoop)、提高可靠性、负载均衡..."},
+		{"type":"text","text":"计算机的组成：","id":"8024d017475791f8","x":300,"y":-326,"width":625,"height":50}
+	],
+	"edges":[
+		{"id":"0a729094c0fd1b08","fromNode":"93f65f2f19741ff4","fromSide":"right","toNode":"d33a7769cf06894d","toSide":"left"},
+		{"id":"7c0791f1aac2dde8","fromNode":"d33a7769cf06894d","fromSide":"right","toNode":"0958fe6b38c5717a","toSide":"left"},
+		{"id":"280e4b2c9e385df0","fromNode":"d33a7769cf06894d","fromSide":"right","toNode":"8024d017475791f8","toSide":"left"}
+	]
+}

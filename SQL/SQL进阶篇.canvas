@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"5bec50b643d1be78","x":-125,"y":-30,"width":250,"height":250,"type":"text","text":"- 储存引擎\n- 索引\n- SQL优化\n- 视图/储存过程/触发器\n- 锁\n- InnoDB\n- MySQL管理"}
+	],
+	"edges":[]
+}

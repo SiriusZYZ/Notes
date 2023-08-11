@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"type":"group","id":"5f35621c643a18f4","x":-1560,"y":1920,"width":1280,"height":900,"label":"IP寻址、路由和加包"},
+		{"type":"group","id":"ef80411904bc007e","x":-1560,"y":3040,"width":1280,"height":900,"label":"MAC寻址"},
+		{"type":"group","id":"c4e63be7b7f0e9b7","x":-1560,"y":940,"width":1280,"height":800,"label":"TCP"},
+		{"type":"text","text":"## 数据帧结构\n![[Pasted image 20230802104727.png]]\n...后接TCP头部和http报文\n","id":"febf3bc90e1c19a6","x":-850,"y":3060,"width":540,"height":780},
+		{"type":"text","text":"### MAC\n- MAC包头中继续加入src和dst的MAC地址\n- MAC包头的协议类型一般为 IP 或 ARP\n  1. IP协议不多说，就是说数据帧装的是IP协议的数据包\n  2. ARP协议用于获取dst的MAC地址。ARP在以太网所有设备中问讯dst的IP地址属于哪个MAC地址\n- 当dst不在本地局域网内，则ARP查找的MAC地址是路由器\n  \n\n","id":"0603f3c8faff830a","x":-1540,"y":3060,"width":580,"height":860},
+		{"type":"text","text":"## 服务器\n服务器解包，解析文件...","id":"ad399b538bc61465","x":-800,"y":4440,"width":1260,"height":400},
+		{"type":"text","text":"## 网站显示\n...","id":"530f6608edbcf098","x":-100,"y":-140,"width":560,"height":220},
+		{"type":"text","text":"## URL解析\n\nURL = `http:` + `//` + `web服务器` + `/目录名/...文件名`\n- 开头表示协议类型\n- `//` 后面表示web服务器名称\n- `/目录名...` 可以省略，表示从web服务器根目录下取文件","id":"295a6abed0641d84","x":-1220,"y":-140,"width":560,"height":220},
+		{"type":"text","text":"## DNS解析\n- 发送web服务器域名至DNS服务器解析对应IP\n- `www.baidu.com` 越靠后域名越高级，DNS解析也是从高到低\n  1. 从最近的本地DNS服务器查根DNS服务器(所有DNS服务器都有根服务器地址)\n  2. 去`.` 根DNS服务器查`.com`的DNS服务器\n  3. 去`.com` 顶级域DNS服务器查`baidu.com` 的DNS服务器\n  4. 去`baidu.com` 域权威DNS服务器查`www.baidu.com` web服务器IP地址。权威是指在baidu域，它的地盘他作主。\n- DNS解析可以通过缓存来减少查询量。先查浏览器、再查操作系统、再查hosts，最后查本地DNS","id":"bc01487f18cc2072","x":-1640,"y":260,"width":600,"height":420},
+		{"type":"text","text":"## 生产HTTP请求信息\n- 请求报文主要有GET 和 POST两种\n- 报文包括\n  1. 请求行 `GET /... HTTP/1.1` (方法 资源路径 版本号) \n  2. 消息头 `Host:...\\n` (多个键值对 键:值 换行)\n  3. 数据(/ 载荷)\n","id":"a0a82b32a1b3f4f0","x":-820,"y":350,"width":560,"height":240},
+		{"type":"text","text":"## 解析HTTP响应信息\n- 响应报文包括：\n  1. 状态行 `HTTP/1.1 200 OK` (版本号 状态号 状态短语)\n  2. 消息头 (键值对)\n  3. 数据(消息体)","id":"06de214dd51b3aa8","x":-100,"y":350,"width":560,"height":240},
+		{"type":"text","text":"## IP包结构\n![[Pasted image 20230802094313.png]]","id":"9cc08f661d83fef5","x":-850,"y":1940,"width":540,"height":860},
+		{"type":"text","text":"### IP\n- IP协议中包含源IP和目标地址IP\n- 决定走哪条路需要路由表三大件：\n  1. IP地址: 标记所处网段，用于寻址\n  2. 网关 / Gateway : 下一跳对应IP\n  3. 子网掩码 / Genmask:  ”掩住“目的地IP一些部分，以判断该走哪条路\n- 例子：我要去中国.四川.成都.郫都区，A路牌写着中国.四川.成都.，其子网掩码可能是255.255.255.0，子网掩码和目的地掩上后，就是中国.四川.成都，和A路牌指示的一致，那我就往路牌A走。B写着中国.四川.宜宾. 子网掩码是255.255.255.0，目的地掩上后和B路牌名不一致，说明不该往B走\n- 默认网关：目的地: 0.0.0.0 + 子网掩码: 0.0.0.0。当一切匹配不上时就走这条路\n  \n\n","id":"a1f76f83614b3430","x":-1540,"y":1940,"width":580,"height":860},
+		{"type":"text","text":"### TCP数据包结构\n![[Pasted image 20230801112248.png]]\n- 端口号为了实现进程对进程的通信\n- 序号用于确认多包传输的顺序问题\n- 确认序列用于确认对方是否收到\n- 状态位用于维护客户端和服务器之间的连接状态","id":"99c68879f6c25f7c","x":-840,"y":960,"width":520,"height":717},
+		{"type":"text","text":"### TCP三次握手\n- 特点：对于两者来说，都存在一发(`SYN`)，和一收(`ACK`)\n0. 刚开始客户端服务端处于`CLOSED` 状态，服务端开始监听某端口`LISTEN`\n1. 客户端向服务端发送连接请求`SYN`，自己进入`SYN-SENT`状态\n2. 服务端收到连接，向客户端发送`SYN`，再返回一个`ACK`表示接受了客户端的`SYN`，自己进入`SYN_RCVD\n3. 客户端收到自己发出的`SYN`的`ACK` ，此时完成了一发一收对于其来说已经建立了连接，同时收到了服务端发出的`SYN`，这时要发送一个`ACK`给对方。这些工作结束后进入`ESTABLISHED`\n4. 服务端收到自己`SYN`的`ACK`，此时也完成了一发一收，进入`ESTABLISHED`","id":"b66d2cfa73ad2461","x":-1500,"y":960,"width":580,"height":717},
+		{"type":"file","file":"assets/Pasted image 20230801145759.png","id":"e7d8c40ec7a63fad","x":-1370,"y":1440,"width":320,"height":267}
+	],
+	"edges":[
+		{"id":"6067bcb4281798ec","fromNode":"295a6abed0641d84","fromSide":"bottom","toNode":"a0a82b32a1b3f4f0","toSide":"top"},
+		{"id":"3dc085ed11169965","fromNode":"06de214dd51b3aa8","fromSide":"top","toNode":"530f6608edbcf098","toSide":"bottom","label":"提取, 渲染"},
+		{"id":"205cd61c3a35ac48","fromNode":"295a6abed0641d84","fromSide":"bottom","toNode":"bc01487f18cc2072","toSide":"top"},
+		{"id":"f7f2930999c37576","fromNode":"a0a82b32a1b3f4f0","fromSide":"bottom","toNode":"c4e63be7b7f0e9b7","toSide":"top","label":"分段"},
+		{"id":"6e443a915a26b35f","fromNode":"bc01487f18cc2072","fromSide":"bottom","toNode":"c4e63be7b7f0e9b7","toSide":"top"},
+		{"id":"c6c1e3d8aff27de4","fromNode":"99c68879f6c25f7c","fromSide":"bottom","toNode":"9cc08f661d83fef5","toSide":"top","label":"加IP信息、传输层协议、\n源和目的地IP等信息"},
+		{"id":"8a913f801fac2983","fromNode":"c4e63be7b7f0e9b7","fromSide":"bottom","toNode":"5f35621c643a18f4","toSide":"top"},
+		{"id":"5c9cf6d12254430f","fromNode":"5f35621c643a18f4","fromSide":"bottom","toNode":"ef80411904bc007e","toSide":"top"},
+		{"id":"a0b535dd12d19422","fromNode":"9cc08f661d83fef5","fromSide":"bottom","toNode":"febf3bc90e1c19a6","toSide":"top","label":"加接收方和发送方MAC地址\n及网络层协议类型"},
+		{"id":"93a970138dd3ad9d","fromNode":"a0a82b32a1b3f4f0","fromSide":"bottom","toNode":"99c68879f6c25f7c","toSide":"top","label":"加端口号、序号、确认序列等"},
+		{"id":"be901d18badc9d5f","fromNode":"ef80411904bc007e","fromSide":"bottom","toNode":"ad399b538bc61465","toSide":"left","label":"途径网卡、交换机、路由器"},
+		{"id":"f7244bd4e5108029","fromNode":"ad399b538bc61465","fromSide":"right","toNode":"06de214dd51b3aa8","toSide":"bottom"}
+	]
+}
