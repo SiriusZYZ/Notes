@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "linux/3.Linux实用技术.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/python libs.md"
+                "file": "linux/3.Linux实用技术.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "linux/3.Linux实用技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "linux/3.Linux实用技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,6 +218,7 @@
   },
   "active": "65ef5c632b1e4c17",
   "lastOpenFiles": [
+    "codes/python libs.md",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
     "linux/Linux命令.canvas",
@@ -259,7 +261,6 @@
     "alogs/5.双指针.md",
     "alogs/4.字符串.md",
     "SQL/5.DQL.md",
-    "alogs/leetcode/146.LRU缓存.md",
     "assets/Pasted image 20230807103610.png",
     "assets/Pasted image 20230807100939.png",
     "assets/Pasted image 20230807094401.png",
