@@ -39,14 +39,11 @@
             "id": "65ef5c632b1e4c17",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
-                "viewState": {
-                  "x": -27.81356377025822,
-                  "y": 5.509941483505395,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "linux/3.Linux实用技术.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -71,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas"
+                "file": "linux/3.Linux实用技术.md"
               }
             }
           },
@@ -178,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "file": "linux/3.Linux实用技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "file": "linux/3.Linux实用技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,8 +216,9 @@
   },
   "active": "65ef5c632b1e4c17",
   "lastOpenFiles": [
-    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
+    "linux/Linux命令.canvas",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/http和https.md",
     "ComputerNetwork/未命名 1.canvas",
     "OS/7.文件系统.md",
@@ -235,7 +233,6 @@
     "ComputerNetwork/1.2访问网站的全过程.canvas",
     "ComputerNetwork/1.1TCP-IP概览.canvas",
     "linux/3.Linux实用技术.md",
-    "linux/Linux命令.canvas",
     "assets/Pasted image 20230814205707.png",
     "alogs/7.二叉树.md",
     "alogs/9.贪心算法.md",
