@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "codes/python libs.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/3.Linux实用技术.md"
+                "file": "codes/python libs.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "codes/python libs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "codes/python libs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,8 +215,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3adf43047ab67b62",
+  "active": "65ef5c632b1e4c17",
   "lastOpenFiles": [
+    "codes/python_plus.md",
+    "linux/3.Linux实用技术.md",
     "linux/Linux命令.canvas",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
@@ -234,7 +235,6 @@
     "未命名.canvas",
     "ComputerNetwork/1.2访问网站的全过程.canvas",
     "ComputerNetwork/1.1TCP-IP概览.canvas",
-    "linux/3.Linux实用技术.md",
     "assets/Pasted image 20230814205707.png",
     "alogs/7.二叉树.md",
     "alogs/9.贪心算法.md",
