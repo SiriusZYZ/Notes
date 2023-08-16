@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e4ab87492e97656a",
@@ -215,7 +216,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f80d04c9e5456243",
+  "active": "3adf43047ab67b62",
   "lastOpenFiles": [
     "linux/Linux命令.canvas",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
