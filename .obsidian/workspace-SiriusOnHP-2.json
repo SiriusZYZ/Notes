@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "aa84965d5cc204fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec479c4ea2505812",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "005a0c2325da2d78",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "leetcode-master-master/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "808bd77c532d366b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/python_plus.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ad765a9f3f0b62b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/10.动态规划.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c17f06e5279ea51b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/1..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa22ef72b4d3737d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpp/2.数值与常量.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1a6ea8e1b35d741",
+    "type": "split",
+    "children": [
+      {
+        "id": "adeb946ca38d52b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b285761fadf873b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OS/1..md"
+              }
+            }
+          },
+          {
+            "id": "349ded7cfc85d80b",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "7783f611b6df2acc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1eabe925ad619ad7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5
+  },
+  "right": {
+    "id": "29697003bfb43e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb97505b6331b20f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80d04c9e5456243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7903138f9a0d0e2e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0b298282cae7b61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2051f0ff7d0a92bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OS/1..md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "777c3bd840bca3a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OS/1..md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "c17f06e5279ea51b",
+  "lastOpenFiles": [
+    "alogs/10.动态规划.md",
+    "OS/1..md",
+    "OS",
+    "alogs/算法性能分析.md",
+    "cpp/词法约定-SiriusOnHP.md",
+    "codes/python libs.md",
+    "codes/python_plus.md",
+    "cpp/2.数值与常量.md",
+    "cpp/Eigen.md",
+    "alogs/9.贪心算法.md",
+    "cpp/1.基本语法.md",
+    "cpp/6.循环与判断.md",
+    "cpp/5.运算符.md",
+    "alogs/6.栈与队列.md",
+    "alogs/7.二叉树.md",
+    "cpp/3.变量.md",
+    "cpp/4.储存类.md"
+  ]
+}

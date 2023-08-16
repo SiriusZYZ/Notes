@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "aa84965d5cc204fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4206e63aa33f7302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "98c441e1ff64a5a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/7.文件系统.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c30a06a449051a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/11.盛水最多的容器.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "640bc961cb4db516",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/10.动态规划.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3a83381b3e14d1a6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/12.索引.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1a6ea8e1b35d741",
+    "type": "split",
+    "children": [
+      {
+        "id": "adeb946ca38d52b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b285761fadf873b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OS/7.文件系统.md"
+              }
+            }
+          },
+          {
+            "id": "349ded7cfc85d80b",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "7783f611b6df2acc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "InnoDB",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1eabe925ad619ad7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "93b0ddf856a43766",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "29697003bfb43e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb97505b6331b20f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80d04c9e5456243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7903138f9a0d0e2e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0b298282cae7b61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1821fdbd262385ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OS/7.文件系统.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13c4f205efcf1216",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OS/7.文件系统.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "98c441e1ff64a5a3",
+  "lastOpenFiles": [
+    "alogs/leetcode/49.字母异位词分组.md",
+    "OS/6.内存和内存管理.md",
+    "alogs/leetcode/11.盛水最多的容器.md",
+    "alogs/leetcode/15.三树之和.md",
+    "assets/Pasted image 20230719204242.png",
+    "assets/Pasted image 20230719203822.png",
+    "alogs/2.链表.md",
+    "alogs/10.动态规划.md",
+    "SQL/12.索引.md",
+    "alogs/leetcode/707.设计链表.md",
+    "alogs/leetcode/203.移除链表元素.md",
+    "alogs/未命名.md",
+    "alogs/1.数组.md",
+    "alogs/leetcode/209.长度最小子串.md",
+    "alogs/leetcode/977.有序数组平方.md",
+    "alogs/leetcode/704.二分查找.md",
+    "alogs/leetcode/27.移除元素.md",
+    "OS/7.文件系统.md",
+    "assets/Pasted image 20230719161059.png",
+    "assets/Pasted image 20230719112710.png",
+    "SQL/9.多表查询.md",
+    "alogs/leetcode/283.移动零.md",
+    "alogs/5.双指针.md",
+    "alogs/leetcode/128.最长连续序列.md",
+    "alogs/3.哈希表.md",
+    "SQL/未命名.md",
+    "alogs/leetcode",
+    "OS/6.内存.canvas",
+    "assets/Pasted image 20230718112217.png",
+    "SQL/4.DML.md",
+    "SQL/3.DDL.md",
+    "slbs/QA.md",
+    "slbs/面经.md",
+    "assets/Pasted image 20230715154127.png",
+    "assets/Pasted image 20230715153828.png",
+    "assets/Pasted image 20230715153040.png",
+    "assets/Pasted image 20230715152606.png",
+    "assets/Pasted image 20230715152538.png",
+    "未命名 1.canvas",
+    "SQL/SQL进阶篇.canvas",
+    "SQL/SQL基础篇总结.canvas",
+    "未命名.canvas",
+    "slbs",
+    "SQL/leetcode-SQL",
+    "SQL",
+    "OS"
+  ]
+}

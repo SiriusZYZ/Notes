@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "aa84965d5cc204fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4206e63aa33f7302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a83381b3e14d1a6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/12.索引.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "fb2f3cab88e6a260",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/7.文件系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "65ef5c632b1e4c17",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "viewState": {
+                  "x": -27.81356377025822,
+                  "y": 5.509941483505395,
+                  "zoom": -1.3333333333333333
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1a6ea8e1b35d741",
+    "type": "split",
+    "children": [
+      {
+        "id": "adeb946ca38d52b6",
+        "type": "tabs",
+        "dimension": 80.76923076923077,
+        "children": [
+          {
+            "id": "6b285761fadf873b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas"
+              }
+            }
+          },
+          {
+            "id": "3adf43047ab67b62",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "93b0ddf856a43766",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "e4ab87492e97656a",
+        "type": "tabs",
+        "dimension": 19.230769230769234,
+        "children": [
+          {
+            "id": "d6baa96a3e8e9e50",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "29697003bfb43e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb97505b6331b20f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80d04c9e5456243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7903138f9a0d0e2e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7783f611b6df2acc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#矩阵",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f0b298282cae7b61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3cb57970e78e9a86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "64a2b6899552de9e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b2139d483208e0dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "65ef5c632b1e4c17",
+  "lastOpenFiles": [
+    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/http和https.md",
+    "ComputerNetwork/未命名 1.canvas",
+    "OS/7.文件系统.md",
+    "alogs/newcode/HJ6.质数因子.md",
+    "alogs/leetcode/2.两数相加.md",
+    "alogs/leetcode/735.行星碰撞.md",
+    "SQL/9.多表查询.md",
+    "assets/Pasted image 20230815101401.png",
+    "ComputerNetwork/2.1HTTP基本.canvas",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "ComputerNetwork/1.2访问网站的全过程.canvas",
+    "ComputerNetwork/1.1TCP-IP概览.canvas",
+    "linux/3.Linux实用技术.md",
+    "linux/Linux命令.canvas",
+    "assets/Pasted image 20230814205707.png",
+    "alogs/7.二叉树.md",
+    "alogs/9.贪心算法.md",
+    "alogs/10.动态规划.md",
+    "alogs/11.排序算法.md",
+    "alogs/12.图论.md",
+    "alogs/leetcode/203.移除链表元素.md",
+    "alogs/2.链表.md",
+    "alogs/newcode",
+    "linux/1.Linux基础命令.md",
+    "alogs/leetcode/74.搜索二维矩阵.md",
+    "assets/Pasted image 20230810202557.png",
+    "assets/Pasted image 20230810202536.png",
+    "alogs/leetcode/739.每日温度.md",
+    "alogs/leetcode/240.搜索二维矩阵.md",
+    "alogs/leetcode/84.柱状图中最大的矩形.md",
+    "assets/Pasted image 20230810165421.png",
+    "assets/Pasted image 20230810165411.png",
+    "alogs/leetcode/155.最小栈.md",
+    "assets/155_fig1.gif",
+    "alogs/6.栈与队列.md",
+    "alogs/5.双指针.md",
+    "alogs/4.字符串.md",
+    "SQL/5.DQL.md",
+    "alogs/leetcode/146.LRU缓存.md",
+    "assets/Pasted image 20230807103610.png",
+    "assets/Pasted image 20230807100939.png",
+    "assets/Pasted image 20230807094401.png",
+    "OS/canvas/6.内存.canvas",
+    "OS/canvas",
+    "ComputerNetwork",
+    "linux",
+    "alogs/leetcode",
+    "slbs",
+    "SQL/leetcode-SQL",
+    "SQL",
+    "OS"
+  ]
+}

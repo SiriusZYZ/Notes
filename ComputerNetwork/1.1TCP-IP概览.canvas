@@ -8,6 +8,8 @@
 		{"type":"group","id":"cf3e57a1463b93d7","x":1891,"y":-300,"width":560,"height":120,"label":"TCP、UDP 数据段 / segment "},
 		{"type":"group","id":"cf84f517109aa4bb","x":1982,"y":-60,"width":560,"height":120,"label":"TCP / UDP 数据段"},
 		{"type":"group","id":"2eb3fe0573c918ac","x":2060,"y":312,"width":560,"height":120,"label":"TCP / UDP 数据段"},
+		{"type":"text","text":"TCP / UDP 数据包头部","id":"d9d3da92e55be803","x":2080,"y":347,"width":250,"height":60},
+		{"type":"text","text":"报文","id":"c52d1cb964ff6fd2","x":2340,"y":347,"width":250,"height":60},
 		{"type":"text","text":"## 传输层  / Transport Layer","id":"5099055a324c0c33","x":-140,"y":-230,"width":480,"height":60},
 		{"type":"text","text":"## 网络层  / Internet Layer","id":"6a9db747edbdec1a","x":-120,"y":40,"width":460,"height":60},
 		{"type":"text","text":"## 数据链路层  / Data Link Layer","id":"b0492293cedb146a","x":-120,"y":257,"width":460,"height":60},
@@ -18,9 +20,6 @@
 		{"type":"text","text":"TCP / UDP 数据包头部","id":"ccaf22d0ec42043d","x":1914,"y":-270,"width":250,"height":60},
 		{"type":"text","text":"报文","id":"3a0f0ea0d33e355a","x":2181,"y":-270,"width":250,"height":60},
 		{"type":"text","text":"### UDP\n基于无连接","id":"bf62e2f2a5daa12d","x":870,"y":-250,"width":290,"height":100},
-		{"type":"text","text":"IP 头部","id":"fb0d0c9bdc825ccf","x":1802,"y":-60,"width":140,"height":120},
-		{"type":"text","text":"帧头","id":"641f494d8189f427","x":1680,"y":260,"width":140,"height":200},
-		{"type":"text","text":"报文 / message","id":"fdd1ef67484d62b4","x":2039,"y":-500,"width":255,"height":60},
 		{"type":"text","text":"TCP / UDP 数据包头部","id":"34d10108051dedba","x":2002,"y":-30,"width":250,"height":60},
 		{"type":"text","text":"报文","id":"b9b26495a392cf74","x":2282,"y":-30,"width":250,"height":60},
 		{"type":"text","text":"### TCP\n基于有连接","id":"d09febc9f1cad902","x":540,"y":-250,"width":290,"height":100},
@@ -28,10 +27,11 @@
 		{"type":"text","text":"- 两个网络实体之间的数据链路建立、维持、释放管理","id":"2e1e44a8772f87cd","x":520,"y":235,"width":680,"height":105},
 		{"type":"text","text":"- 网络中主机或节点的物理和逻辑网络组件功能","id":"ba5d83284e4ad22e","x":520,"y":440,"width":680,"height":105},
 		{"type":"text","text":"- **关注用户**需要的功能，如HTTP、FTP、DNS、SMTP...\n- 不关注数据如何传输的\n- 运行在用户态","id":"b9516c352db54b6f","x":520,"y":-510,"width":680,"height":100},
+		{"type":"text","text":"IP 头部","id":"fb0d0c9bdc825ccf","x":1802,"y":-60,"width":140,"height":120},
+		{"type":"text","text":"帧头","id":"641f494d8189f427","x":1680,"y":260,"width":140,"height":200},
+		{"type":"text","text":"报文 / message","id":"fdd1ef67484d62b4","x":2039,"y":-500,"width":255,"height":60},
 		{"type":"text","text":"IP 头部","id":"0a19bf9376d7f54b","x":1883,"y":317,"width":140,"height":115},
-		{"type":"text","text":"TCP / UDP 数据包头部","id":"d9d3da92e55be803","x":2080,"y":347,"width":250,"height":60},
-		{"type":"text","text":"报文","id":"c52d1cb964ff6fd2","x":2340,"y":347,"width":250,"height":60},
-		{"id":"1395019d106b6c96","x":2760,"y":-527,"width":560,"height":1055,"type":"file","file":"assets/Pasted image 20230802110927.png"}
+		{"type":"file","file":"assets/Pasted image 20230802110927.png","id":"1395019d106b6c96","x":2760,"y":-527,"width":560,"height":1055}
 	],
 	"edges":[
 		{"id":"5a76f8e14d3b77ea","fromNode":"559bd7d939b188ca","fromSide":"bottom","toNode":"e4fff39aa067a3c2","toSide":"top"},

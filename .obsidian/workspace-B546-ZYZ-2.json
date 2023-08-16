@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "aa84965d5cc204fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "4206e63aa33f7302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a83381b3e14d1a6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/12.索引.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "fb2f3cab88e6a260",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/7.文件系统.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ac48f9e4dee75ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/48.旋转图像.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "088a02cee611b454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/240.搜索二维矩阵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1a6ea8e1b35d741",
+    "type": "split",
+    "children": [
+      {
+        "id": "adeb946ca38d52b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b285761fadf873b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "alogs/leetcode/240.搜索二维矩阵.md"
+              }
+            }
+          },
+          {
+            "id": "3adf43047ab67b62",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "1eabe925ad619ad7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "93b0ddf856a43766",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "29697003bfb43e4b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb97505b6331b20f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f80d04c9e5456243",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7903138f9a0d0e2e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f0b298282cae7b61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7783f611b6df2acc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#优先队列",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "982f3ef50bbda385",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "alogs/leetcode/240.搜索二维矩阵.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b410eed311eee5d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "alogs/leetcode/240.搜索二维矩阵.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "088a02cee611b454",
+  "lastOpenFiles": [
+    "alogs/leetcode/48.旋转图像.md",
+    "alogs/leetcode/240.搜索二维矩阵.md",
+    "assets/Pasted image 20230802203736.png",
+    "assets/Pasted image 20230802203729.png",
+    "assets/Pasted image 20230802195401.png",
+    "assets/Pasted image 20230802195345.png",
+    "alogs/leetcode/11.盛水最多的容器.md",
+    "linux/3.Linux实用技术.md",
+    "linux/未命名.md",
+    "ComputerNetwork/1.2访问网站的全过程.canvas",
+    "OS/7.文件系统.md",
+    "ComputerNetwork/1.1TCP-IP概览.canvas",
+    "assets/Pasted image 20230802110927.png",
+    "assets/Pasted image 20230802104727.png",
+    "assets/Pasted image 20230802104036.png",
+    "assets/Pasted image 20230802094313.png",
+    "assets/Pasted image 20230802094055.png",
+    "assets/Pasted image 20230801145759.png",
+    "ComputerNetwork/未命名.canvas",
+    "slbs/QA.md",
+    "slbs/面经.md",
+    "alogs/leetcode/41.缺失的第一个正数.md",
+    "alogs/leetcode/3.无重复字符的最长子串.md",
+    "linux/1.Linux基础命令.md",
+    "linux/2.Linux用户和权限.md",
+    "SQL/12.索引.md",
+    "alogs/10.动态规划.md",
+    "OS/5.同步与资源共享.md",
+    "OS/canvas/5.1同步与资源共享.canvas",
+    "OS/canvas/5.2同步与互斥经典问题.canvas",
+    "未命名 1.canvas",
+    "未命名.md",
+    "OS/4.调度.md",
+    "OS/6.内存和内存管理.md",
+    "OS/canvas/6.内存.canvas",
+    "OS/1.操作系统的概念.md",
+    "OS/canvas",
+    "alogs/leetcode/238.除自身外数组的乘积.md",
+    "alogs/leetcode/189.轮转数组.md",
+    "alogs/leetcode/56.合并区间.md",
+    "alogs/leetcode/53.最大子数组和.md",
+    "alogs/leetcode/73.矩阵置零.md",
+    "linux/Linux命令.canvas",
+    "alogs/leetcode/42.接雨水.md",
+    "ComputerNetwork",
+    "linux",
+    "alogs/leetcode",
+    "SQL/SQL进阶篇.canvas",
+    "SQL/SQL基础篇总结.canvas",
+    "slbs",
+    "SQL/leetcode-SQL",
+    "SQL",
+    "OS"
+  ]
+}
