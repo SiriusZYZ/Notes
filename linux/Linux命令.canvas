@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"bf3eefd3b940974a","x":-59,"y":2280,"width":2599,"height":840,"type":"group","label":"环境变量"},
 		{"type":"group","id":"f8ae264815ac90fe","x":1180,"y":800,"width":1360,"height":1420,"label":"网络"},
 		{"type":"group","id":"11b3b4a638bcaee3","x":2560,"y":800,"width":1280,"height":1420,"label":"包和服务管理"},
 		{"type":"group","id":"b50b9177f5b112c5","x":1180,"y":-520,"width":1340,"height":1280,"label":"内容相关"},
@@ -13,7 +14,7 @@
 		{"type":"group","id":"db28072e5f5ef2dd","x":-40,"y":560,"width":1162,"height":180,"label":"查找文件或命令"},
 		{"type":"group","id":"231dd380c0298986","x":-41,"y":-100,"width":1162,"height":120,"label":"创建文件夹或文件"},
 		{"type":"group","id":"4479d534b3acb546","x":-40,"y":400,"width":1162,"height":100,"label":"显示文件内容"},
-		{"id":"bf3eefd3b940974a","x":895,"y":2523,"width":400,"height":400,"type":"group"},
+		{"id":"40467b6639d3bc9c","x":859,"y":2632,"width":250,"height":60,"type":"text","text":""},
 		{"type":"text","text":"复制:  `cp [-p] {src} {dst}` ","id":"63dee28d999f2c34","x":-21,"y":100,"width":533,"height":60},
 		{"type":"text","text":"删除:  `rm [-r -f] {Directory} {Directory} ...` ","id":"2d48967874d822a1","x":532,"y":100,"width":572,"height":60},
 		{"type":"text","text":"重命名 / 移动:  `mv {src} {dst}` ","id":"8adf31cd801d0f88","x":-21,"y":180,"width":533,"height":60},
@@ -59,7 +60,10 @@
 		{"type":"text","text":"## grep 匹配\n`grep [-n] {\"keyword\"} {FilePath or Content}`\n- `-n` 显示行号 ，命令接受管道符 `|`","id":"e01c35fac636c2f7","x":1220,"y":-257,"width":1280,"height":155},
 		{"type":"text","text":"## tail 跟踪文件尾部更改\n- `tail {FilePath}` : 显示文件尾部内容10行\n- `tail -num {FilePath}` ：显示文件尾部内容n行\n- `tail -f {FilePath}` ：持续跟踪文件尾部","id":"a17b45546d2165c4","x":1220,"y":390,"width":1280,"height":200},
 		{"type":"text","text":"### netstat\n```shell\nnetstat [-parameter]\n```\n- netstat 用于显示网络连接状态和相关信息\n- `-a` 为列出tcp, udp及unix协议下所有套接字连接，`-t` 列出tcp连接，`-u` 列出udp连接， `-n` 禁用反向域名解析，即不查找IP对应的主机名，以此提升查询速度， `-l` 只列出正在监听的连接， `-p` 列出进程信息， `-r` 列出路由信息， `-i` 列出网卡信息， `-s` 统计不同网络协议信息\n","id":"b32129ccb5716d93","x":1200,"y":1745,"width":1300,"height":235},
-		{"type":"text","text":"### lrzsz\n```shell\nrz\nsz {FilePath}\n```\n- lrzsz是一个基于zmodem的传输协议。其中`rz` 命令为服务器接受客户端发送文件， `sz`命令为服务器向客户端发送文件","id":"e758cebafd70f02d","x":1200,"y":2000,"width":1300,"height":200}
+		{"type":"text","text":"### lrzsz\n```shell\nrz\nsz {FilePath}\n```\n- lrzsz是一个基于zmodem的传输协议。其中`rz` 命令为服务器接受客户端发送文件， `sz`命令为服务器向客户端发送文件","id":"e758cebafd70f02d","x":1200,"y":2000,"width":1300,"height":200},
+		{"type":"text","text":"### $符号\n```shell\necho $PATH\n```\n- `$key{Comment}` 可以取得`key` 的环境变量","id":"308144bd7f6ff0f2","x":1180,"y":2300,"width":1320,"height":200},
+		{"id":"b66e553126250944","x":-39,"y":2300,"width":1180,"height":200,"type":"text","text":"### env\n```shell\nenv\n```\n- 查看系统当前储存的环境变量\n- 其中`PATH` 环境变量为执行命令时，系统的搜索位置"},
+		{"type":"text","text":"### export\n```shell\nexport {key}={Value}\n```\n- export 可以临时设置一个系统中的环境变量\n- 生命周期和适用范围：当前session， 当前用户","id":"229c95685fd25a57","x":-39,"y":2660,"width":819,"height":200}
 	],
 	"edges":[
 		{"id":"19a4a5c8839e84c0","fromNode":"149c00976d2453a4","fromSide":"right","toNode":"2124f7146b70f8e6","toSide":"left"}
