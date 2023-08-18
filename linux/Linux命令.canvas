@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"type":"group","id":"bf3eefd3b940974a","x":-59,"y":2280,"width":2599,"height":840,"label":"环境变量"},
-		{"type":"group","id":"10d8e45093fd2f6f","x":2560,"y":2280,"width":2520,"height":840,"label":"压缩包管理"},
+		{"type":"group","id":"bf3eefd3b940974a","x":-59,"y":2280,"width":2599,"height":880,"label":"环境变量"},
+		{"type":"group","id":"10d8e45093fd2f6f","x":2560,"y":2280,"width":2520,"height":880,"label":"压缩包管理"},
 		{"type":"group","id":"f8ae264815ac90fe","x":1180,"y":800,"width":1360,"height":1420,"label":"网络"},
 		{"type":"group","id":"11b3b4a638bcaee3","x":2560,"y":800,"width":1280,"height":1420,"label":"包和服务管理"},
 		{"type":"group","id":"b50b9177f5b112c5","x":1180,"y":-520,"width":1340,"height":1280,"label":"内容相关"},
@@ -44,7 +44,6 @@
 		{"type":"text","text":"### 磁盘占用情况\n```shell\ndf [-h]\n```\n- 查看磁盘占用情况(就是可用空间、剩余空间之类的)\n- `-h` 以人类可读形式显示","id":"68d9790d56c40731","x":3900,"y":1340,"width":1160,"height":200},
 		{"type":"text","text":"### CPU及磁盘\n```shell\niostat [-x] [Refresh Interval] [Refresh Time]\n```\n- 显示CPU及磁盘信息\n- `-x` 表示详细信息\n- `Refresh Interval` 为刷新间隔，以秒计，不指定则为1次\n- `Refresh Time` 为刷新次数，不指定时为无限次","id":"6f424cafe4baa258","x":3900,"y":1559,"width":1160,"height":261},
 		{"type":"text","text":"### 网卡发包历史\n```shell\n```shell\nsar -n DEV [Refresh Interval] [Refresh Time]\n```\n- 查看网卡使用情况(一般为按10分钟计数) 主要看rxKB/S 和 txKB/s 用来看接受、发送的数据包速率\n- `-n` 表示查看网络\n- `DEV` 表示查看网络接口\n- `Refresh Interval` 为刷新间隔，以秒计  \n- `Refresh Time` 为刷新次数，不指定时为无限次","id":"a343bad76d610808","x":3900,"y":1840,"width":1160,"height":320},
-		{"type":"file","file":"linux/1.Linux基础命令.md","id":"65fdfeaa84bd73ba","x":2600,"y":-473,"width":1200,"height":1113},
 		{"type":"text","text":"### ping 查看通路情况\n- `ping [-c {N}] {ip or hostname}` 检查对应ip或服务器是否可达，`-c N` 代表ping次数(count)，不指定的话则ping无数次，直到ctrl + c取消","id":"35e80d2bf23988f7","x":1200,"y":1170,"width":1300,"height":100},
 		{"type":"text","text":"### wget 下载内容\n- `wget [-b] {url}` : 下载url对应资源 `-b` 表示`background` 即后台下载，会把日志写到当前工作目录的`wget-log`中，可以用`tail`查看","id":"c74f0b070e3b67ab","x":1200,"y":1300,"width":1300,"height":120},
 		{"type":"text","text":"### 变更时区\n```shell\n# 变更时区需要root权限\nsu - root\n\n# 删除当前时区文件\nrm -f /etc/localtime\n\n# 将储存的时区信息链接为时区文件\nln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime\n\n```","id":"0a298af617a94dff","x":3900,"y":-76,"width":1160,"height":320},
@@ -63,14 +62,15 @@
 		{"type":"text","text":"### lrzsz\n```shell\nrz\nsz {FilePath}\n```\n- lrzsz是一个基于zmodem的传输协议。其中`rz` 命令为服务器接受客户端发送文件， `sz`命令为服务器向客户端发送文件","id":"e758cebafd70f02d","x":1200,"y":2000,"width":1300,"height":200},
 		{"type":"text","text":"### $符号\n```shell\necho $PATH\n```\n- `$key{Comment}` 可以取得`key` 的环境变量","id":"308144bd7f6ff0f2","x":1180,"y":2300,"width":1320,"height":200},
 		{"type":"text","text":"### env\n```shell\nenv\n```\n- 查看系统当前储存的环境变量\n- 其中`PATH` 环境变量为执行命令时，系统的搜索位置","id":"b66e553126250944","x":-39,"y":2300,"width":1180,"height":200},
-		{"type":"text","text":"### 修改/etc/profile 全局地新增环境变量\n```shell\nvi /etc/profile\nsource /etc/profile\n```\n- `/etc/profile` 是一个脚本文件，**所有用户登录时就会执行**\n- 那么只要在`/etc/profile`中加入export语句就能每次登录都建立临时变量\n- 要立刻生效，则执行 `source` 命令应用更改","id":"020105e1e03a5694","x":1180,"y":2820,"width":1320,"height":280},
+		{"type":"text","text":"### 修改/etc/profile 全局地新增环境变量\n```shell\nvi /etc/profile\nsource /etc/profile\n```\n- `/etc/profile` 是一个脚本文件，**所有用户登录时就会执行**\n- 那么只要在`/etc/profile`中加入export语句就能每次登录都建立临时变量\n- 要立刻生效，则执行 `source` 命令应用更改","id":"020105e1e03a5694","x":1180,"y":2820,"width":1320,"height":300},
 		{"type":"text","text":"### 修改~/.bashrc 为本用户新增环境变量\n```shell\nvi ~/.bashrc\nsource ~/.bashrc\n```\n- `.bashrc` 是一个脚本文件，**当前用户登录时就会执行**\n- 那么只要在`.bashrc`中加入export语句就能每次登录都建立临时变量\n- 要立刻生效，则执行 `source` 命令应用更改","id":"40467b6639d3bc9c","x":1180,"y":2540,"width":1320,"height":260},
 		{"type":"text","text":"### export\n```shell\nexport {key}={Value}\n```\n- export 可以临时设置一个系统中的环境变量\n- 生命周期和适用范围：当前session， 当前用户","id":"229c95685fd25a57","x":-39,"y":2570,"width":1039,"height":200},
 		{"type":"text","text":"### PATH环境变量\n```shell\nexport PATH=$PATH:{New Path}:{New Path}\n```\n- 可以通过此命令向PATH追加一系列新的路径","id":"1ec0c853b2298106","x":-39,"y":2820,"width":1039,"height":260},
-		{"type":"text","text":"### unzip\n```shell\nunzip {Archive Path} [ -d  {dst Location}]\n```\n- 将`.zip` Archive文件 解压到当前文件路径或`dst Location`","id":"0e0d19512260cea1","x":2580,"y":2880,"width":1260,"height":220},
+		{"type":"text","text":"### unzip\n```shell\nunzip {Archive Path} [ -d  {dst Location}]\n```\n- 将`.zip` Archive文件 解压到当前文件路径或`dst Location`","id":"0e0d19512260cea1","x":2580,"y":2880,"width":1260,"height":240},
 		{"type":"text","text":"### zip\n```shell\nzip [-r] {Archive Path} {filepath1} {...}\n```\n- 创建`.zip` 压缩文件\n- `-r` 表示支持递归选取文件夹内容进行压缩","id":"fe8bd2c2e5b92d0f","x":2580,"y":2640,"width":1260,"height":220},
 		{"type":"text","text":"### Linux中的压缩文件类型\n\n| 压缩格式 | 常用操作系统          |\n| -------- | --------------------- |\n| zip      | Linux, Windows, MacOS |\n| tar      | Linux, MacOS          |\n| gzip     | Linux, MacOS          | \n- `.tar` 称之为 tarball 文件，用于把一系列文件放到一个文件中，但本身不会产生显著的体积减小\n- `.gz` 或 `.tar.gz` 或 `.gzip` ：适用gzip算法压缩文件，提供了较好的压缩率","id":"f75239f61a9c0248","x":2580,"y":2300,"width":1260,"height":320},
-		{"id":"969d645ff1b3db88","x":3900,"y":2300,"width":1160,"height":800,"type":"text","text":"### tar\n```shell\ntar [-c -v -x -f -z -C] {Para1} {Para2}\n```\n- 利用tar 命令创建或解压压缩包。`-z` 表示gzip模式，yi"}
+		{"id":"969d645ff1b3db88","x":3900,"y":2300,"width":1160,"height":820,"type":"text","text":"### tar\n```shell\ntar [-c -v -x -f -z -C] {Para1} {Para2}\n```\n- 利用tar 命令创建或解压压缩包。\n\n| 选项 | 含义                                         |\n| ---- | -------------------------------------------- |\n| `-z` | gzip模式，可用于创建gz类压缩文件，一般为第一个选项             |\n| `-c` | 压缩模式                                     |\n| `-x` | 解压模式                                     |\n| `-v` | 显示压缩/解压过程信息                        |\n| `-f` | 要创建的文件或解压的文件，必须为最后一个选项，后接压缩文件路径 |\n| `-C` | 解压到...                                             |\n```shell\n# 压缩为 .tar 文件\ntar -cvf {ArchivePath} {FilePath1} {FilePath2} {...}\n\n# 用gzip压缩为 .tar.gz 文件\ntar -zcvf {ArchivePath} {FilePath1} {FilePath2} {...}\n\n# 解压tar到当前目录\ntar -xvf {tar file}\n\n# 解压tar到指定目录\ntar -xvf {tar file} -C {decompress directory}\n\n# 解压gz到指定目录\ntar -zxvf {gz file} -C {decompress directory}\n```"},
+		{"id":"5f2c9bb35e9fbd5f","x":2580,"y":-500,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"19a4a5c8839e84c0","fromNode":"149c00976d2453a4","fromSide":"right","toNode":"2124f7146b70f8e6","toSide":"left"},

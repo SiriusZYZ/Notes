@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "linux/1.Linux基础命令.md",
                 "mode": "source",
                 "source": false
               }
@@ -235,9 +235,9 @@
                   "state": {
                     "file": "linux/Linux命令.canvas",
                     "viewState": {
-                      "x": 4336.41580502914,
-                      "y": 2413.621777174518,
-                      "zoom": 0.3333333333333332
+                      "x": 3105.4262778316506,
+                      "y": 178.5484043532868,
+                      "zoom": -0.6666666666666667
                     }
                   }
                 }
@@ -257,8 +257,10 @@
   },
   "active": "65ef5c632b1e4c17",
   "lastOpenFiles": [
-    "linux/3.Linux实用技术.md",
+    "linux/1.Linux基础命令.md",
     "linux/Linux命令.canvas",
+    "linux/2.Linux用户和权限.md",
+    "linux/3.Linux实用技术.md",
     "OS/7.文件系统.md",
     "codes/python libs.md",
     "codes/python_plus.md",
@@ -285,7 +287,6 @@
     "alogs/leetcode/203.移除链表元素.md",
     "alogs/2.链表.md",
     "alogs/newcode",
-    "linux/1.Linux基础命令.md",
     "alogs/leetcode/74.搜索二维矩阵.md",
     "assets/Pasted image 20230810202557.png",
     "assets/Pasted image 20230810202536.png",
@@ -298,7 +299,6 @@
     "assets/155_fig1.gif",
     "alogs/6.栈与队列.md",
     "alogs/5.双指针.md",
-    "alogs/4.字符串.md",
     "assets/Pasted image 20230807103610.png",
     "assets/Pasted image 20230807100939.png",
     "assets/Pasted image 20230807094401.png",
