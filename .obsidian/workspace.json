@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "65ef5c632b1e4c17",
+            "id": "9edfb1f085427945",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/3.Linux实用技术.md"
+                "file": "linux/Linux命令.canvas"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "linux/Linux命令.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/3.Linux实用技术.md",
+                "file": "linux/Linux命令.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,17 +215,57 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
+  "floating": {
+    "id": "98c6a6165056c591",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8af4913872107bc1",
+        "type": "window",
+        "children": [
+          {
+            "id": "7ca2c7daac85e9c2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65ef5c632b1e4c17",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "linux/Linux命令.canvas",
+                    "viewState": {
+                      "x": 2057.39603159211,
+                      "y": 2041.7285759386182,
+                      "zoom": -1.6666666666666665
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 399,
+        "y": 54,
+        "width": 602,
+        "height": 970,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "65ef5c632b1e4c17",
   "lastOpenFiles": [
-    "codes/python libs.md",
-    "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
     "linux/Linux命令.canvas",
+    "OS/7.文件系统.md",
+    "codes/python libs.md",
+    "codes/python_plus.md",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/http和https.md",
     "ComputerNetwork/未命名 1.canvas",
-    "OS/7.文件系统.md",
     "alogs/newcode/HJ6.质数因子.md",
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/735.行星碰撞.md",
@@ -260,7 +299,6 @@
     "alogs/6.栈与队列.md",
     "alogs/5.双指针.md",
     "alogs/4.字符串.md",
-    "SQL/5.DQL.md",
     "assets/Pasted image 20230807103610.png",
     "assets/Pasted image 20230807100939.png",
     "assets/Pasted image 20230807094401.png",
