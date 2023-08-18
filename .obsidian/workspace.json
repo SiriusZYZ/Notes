@@ -235,9 +235,9 @@
                   "state": {
                     "file": "linux/Linux命令.canvas",
                     "viewState": {
-                      "x": 3055.8873933584414,
-                      "y": -159.75723628022183,
-                      "zoom": 0.3333333333333332
+                      "x": 2510,
+                      "y": 1320,
+                      "zoom": -2.11880743004003
                     }
                   }
                 }
@@ -259,6 +259,8 @@
   "lastOpenFiles": [
     "linux/1.Linux基础命令.md",
     "linux/Linux命令.canvas",
+    "assets/Pasted image 20230818203153.png",
+    "assets/Pasted image 20230818203124.png",
     "linux/2.Linux用户和权限.md",
     "linux/3.Linux实用技术.md",
     "OS/7.文件系统.md",
@@ -300,8 +302,6 @@
     "alogs/6.栈与队列.md",
     "alogs/5.双指针.md",
     "assets/Pasted image 20230807103610.png",
-    "assets/Pasted image 20230807100939.png",
-    "assets/Pasted image 20230807094401.png",
     "OS/canvas/6.内存.canvas",
     "OS/canvas",
     "ComputerNetwork",
