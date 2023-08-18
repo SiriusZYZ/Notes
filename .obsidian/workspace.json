@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/1.Linux基础命令.md",
+                "file": "alogs/10.动态规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/Linux命令.canvas"
+                "file": "alogs/10.动态规划.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/Linux命令.canvas",
+                "file": "alogs/10.动态规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/Linux命令.canvas",
+                "file": "alogs/10.动态规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,50 +215,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "floating": {
-    "id": "98c6a6165056c591",
-    "type": "floating",
-    "children": [
-      {
-        "id": "8af4913872107bc1",
-        "type": "window",
-        "children": [
-          {
-            "id": "7ca2c7daac85e9c2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "65ef5c632b1e4c17",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "linux/Linux命令.canvas",
-                    "viewState": {
-                      "x": 2510,
-                      "y": 1320,
-                      "zoom": -2.11880743004003
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 399,
-        "y": 54,
-        "width": 602,
-        "height": 970,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "65ef5c632b1e4c17",
+  "active": "9edfb1f085427945",
   "lastOpenFiles": [
-    "linux/1.Linux基础命令.md",
     "linux/Linux命令.canvas",
+    "alogs/10.动态规划.md",
+    "alogs/11.排序算法.md",
+    "alogs/算法性能分析.md",
+    "alogs/7.二叉树.md",
+    "alogs/3.哈希表.md",
+    "alogs/1.数组.md",
+    "linux/1.Linux基础命令.md",
     "assets/Pasted image 20230818203153.png",
     "assets/Pasted image 20230818203124.png",
     "linux/2.Linux用户和权限.md",
@@ -281,10 +247,7 @@
     "ComputerNetwork/1.2访问网站的全过程.canvas",
     "ComputerNetwork/1.1TCP-IP概览.canvas",
     "assets/Pasted image 20230814205707.png",
-    "alogs/7.二叉树.md",
     "alogs/9.贪心算法.md",
-    "alogs/10.动态规划.md",
-    "alogs/11.排序算法.md",
     "alogs/12.图论.md",
     "alogs/leetcode/203.移除链表元素.md",
     "alogs/2.链表.md",
@@ -297,10 +260,7 @@
     "alogs/leetcode/84.柱状图中最大的矩形.md",
     "assets/Pasted image 20230810165421.png",
     "assets/Pasted image 20230810165411.png",
-    "alogs/leetcode/155.最小栈.md",
     "assets/155_fig1.gif",
-    "alogs/6.栈与队列.md",
-    "alogs/5.双指针.md",
     "assets/Pasted image 20230807103610.png",
     "OS/canvas/6.内存.canvas",
     "OS/canvas",
