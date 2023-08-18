@@ -1,6 +1,7 @@
 {
 	"nodes":[
 		{"id":"bf3eefd3b940974a","x":-59,"y":2280,"width":2599,"height":840,"type":"group","label":"环境变量"},
+		{"id":"10d8e45093fd2f6f","x":2560,"y":2280,"width":2520,"height":840,"type":"group","label":"压缩包管理"},
 		{"type":"group","id":"f8ae264815ac90fe","x":1180,"y":800,"width":1360,"height":1420,"label":"网络"},
 		{"type":"group","id":"11b3b4a638bcaee3","x":2560,"y":800,"width":1280,"height":1420,"label":"包和服务管理"},
 		{"type":"group","id":"b50b9177f5b112c5","x":1180,"y":-520,"width":1340,"height":1280,"label":"内容相关"},
@@ -14,7 +15,6 @@
 		{"type":"group","id":"db28072e5f5ef2dd","x":-40,"y":560,"width":1162,"height":180,"label":"查找文件或命令"},
 		{"type":"group","id":"231dd380c0298986","x":-41,"y":-100,"width":1162,"height":120,"label":"创建文件夹或文件"},
 		{"type":"group","id":"4479d534b3acb546","x":-40,"y":400,"width":1162,"height":100,"label":"显示文件内容"},
-		{"id":"40467b6639d3bc9c","x":859,"y":2632,"width":250,"height":60,"type":"text","text":""},
 		{"type":"text","text":"复制:  `cp [-p] {src} {dst}` ","id":"63dee28d999f2c34","x":-21,"y":100,"width":533,"height":60},
 		{"type":"text","text":"删除:  `rm [-r -f] {Directory} {Directory} ...` ","id":"2d48967874d822a1","x":532,"y":100,"width":572,"height":60},
 		{"type":"text","text":"重命名 / 移动:  `mv {src} {dst}` ","id":"8adf31cd801d0f88","x":-21,"y":180,"width":533,"height":60},
@@ -63,9 +63,16 @@
 		{"type":"text","text":"### lrzsz\n```shell\nrz\nsz {FilePath}\n```\n- lrzsz是一个基于zmodem的传输协议。其中`rz` 命令为服务器接受客户端发送文件， `sz`命令为服务器向客户端发送文件","id":"e758cebafd70f02d","x":1200,"y":2000,"width":1300,"height":200},
 		{"type":"text","text":"### $符号\n```shell\necho $PATH\n```\n- `$key{Comment}` 可以取得`key` 的环境变量","id":"308144bd7f6ff0f2","x":1180,"y":2300,"width":1320,"height":200},
 		{"id":"b66e553126250944","x":-39,"y":2300,"width":1180,"height":200,"type":"text","text":"### env\n```shell\nenv\n```\n- 查看系统当前储存的环境变量\n- 其中`PATH` 环境变量为执行命令时，系统的搜索位置"},
-		{"type":"text","text":"### export\n```shell\nexport {key}={Value}\n```\n- export 可以临时设置一个系统中的环境变量\n- 生命周期和适用范围：当前session， 当前用户","id":"229c95685fd25a57","x":-39,"y":2660,"width":819,"height":200}
+		{"type":"text","text":"### 修改/etc/profile 全局地新增环境变量\n```shell\nvi /etc/profile\nsource /etc/profile\n```\n- `/etc/profile` 是一个脚本文件，**所有用户登录时就会执行**\n- 那么只要在`/etc/profile`中加入export语句就能每次登录都建立临时变量\n- 要立刻生效，则执行 `source` 命令应用更改","id":"020105e1e03a5694","x":1180,"y":2820,"width":1320,"height":280},
+		{"id":"40467b6639d3bc9c","x":1180,"y":2540,"width":1320,"height":260,"type":"text","text":"### 修改~/.bashrc 为本用户新增环境变量\n```shell\nvi ~/.bashrc\nsource ~/.bashrc\n```\n- `.bashrc` 是一个脚本文件，**当前用户登录时就会执行**\n- 那么只要在`.bashrc`中加入export语句就能每次登录都建立临时变量\n- 要立刻生效，则执行 `source` 命令应用更改"},
+		{"type":"text","text":"### export\n```shell\nexport {key}={Value}\n```\n- export 可以临时设置一个系统中的环境变量\n- 生命周期和适用范围：当前session， 当前用户","id":"229c95685fd25a57","x":-39,"y":2570,"width":1039,"height":200},
+		{"type":"text","text":"### PATH环境变量\n```shell\nexport PATH=$PATH:{New Path}:{New Path}\n```\n- 可以通过此命令向PATH追加一系列新的路径","id":"1ec0c853b2298106","x":-39,"y":2820,"width":1039,"height":260},
+		{"id":"f75239f61a9c0248","x":2612,"y":2636,"width":250,"height":60,"type":"text","text":"### Linux中的ya'suo"}
 	],
 	"edges":[
-		{"id":"19a4a5c8839e84c0","fromNode":"149c00976d2453a4","fromSide":"right","toNode":"2124f7146b70f8e6","toSide":"left"}
+		{"id":"19a4a5c8839e84c0","fromNode":"149c00976d2453a4","fromSide":"right","toNode":"2124f7146b70f8e6","toSide":"left"},
+		{"id":"ee9d2fb80ee43e68","fromNode":"229c95685fd25a57","fromSide":"right","toNode":"40467b6639d3bc9c","toSide":"left"},
+		{"id":"d10b0f17145aa4ed","fromNode":"229c95685fd25a57","fromSide":"right","toNode":"020105e1e03a5694","toSide":"left"},
+		{"id":"d8f8bf83ce871e43","fromNode":"229c95685fd25a57","fromSide":"bottom","toNode":"1ec0c853b2298106","toSide":"top"}
 	]
 }
