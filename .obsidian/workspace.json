@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "165b58ce408910de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "codes/python_plus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -60,7 +72,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
-        "dimension": 80.76923076923077,
+        "dimension": 78.11881188118812,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -68,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/10.动态规划.md"
+                "file": "codes/python_plus.md"
               }
             }
           },
@@ -94,7 +106,7 @@
       {
         "id": "e4ab87492e97656a",
         "type": "tabs",
-        "dimension": 19.230769230769234,
+        "dimension": 21.88118811881188,
         "children": [
           {
             "id": "d6baa96a3e8e9e50",
@@ -176,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/10.动态规划.md",
+                "file": "codes/python_plus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/10.动态规划.md",
+                "file": "codes/python_plus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,10 +227,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9edfb1f085427945",
+  "active": "f80d04c9e5456243",
   "lastOpenFiles": [
-    "linux/Linux命令.canvas",
+    "codes/python libs.md",
+    "codes/数据分析.md",
+    "alogs/1.环境搭建.md",
     "alogs/10.动态规划.md",
+    "Projects/flask",
+    "Projects",
+    "linux/Linux命令.canvas",
     "alogs/11.排序算法.md",
     "alogs/算法性能分析.md",
     "alogs/7.二叉树.md",
@@ -230,7 +247,6 @@
     "linux/2.Linux用户和权限.md",
     "linux/3.Linux实用技术.md",
     "OS/7.文件系统.md",
-    "codes/python libs.md",
     "codes/python_plus.md",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
@@ -257,7 +273,6 @@
     "assets/Pasted image 20230810202536.png",
     "alogs/leetcode/739.每日温度.md",
     "alogs/leetcode/240.搜索二维矩阵.md",
-    "alogs/leetcode/84.柱状图中最大的矩形.md",
     "assets/Pasted image 20230810165421.png",
     "assets/Pasted image 20230810165411.png",
     "assets/155_fig1.gif",
@@ -269,7 +284,6 @@
     "alogs/leetcode",
     "slbs",
     "SQL/leetcode-SQL",
-    "SQL",
-    "OS"
+    "SQL"
   ]
 }
