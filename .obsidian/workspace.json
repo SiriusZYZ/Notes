@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "linux/3.Linux实用技术.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/flask/1.flask.md"
+                "file": "linux/3.Linux实用技术.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "linux/3.Linux实用技术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "linux/3.Linux实用技术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,9 +217,10 @@
   },
   "active": "165b58ce408910de",
   "lastOpenFiles": [
+    "linux/Linux命令.canvas",
+    "Projects/flask/1.flask.md",
     "Projects/flask/0.安装和部署.md",
     "codes/python_plus.md",
-    "Projects/flask/1.flask.md",
     "Projects/flask/1.安装和部署.md",
     "codes/python libs.md",
     "codes/数据分析.md",
@@ -228,7 +228,6 @@
     "alogs/10.动态规划.md",
     "Projects/flask",
     "Projects",
-    "linux/Linux命令.canvas",
     "alogs/11.排序算法.md",
     "alogs/算法性能分析.md",
     "alogs/7.二叉树.md",
@@ -258,7 +257,6 @@
     "alogs/9.贪心算法.md",
     "alogs/12.图论.md",
     "alogs/leetcode/203.移除链表元素.md",
-    "alogs/2.链表.md",
     "alogs/newcode",
     "assets/Pasted image 20230810202557.png",
     "assets/Pasted image 20230810202536.png",
