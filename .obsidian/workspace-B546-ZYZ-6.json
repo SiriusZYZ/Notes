@@ -48,24 +48,12 @@
             }
           },
           {
-            "id": "3315bcb924b8e6f7",
+            "id": "165b58ce408910de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b32ee8e83a1f53cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/1.Linux基础命令.md",
+                "file": "codes/python_plus.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md"
+                "file": "codes/python_plus.md"
               }
             }
           },
@@ -118,7 +106,7 @@
       {
         "id": "e4ab87492e97656a",
         "type": "tabs",
-        "dimension": 21.881188118811885,
+        "dimension": 21.88118811881188,
         "children": [
           {
             "id": "d6baa96a3e8e9e50",
@@ -200,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
+                "file": "codes/python_plus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
+                "file": "codes/python_plus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,12 +227,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3315bcb924b8e6f7",
+  "active": "165b58ce408910de",
   "lastOpenFiles": [
-    "linux/1.Linux基础命令.md",
-    "linux/2.Linux用户和权限.md",
-    "linux/3.Linux实用技术.md",
-    "Projects/flask/1.flask.md",
+    "Projects/flask/1.安装和部署.md",
     "Projects/flask/0.安装和部署.md",
     "codes/python_plus.md",
     "codes/python libs.md",
@@ -259,8 +244,11 @@
     "alogs/7.二叉树.md",
     "alogs/3.哈希表.md",
     "alogs/1.数组.md",
+    "linux/1.Linux基础命令.md",
     "assets/Pasted image 20230818203153.png",
     "assets/Pasted image 20230818203124.png",
+    "linux/2.Linux用户和权限.md",
+    "linux/3.Linux实用技术.md",
     "OS/7.文件系统.md",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
