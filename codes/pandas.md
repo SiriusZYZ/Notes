@@ -1,8 +1,8 @@
 
-# 1.1创建、读取、写入
+# 1.创建、读取、写入
 - `pandas` 具有两种数据类型: `DataFrame` 和`Series`
 
-## 1.1.1|DataFrame
+## 1.1|DataFrame
 - `DataFrame` 是一种二维表数据类型
 - 可以使用`DataFrame()` 来创建一个`DataFrame` 对象：
 - 对于传入的字典，每个键值对中的键被视为列名，值被视为列数据。
@@ -22,7 +22,7 @@ Product B  It was awful.        Bland.
 
 
 
-## 1.1.2|Series
+## 1.2|Series
 - `Series` 是一种单列数据类型
 - `Series` 相当于`DataFrame` 的一行
 - 可以用`Series()` 构造函数来创建`Series`对象
@@ -36,7 +36,7 @@ Product B  It was awful.        Bland.
 Name: Product A, dtype: int64
 ```
 
-## 1.1.3|读取csv及初探
+## 1.3|读取csv及初探
 
 - 通过`pandas.read_csv()`从`.csv` 文件中读取数据
 ```python
@@ -56,7 +56,7 @@ data.shape
 -  `DataFrame().head(rows = 5 : int)` 可以返回DF前几行，默认5行
 -  `DataFrame().tail(rows = 5 : int)` 可以返回DF末尾几行，默认5行
 
-## 1.1.4|转存csv
+## 1.4|转存csv
 
 将DataFrame存为csv格式:
 ```python
@@ -71,9 +71,9 @@ index			: 设定是否写入索引,默认True
 '''
 ```
 
-# 1.2索引与选择
+# 2.索引与选择
 
-## 1.2.1|通过属性访问列
+## 2.1|通过属性访问列
 
 
 - `DataFrame` 为每一列创建了一个`Series`，可以通过`DataFrame.COLUMN_NAME`直接访问该`Series`
@@ -104,7 +104,7 @@ Name: Bob, dtype: object
 Name: A A, dtype: int64
 ```
 
-## 1.2.2|通过键值访问列
+## 2.2|通过键值访问列
 
 - 和字典相似，可以用`[]` 来访问列
 ```python
@@ -138,11 +138,11 @@ Name: 22, dtype: int64
 SyntaxError: invalid syntax
 ```
 
-## 1.2.3|iloc和loc
+## 2.3|iloc和loc
 
 - `iloc` 为按索引顺序取DataFrame中值
 - `.iloc[ROWS_EXPRESSION, COLS_EXPRESSION]` 为使用分片技术等取值
-  - `EXPRESSION` 支持: 单个值、分片如`0:40:5`, 及一系列值`[1, 3, 5, 7, 12]`
+  - `EXPRESSION` 支持: **单个值、分片如`0:40:5`, 及一系列值`[1, 3, 5, 7, 12]**`
 ```python
 >>> test
    A   B   C
@@ -163,8 +163,7 @@ SyntaxError: invalid syntax
 
 
 - `loc` 为按标签取值
-- `.loc[ROWS_EXPRESSION, COLS_EXPRESSION]` 
-- `ROWS_EXPRESSION, COLS_EXPRESSION` 均可以使用列表: 如`["A", "B"]`
+- `.loc[ROWS_EXPRESSION, COLS_EXPRESSION]` 支持: **单个值、分片如`0:40:5`, 及一系列值`[1, 3, 5, 7, 12]**`
 - 值得注意的是`.loc` 中的索引是包含头尾的:
 ```python
 In [3]: test
@@ -192,9 +191,9 @@ Out[6]:
 ```
 
 
-## 1.2.4|设置索引列
+## 2.4|设置索引列
 
-- 使用`DataFrame.set_index("COLUMN_NAME")` 可以设置索引列
+- 使用`DataFrame.set_index("COLUMN_NAME")` 可以设置索引列，也可以通过具有相同长度的可迭代对象作为索引列
 ```python
 In [16]: test
 Out[16]:
@@ -215,4 +214,159 @@ B
 6  3   9
 8  4  12
 ```
-- 此操作是不可逆的，要想回到默认索引，则需新建一个索引l
+- 此操作是不可逆的，要想回到默认索引，则需新建一个索引列或使用。
+
+- 可以使用多索引
+
+## 2.5|条件索引
+
+- 表达式 `df.loc[ expression(df.column1, df.column), ... ]`
+- `expression` 的作用是返回一一个布尔类型列表，表中值为`expression` 是否正确
+- 由此可见，`df.loc` 可以接受一布尔列表作为是否取改行的指示
+- 当使用逻辑符号时，应使用`&`  `|` 等位运算符号， 而非`and` 等逻辑符号
+```python
+In [22]: test
+Out[22]:
+   A  B   C
+0  0  0   0
+1  1  2   3
+2  2  4   6
+3  3  6   9
+4  4  8  12
+
+In [23]: test.loc[test.get("A") >= 3, :]
+Out[23]:
+   A  B   C
+3  3  6   9
+4  4  8  12
+
+In [25]: test.A >= 3
+Out[25]:
+0    False
+1    False
+2    False
+3     True
+4     True
+Name: A, dtype: bool
+
+# 直接使用布尔列表
+In [26]: test.loc[[False, False, False, True, True], :]
+Out[26]:
+   A  B   C
+3  3  6   9
+4  4  8  12
+```
+
+
+这和mysql是很相似的:
+```mysql
+select 
+	*
+from
+	df
+where
+	df.column1 ...
+	df.column2 ...;
+```
+
+- 还有一些可以用来做条件筛选的函数
+- `pandas.Series.isin(Iterable)`  相当于mysql中的`IN`一对多匹配
+- `pandas.Series.isnull(Iterable)` 相当于mysql中的`ISNULL` 空值匹配
+- `pandas.Series.notnull(Iterable)` 相当于mysql中的`NOT NULL` 非空值匹配
+
+
+## 2.6|列赋值
+
+- 可以对列进行广播赋值，即一列均赋一个值
+- 也可以对列进行等幂赋值
+```python
+In [29]: test
+Out[29]:
+   A  B   C
+0  0  0   0
+1  1  2   3
+2  2  4   6
+3  3  6   9
+4  4  8  12
+
+# 广播赋值
+In [30]: test.A = 20
+
+In [31]: test
+Out[31]:
+    A  B   C
+0  20  0   0
+1  20  2   3
+2  20  4   6
+3  20  6   9
+4  20  8  12
+
+In [36]: test.A = [i**2 for i in range(5)]
+
+In [37]: test
+Out[37]:
+    A  B   C
+0   0  0   0
+1   1  2   3
+2   4  4   6
+3   9  6   9
+4  16  8  12
+```
+
+
+# 3.聚合函数和映射
+
+## 3.1|聚合函数
+
+### 3.1.1|describe
+
+- `describe()` 函数提供数值序列的统计信息，包括计数信息，均值等统计学信息
+- `describe()` 函数提供字符串序列的统计信息，包括数量、频次、独特数量等统计信息
+```python
+>>> reviews.country.describe()
+count     150925
+unique        48
+top           US
+freq       62397
+Name: country, dtype: object
+>>> reviews.points.describe()  
+count    150930.000000      
+mean         87.888418      
+std           3.222392      
+min          80.000000      
+25%          86.000000      
+50%          88.000000      
+75%          90.000000      
+max         100.000000      
+Name: points, dtype: float64
+```
+
+
+- `pandas.Series.describe` 可以显示某一列的统计信息
+- `pandas.DataFrame.describe` 可以显示整个表的统计信息， 如果所有字段都为字符串，则统计字符串信息，一旦存在数值字段则只按数值方式统计信息
+```python
+# 无数值字段
+>>> reviews.loc[:, ("country", "designation", "province")].describe()
+       country designation    province
+count   150925      105195      150925
+unique      48       30621         455
+top         US     Reserve  California
+freq     62397        2752       44508
+
+# 有数值字段
+>>> reviews.loc[:, ("price","country", "designation", "province")].describe() 
+               price
+count  137235.000000
+mean       33.131482
+std        36.322536
+min         4.000000
+25%        16.000000
+50%        24.000000
+75%        40.000000
+max      2300.000000
+```
+
+- 最常见的还包括:
+- `Series.mean` 求均值函数，只能作用在数值字段中
+- `Series.unique` 求不重合值，和sql 的`UNIQUE` 或`DISTINCT` 差不多
+- `Series.sum` 总和函数
