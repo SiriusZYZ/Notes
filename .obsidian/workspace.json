@@ -215,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +228,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "165b58ce408910de",
+  "active": "f80d04c9e5456243",
   "lastOpenFiles": [
     "codes/python_plus.md",
     "Projects/flask/1.flask.md",
