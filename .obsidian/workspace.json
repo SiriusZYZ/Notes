@@ -36,31 +36,19 @@
             }
           },
           {
-            "id": "9edfb1f085427945",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/10.动态规划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "165b58ce408910de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
+                "file": "Projects/flask/1.flask.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md"
+                "file": "Projects/flask/1.flask.md"
               }
             }
           },
@@ -188,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
+                "file": "Projects/flask/1.flask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/flask/0.安装和部署.md",
+                "file": "Projects/flask/1.flask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,12 +216,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f80d04c9e5456243",
+  "active": "165b58ce408910de",
   "lastOpenFiles": [
+    "Projects/flask/0.安装和部署.md",
     "codes/python_plus.md",
     "Projects/flask/1.flask.md",
     "Projects/flask/1.安装和部署.md",
-    "Projects/flask/0.安装和部署.md",
     "codes/python libs.md",
     "codes/数据分析.md",
     "alogs/1.环境搭建.md",
