@@ -318,7 +318,6 @@ Out[37]:
 
 ## 3.1|聚合函数
 
-### 3.1.1|describe
 
 - `describe()` 函数提供数值序列的统计信息，包括计数信息，均值等统计学信息
 - `describe()` 函数提供字符串序列的统计信息，包括数量、频次、独特数量等统计信息
@@ -367,6 +366,44 @@ max      2300.000000
 ```
 
 - 最常见的还包括:
-- `Series.mean` 求均值函数，只能作用在数值字段中
+- `Series.mean` 求均值函数，和sql 的`MEAN` 差不多
 - `Series.unique` 求不重合值，和sql 的`UNIQUE` 或`DISTINCT` 差不多
-- `Series.sum` 总和函数
+- `Series.sum` 总和函数， 和SQL 的 `SUM` 差不多
+- `Series.value_counts()` 统计函数，作用于统计各种值出现的频次，可以作用在数值和字符串字段
+
+
+```python
+>>> reviews.country.unique()
+array(['US', 'Spain', 'France', 'Italy', 'New Zealand', 'Bulgaria',
+       'Argentina', 'Australia', 'Portugal', 'Israel', 'South Africa',
+       'Greece', 'Chile', 'Morocco', 'Romania', 'Germany', 'Canada',
+       'Moldova', 'Hungary', 'Austria', 'Croatia', 'Slovenia', nan,
+       'India', 'Turkey', 'Macedonia', 'Lebanon', 'Serbia', 'Uruguay',
+       'Switzerland', 'Albania', 'Bosnia and Herzegovina', 'Brazil',
+       'Cyprus', 'Lithuania', 'Japan', 'China', 'South Korea', 'Ukraine',
+       'England', 'Mexico', 'Georgia', 'Montenegro', 'Luxembourg',
+       'Slovakia', 'Czech Republic', 'Egypt', 'Tunisia', 'US-France'],
+      dtype=object)
+>>> reviews.price.value_counts()
+20.0     7860
+15.0     7056
+18.0     5988
+25.0     5955
+30.0     5449
+         ...
+612.0       1
+271.0       1
+448.0       1
+292.0       1
+217.0       1
+Name: price, Length: 357, dtype: int64
+>>> reviews.country.value_counts()
+US                        62397
+Italy                     23478
+France                    21098
+Spain                      8268
+Chile                      5816
+...
+US-France                     1
+Name: country, dtype: int64
+```
