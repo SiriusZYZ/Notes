@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/python_plus.md",
+                "file": "Projects/flask/0.安装和部署.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/python_plus.md"
+                "file": "Projects/flask/0.安装和部署.md"
               }
             }
           },
@@ -188,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/python_plus.md",
+                "file": "Projects/flask/0.安装和部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/python_plus.md",
+                "file": "Projects/flask/0.安装和部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,10 +229,10 @@
   },
   "active": "165b58ce408910de",
   "lastOpenFiles": [
+    "codes/python_plus.md",
     "Projects/flask/1.flask.md",
     "Projects/flask/1.安装和部署.md",
     "Projects/flask/0.安装和部署.md",
-    "codes/python_plus.md",
     "codes/python libs.md",
     "codes/数据分析.md",
     "alogs/1.环境搭建.md",
