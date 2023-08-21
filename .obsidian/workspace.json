@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "165b58ce408910de",
+            "id": "ddd20956fcbf661e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "codes/pandas.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/flask/1.flask.md"
+                "file": "codes/pandas.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "codes/pandas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/flask/1.flask.md",
+                "file": "codes/pandas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,11 +216,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "165b58ce408910de",
+  "active": "ddd20956fcbf661e",
   "lastOpenFiles": [
+    "linux/2.Linux用户和权限.md",
     "linux/3.Linux实用技术.md",
-    "linux/Linux命令.canvas",
+    "OS/7.文件系统.md",
     "Projects/flask/1.flask.md",
+    "assets/Pasted image 20230821165307.png",
+    "assets/Pasted image 20230821165120.png",
+    "assets/Pasted image 20230821163607.png",
+    "assets/Pasted image 20230821162959.png",
+    "linux/Linux命令.canvas",
     "Projects/flask/0.安装和部署.md",
     "codes/python_plus.md",
     "Projects/flask/1.安装和部署.md",
@@ -238,8 +244,6 @@
     "linux/1.Linux基础命令.md",
     "assets/Pasted image 20230818203153.png",
     "assets/Pasted image 20230818203124.png",
-    "linux/2.Linux用户和权限.md",
-    "OS/7.文件系统.md",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/http和https.md",
@@ -261,10 +265,6 @@
     "alogs/newcode",
     "assets/Pasted image 20230810202557.png",
     "assets/Pasted image 20230810202536.png",
-    "assets/Pasted image 20230810165421.png",
-    "assets/Pasted image 20230810165411.png",
-    "assets/155_fig1.gif",
-    "assets/Pasted image 20230807103610.png",
     "OS/canvas/6.内存.canvas",
     "OS/canvas",
     "ComputerNetwork",
