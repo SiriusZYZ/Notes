@@ -138,7 +138,7 @@ Name: 22, dtype: int64
 SyntaxError: invalid syntax
 ```
 
-## 1.2.2|iloc和loc
+## 1.2.3|iloc和loc
 
 - `iloc` 为按索引顺序取DataFrame中值
 - `.iloc[ROWS_EXPRESSION, COLS_EXPRESSION]` 为使用分片技术等取值
@@ -164,3 +164,55 @@ SyntaxError: invalid syntax
 
 - `loc` 为按标签取值
 - `.loc[ROWS_EXPRESSION, COLS_EXPRESSION]` 
+- `ROWS_EXPRESSION, COLS_EXPRESSION` 均可以使用列表: 如`["A", "B"]`
+- 值得注意的是`.loc` 中的索引是包含头尾的:
+```python
+In [3]: test
+Out[3]:
+   A   B   C
+0  0   0   0
+1  1   2   3
+2  2   4   6
+3  3   6   9
+4  4   8  12
+5  5  10  15
+6  6  12  18
+7  7  14  21
+8  8  16  24
+9  9  18  27
+In [6]: test.loc[0:5, "A":"B"]
+Out[6]:
+   A   B
+0  0   0
+1  1   2
+2  2   4
+3  3   6
+4  4   8
+5  5  10
+```
+
+
+## 1.2.4|设置索引列
+
+- 使用`DataFrame.set_index("COLUMN_NAME")` 可以设置索引列
+```python
+In [16]: test
+Out[16]:
+   A  B   C
+0  0  0   0
+1  1  2   3
+2  2  4   6
+3  3  6   9
+4  4  8  12
+
+In [17]: test.set_index("B")
+Out[17]:
+   A   C
+B
+0  0   0
+2  1   3
+4  2   6
+6  3   9
+8  4  12
+```
+- 此操作是不可逆的，要想回到默认索引，则需新建一个索引l
