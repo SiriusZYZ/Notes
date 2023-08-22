@@ -407,3 +407,67 @@ Chile                      5816
 US-France                     1
 Name: country, dtype: int64
 ```
+
+## 3.2|映射
+
+### 3.2.1|map
+
+- `pandas.Series.map` 可以理解为函数，它接受一个函数作为参数，并用当前Series作为输入计算输出:
+- `s.map(lambda x : x * x)` 表示返回 `s` 中每个元素的平方
+```python
+>>> test
+   A  B   C
+0  0  0   0
+1  1  2   3
+2  2  4   6
+3  3  6   9
+4  4  8  12
+>>> test["A"].map(lambda x : x*x)
+0     0
+1     1
+2     4
+3     9
+4    16
+Name: A, dtype: int64
+```
+
+### 3.2.2|apply
+
+```python
+DataFrame.apply(func, axis=0, raw=False, result_type=None, args=(), **kwargs)
+```
+- 与`map` 不同，`apply`可以将函数作用于表中的某一个维度(由axis控制)
+- `func` 为传参，
+  - 当返回一个值时，apply的结果是`Series`
+  - 当返回可迭代对象时, apply的结果是 `DataFrame`
+- `axis = {0 or "index", 1 or "columns"}` 表示计算的维度，
+  - index时 平行于index列计算， 所以传入是列
+  - columns 平行于columns行计算，所以传入是行，函数也可以使用columns中的各字段
+- `args` 和 `**kwargs`  为对func的传参
+
+```python
+>>> test
+   A  B   C
+0  0  0   0
+1  1  2   3
+2  2  4   6
+3  3  6   9
+4  4  8  12
+>>> test.apply(lambda x: sum(x)) #默认是index，即每列计算一个结果
+A    10
+B    20
+C    30
+dtype: int64
+>>> test.apply(lambda x: (x.sum(), x.mean())) # 当func的返回值是多个值
+      A     B     C
+0  10.0  20.0  30.0
+1   2.0   4.0   6.0
+>>> test.apply(lambda x: x.A * x.B, axis = "columns") # 是Columns时传入为行
+0     0
+1     2
+2     8
+3    18
+4    32
+```
+
+## 3.2.3|
