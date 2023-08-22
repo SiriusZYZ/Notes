@@ -1,13 +1,43 @@
 {
 	"nodes":[
-		{"id":"8766c1a5b1dc7328","x":-360,"y":-800,"width":1556,"height":511,"type":"group","label":"缓存优化"},
+		{"type":"group","id":"8766c1a5b1dc7328","x":-360,"y":-960,"width":1556,"height":671,"label":"缓存优化"},
 		{"type":"group","id":"3925897fe6dd6902","x":-360,"y":-200,"width":1556,"height":511,"label":"减少http重定向次数"},
 		{"type":"group","id":"2816a62f5d088a2a","x":-360,"y":480,"width":1556,"height":511,"label":"减少http重定向次数"},
-		{"id":"43299196fc36e957","x":-1360,"y":0,"width":400,"height":120,"type":"text","text":"# HTTP/1.1的优化"}
+		{"type":"group","id":"448e98195e28d401","x":-300,"y":-780,"width":550,"height":340,"label":"本地缓存"},
+		{"type":"text","text":"# HTTP/1.1的优化","id":"43299196fc36e957","x":-1360,"y":0,"width":400,"height":120},
+		{"type":"text","text":"请求URL","id":"7489231967bda700","x":-290,"y":-600,"width":125,"height":60},
+		{"type":"text","text":"请求URL","id":"fa95e68a716c8cb4","x":-290,"y":-520,"width":125,"height":60},
+		{"type":"text","text":"响应 + 预估过期时间 +Etag","id":"d055fe7732e10cef","x":-70,"y":-600,"width":300,"height":60},
+		{"type":"text","text":"响应 + 预估过期时间 +Etag","id":"cea7afdf2e1dfc58","x":-70,"y":-520,"width":300,"height":60},
+		{"type":"text","text":"请求URL","id":"2ebb313bd4243129","x":-290,"y":-680,"width":125,"height":60},
+		{"type":"text","text":"响应 + 预估过期时间 +Etag","id":"fdc95f6f54cf83b2","x":-70,"y":-680,"width":300,"height":60},
+		{"type":"text","text":"## 缓存未过期","id":"96dcf153b31dc968","x":380,"y":-760,"width":220,"height":60},
+		{"type":"text","text":"## 缓存过期\n带上Etag发送请求","id":"406fc32c3e76be3b","x":380,"y":-587,"width":220,"height":94},
+		{"type":"text","text":"## 请求新的URL","id":"7c0637dafedc6f6d","x":-300,"y":-920,"width":295,"height":50},
+		{"type":"text","text":"请求URL","id":"b086195a02c5f71f","x":-290,"y":-760,"width":125,"height":60},
+		{"type":"text","text":"响应 + 预估过期时间 +Etag","id":"3f2157df74ddb882","x":-70,"y":-760,"width":300,"height":60},
+		{"type":"text","text":"200: OK\n具有最新响应的包","id":"968498b9d9350269","x":680,"y":-493,"width":218,"height":73},
+		{"type":"text","text":"304: Not Modified\n返回的包没有实体","id":"dd6685ab6e668c14","x":680,"y":-630,"width":218,"height":90},
+		{"id":"1b33d7c8ec958d63","x":920,"y":-760,"width":197,"height":60,"type":"text","text":"返回服务器响应"},
+		{"id":"76cb7b98055841fb","x":721,"y":-760,"width":137,"height":60,"type":"text","text":"返回缓存"},
+		{"id":"57455ee5c327799b","x":-340,"y":-180,"width":520,"height":460,"type":"text","text":"## 减少重定向数量\n- Fact : 服务器某个资源可能会短暂或永久移到某个url中\n- Fact : 很多请求都是由代理服务器转发的，客户端先发旧url，代理进行转发，并得到302， 再转发给客户端302，客户端才能用重定向后的url进行请求。这样非常麻烦\n- 解决办法：代理服务器完成url重定向，把重定向后的资源返回客户端即可。"}
 	],
 	"edges":[
 		{"id":"5b3b3e3b78d45120","fromNode":"43299196fc36e957","fromSide":"right","toNode":"8766c1a5b1dc7328","toSide":"left","label":"避免http请求"},
 		{"id":"04e67893077ba741","fromNode":"43299196fc36e957","fromSide":"right","toNode":"3925897fe6dd6902","toSide":"left","label":"减少请求次数"},
-		{"id":"afca79e9c4a6c619","fromNode":"43299196fc36e957","fromSide":"right","toNode":"2816a62f5d088a2a","toSide":"left","label":"减少请求包大小"}
+		{"id":"afca79e9c4a6c619","fromNode":"43299196fc36e957","fromSide":"right","toNode":"2816a62f5d088a2a","toSide":"left","label":"减少请求包大小"},
+		{"id":"5f31399419485fc4","fromNode":"b086195a02c5f71f","fromSide":"right","toNode":"3f2157df74ddb882","toSide":"left"},
+		{"id":"409ca5b6bbf0d947","fromNode":"2ebb313bd4243129","fromSide":"right","toNode":"fdc95f6f54cf83b2","toSide":"left"},
+		{"id":"265c0285033945f7","fromNode":"7489231967bda700","fromSide":"right","toNode":"d055fe7732e10cef","toSide":"left"},
+		{"id":"34c41debe24cacf0","fromNode":"fa95e68a716c8cb4","fromSide":"right","toNode":"cea7afdf2e1dfc58","toSide":"left"},
+		{"id":"72082342276dacaf","fromNode":"7c0637dafedc6f6d","fromSide":"bottom","toNode":"448e98195e28d401","toSide":"top","label":"优先检查缓存"},
+		{"id":"551e8584e2e8072e","fromNode":"448e98195e28d401","fromSide":"right","toNode":"96dcf153b31dc968","toSide":"left"},
+		{"id":"983af7c1c9e5bd52","fromNode":"448e98195e28d401","fromSide":"right","toNode":"406fc32c3e76be3b","toSide":"left"},
+		{"id":"942119ea778fba44","fromNode":"406fc32c3e76be3b","fromSide":"right","toNode":"dd6685ab6e668c14","toSide":"left"},
+		{"id":"f90a691abf900004","fromNode":"406fc32c3e76be3b","fromSide":"right","toNode":"968498b9d9350269","toSide":"left"},
+		{"id":"1bc89adb9cd9ac45","fromNode":"968498b9d9350269","fromSide":"bottom","toNode":"448e98195e28d401","toSide":"bottom","label":"更新缓存"},
+		{"id":"a1fde60f53911651","fromNode":"96dcf153b31dc968","fromSide":"right","toNode":"76cb7b98055841fb","toSide":"left"},
+		{"id":"6afc5ddb62c1f7b6","fromNode":"dd6685ab6e668c14","fromSide":"top","toNode":"76cb7b98055841fb","toSide":"bottom"},
+		{"id":"602ce657e2428e3a","fromNode":"968498b9d9350269","fromSide":"right","toNode":"1b33d7c8ec958d63","toSide":"bottom"}
 	]
 }
