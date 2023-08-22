@@ -367,6 +367,7 @@ max      2300.000000
 
 - 最常见的还包括:
 - `Series.mean` 求均值函数，和sql 的`MEAN` 差不多
+- `Series.median` 求中位数函数 
 - `Series.unique` 求不重合值，和sql 的`UNIQUE` 或`DISTINCT` 差不多
 - `Series.sum` 总和函数， 和SQL 的 `SUM` 差不多
 - `Series.value_counts()` 统计函数，作用于统计各种值出现的频次，可以作用在数值和字符串字段
@@ -470,4 +471,38 @@ dtype: int64
 4    32
 ```
 
-## 3.2.3|
+## 3.2.3|符号运算
+
+- 列支持使用二元运算符快速计算值
+- 这些包括 `+, -, *, /, ==, `
+
+```python
+>>> test
+   A  B  D  E
+0  0  0  r  a
+1  1  2  e  p
+2  2  4  p  p
+3  3  6  l  l
+4  4  8  y  y
+>>> test.D == test.E
+0    False
+1    False
+2     True
+3     True
+4     True
+dtype: bool
+>>> test.D + test.E
+0    ra
+1    ep
+2    pp
+3    ll
+4    yy
+dtype: object
+>>> test.A + test.B
+0     0
+1     3
+2     6
+3     9
+4    12
+dtype: int64
+```
