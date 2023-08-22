@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
                 "viewState": {
-                  "x": 172.7006421904329,
-                  "y": 655.5075071693636,
-                  "zoom": -0.41320033441494947
+                  "x": 17.5,
+                  "y": 25,
+                  "zoom": 0
                 }
               }
             }
@@ -42,7 +42,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas"
+                "file": "ComputerNetwork/2.4HTTPS优化.canvas"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
+                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,6 +192,10 @@
   },
   "active": "9013bf00a4e0ad61",
   "lastOpenFiles": [
+    "ComputerNetwork/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/2.1HTTP基本.canvas",
+    "ComputerNetwork/2.4HTTPS优化.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
     "linux/2.Linux用户和权限.md",
@@ -220,8 +223,6 @@
     "linux/1.Linux基础命令.md",
     "assets/Pasted image 20230818203153.png",
     "assets/Pasted image 20230818203124.png",
-    "ComputerNetwork/2.3HTTP1.1优化.canvas",
-    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/http和https.md",
     "ComputerNetwork/未命名 1.canvas",
     "alogs/newcode/HJ6.质数因子.md",
@@ -229,7 +230,6 @@
     "alogs/leetcode/735.行星碰撞.md",
     "SQL/9.多表查询.md",
     "assets/Pasted image 20230815101401.png",
-    "ComputerNetwork/2.1HTTP基本.canvas",
     "未命名 1.canvas",
     "未命名.canvas",
     "ComputerNetwork/1.2访问网站的全过程.canvas",
@@ -237,7 +237,6 @@
     "assets/Pasted image 20230814205707.png",
     "alogs/9.贪心算法.md",
     "alogs/12.图论.md",
-    "alogs/leetcode/203.移除链表元素.md",
     "alogs/newcode",
     "assets/Pasted image 20230810202557.png",
     "assets/Pasted image 20230810202536.png",
