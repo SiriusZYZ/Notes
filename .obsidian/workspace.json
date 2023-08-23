@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
                 "viewState": {
-                  "x": 859.4974895455662,
-                  "y": 637.3028870624335,
-                  "zoom": -0.3333333333333332
+                  "x": -40,
+                  "y": -24.5,
+                  "zoom": -1.1429112223364388
                 }
               }
             }
@@ -42,7 +42,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/2.4HTTPS优化.canvas"
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/2.4HTTPS优化.canvas",
+                "file": "ComputerNetwork/2.3HTTP1.1优化.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,12 +192,12 @@
   },
   "active": "9013bf00a4e0ad61",
   "lastOpenFiles": [
+    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
     "alogs/7.二叉树.md",
-    "ComputerNetwork/2.4HTTPS优化.canvas",
-    "ComputerNetwork/2.3HTTP1.1优化.canvas",
-    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.1HTTP基本.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
