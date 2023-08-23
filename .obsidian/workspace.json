@@ -15,9 +15,9 @@
               "state": {
                 "file": "ComputerNetwork/2.4HTTPS优化.canvas",
                 "viewState": {
-                  "x": 17.5,
-                  "y": 25,
-                  "zoom": 0
+                  "x": 859.4974895455662,
+                  "y": 637.3028870624335,
+                  "zoom": -0.3333333333333332
                 }
               }
             }
@@ -178,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,14 +193,16 @@
   },
   "active": "9013bf00a4e0ad61",
   "lastOpenFiles": [
+    "codes/python_plus.md",
+    "linux/3.Linux实用技术.md",
+    "alogs/7.二叉树.md",
+    "ComputerNetwork/2.4HTTPS优化.canvas",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.1HTTP基本.canvas",
-    "ComputerNetwork/2.4HTTPS优化.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
     "linux/2.Linux用户和权限.md",
-    "linux/3.Linux实用技术.md",
     "Projects/flask/1.flask.md",
     "assets/Pasted image 20230821165307.png",
     "assets/Pasted image 20230821165120.png",
@@ -207,7 +210,6 @@
     "assets/Pasted image 20230821162959.png",
     "linux/Linux命令.canvas",
     "Projects/flask/0.安装和部署.md",
-    "codes/python_plus.md",
     "Projects/flask/1.安装和部署.md",
     "codes/python libs.md",
     "codes/数据分析.md",
@@ -217,7 +219,6 @@
     "Projects",
     "alogs/11.排序算法.md",
     "alogs/算法性能分析.md",
-    "alogs/7.二叉树.md",
     "alogs/3.哈希表.md",
     "alogs/1.数组.md",
     "linux/1.Linux基础命令.md",
@@ -240,7 +241,6 @@
     "alogs/newcode",
     "assets/Pasted image 20230810202557.png",
     "assets/Pasted image 20230810202536.png",
-    "OS/canvas/6.内存.canvas",
     "OS/canvas",
     "ComputerNetwork",
     "linux",
