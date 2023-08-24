@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/newcode/HJ6.质数因子.md",
+                "file": "linux&shell/3.Linux实用技术.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a5532d74704ae1a8",
+            "id": "e32e9b0df437f5e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/10.动态规划.md",
+                "file": "linux&shell/4.shell简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/10.动态规划.md"
+                "file": "linux&shell/4.shell简介.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/10.动态规划.md",
+                "file": "linux&shell/4.shell简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/10.动态规划.md",
+                "file": "linux&shell/4.shell简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,62 +200,63 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a5532d74704ae1a8",
+  "active": "e32e9b0df437f5e1",
   "lastOpenFiles": [
     "alogs/newcode/HJ24合唱队.md",
-    "assets/Pasted image 20230824204151.png",
-    "alogs/newcode/HJ6.质数因子.md",
-    "alogs/10.动态规划.md",
-    "alogs/9.贪心算法.md",
-    "alogs/7.二叉树.md",
-    "linux&shell/4.shell简介.md",
     "assets/Pasted image 20230824095531.png",
     "assets/Pasted image 20230824095114.png",
-    "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
+    "linux&shell/4.shell简介.md",
+    "linux&shell/Linux命令.canvas",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
-    "linux&shell/1.Linux基础命令.md",
-    "linux&shell/2.Linux用户和权限.md",
-    "linux&shell",
     "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
-    "linux/3.Linux实用技术.md",
+    "alogs/7.二叉树.md",
     "ComputerNetwork/2.1HTTP基本.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
-    "linux/2.Linux用户和权限.md",
+    "linux&shell/2.Linux用户和权限.md",
     "Projects/flask/1.flask.md",
     "assets/Pasted image 20230821165307.png",
     "assets/Pasted image 20230821165120.png",
     "assets/Pasted image 20230821163607.png",
     "assets/Pasted image 20230821162959.png",
-    "linux/Linux命令.canvas",
     "Projects/flask/0.安装和部署.md",
     "Projects/flask/1.安装和部署.md",
     "codes/python libs.md",
     "codes/数据分析.md",
     "alogs/1.环境搭建.md",
+    "alogs/10.动态规划.md",
     "Projects/flask",
     "Projects",
     "alogs/11.排序算法.md",
     "alogs/算法性能分析.md",
     "alogs/3.哈希表.md",
     "alogs/1.数组.md",
-    "linux/1.Linux基础命令.md",
+    "linux&shell/1.Linux基础命令.md",
     "assets/Pasted image 20230818203153.png",
     "assets/Pasted image 20230818203124.png",
+    "ComputerNetwork/http和https.md",
     "ComputerNetwork/未命名 1.canvas",
+    "alogs/newcode/HJ6.质数因子.md",
+    "alogs/leetcode/2.两数相加.md",
+    "alogs/leetcode/735.行星碰撞.md",
+    "SQL/9.多表查询.md",
     "assets/Pasted image 20230815101401.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "ComputerNetwork/1.2访问网站的全过程.canvas",
+    "ComputerNetwork/1.1TCP-IP概览.canvas",
+    "assets/Pasted image 20230814205707.png",
+    "alogs/9.贪心算法.md",
     "alogs/newcode",
     "OS/canvas",
     "ComputerNetwork",
-    "linux",
+    "linux&shell",
     "alogs/leetcode",
     "slbs",
-    "SQL/leetcode-SQL"
+    "SQL/leetcode-SQL",
+    "SQL"
   ]
 }
