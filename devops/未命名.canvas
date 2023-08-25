@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"f3c33ae36c333482","x":300,"y":660,"width":1380,"height":700,"type":"group","label":"开发周期"},
+		{"type":"group","id":"581c8efb67cd1042","x":-1680,"y":120,"width":1080,"height":620,"label":"软件开发流程"},
+		{"type":"text","text":"Ops:\n- 运维团队将开发团队的Code进行**测试后部署上线**。希望系统稳定安全运行","id":"e5bd3d7e6bd503f2","x":-1150,"y":140,"width":470,"height":180},
+		{"type":"text","text":"1. 开发写好代码，交付运维测试","id":"1f7313a5ffaa020b","x":-1640,"y":360,"width":470,"height":50},
+		{"type":"text","text":"3. 修改代码","id":"6199ed4297aec643","x":-1640,"y":480,"width":470,"height":50},
+		{"type":"text","text":"2. 运维反馈Bug及一些要反馈的任务","id":"aa4899dd1c160e40","x":-1150,"y":410,"width":470,"height":50},
+		{"type":"text","text":"基于现在的互联网现状，更推崇敏捷式开发，这样就导致项目的迭代速度更快，但是由于开发团队与运 维团队的沟通问题，会导致新版本上线的时间成本很高。这又违背的敏捷式开发的最初的目的\n","id":"c2bdd8d34e3c2402","x":-1640,"y":580,"width":960,"height":120},
+		{"type":"text","text":"Devs:\n- 从头开始**设计源码和整体系统的构建**。需要系统不停的迭代更新。","id":"b113e853fccdf55e","x":-1640,"y":140,"width":470,"height":180},
+		{"type":"text","text":"# Devops\n- 打破开发和运维之间的联系隔阂\n- 把开发和运维合到一个团队\n- DevOps，字面意思是Development &Operations的缩写，也就是开发&运维。 虽然字面意思只涉及到了开发团队和运维团队，其实QA测试团队也是参与其中的。 ","id":"64ec1403ff254ff7","x":-487,"y":405,"width":587,"height":255},
+		{"type":"text","text":"## 工具","id":"8cefb3bf09393b61","x":420,"y":303,"width":250,"height":60},
+		{"type":"text","text":"### 工具平台\n  1. git\n  2. spinnaker\n  3. docker\n  4. kubernetes\n  5. jenkins","id":"412d9cb50966e80d","x":780,"y":73,"width":300,"height":230},
+		{"type":"text","text":"### 集成性平台\n  1. Azure DevOps\n  2. Coding DevOps","id":"c322bb466151b24f","x":780,"y":333,"width":300,"height":155},
+		{"type":"file","file":"assets/Pasted image 20230825154248.png","id":"37656427f3e1255a","x":314,"y":707,"width":712,"height":390},
+		{"type":"text","text":"0. 指定开发计划","id":"60fd28f9c6c2f662","x":1060,"y":707,"width":560,"height":73},
+		{"id":"e1aab743feac2242","x":1060,"y":829,"width":560,"height":73,"type":"text","text":"1. 开发并使用git进行版本管理"},
+		{"type":"text","text":"2. ","id":"14a0655828411e7f","x":1060,"y":940,"width":560,"height":73}
+	],
+	"edges":[
+		{"id":"d86d6b8e2422a9ba","fromNode":"8cefb3bf09393b61","fromSide":"right","toNode":"412d9cb50966e80d","toSide":"left"},
+		{"id":"23c0da16f950a63f","fromNode":"8cefb3bf09393b61","fromSide":"right","toNode":"c322bb466151b24f","toSide":"left"},
+		{"id":"929238c12f8b88b9","fromNode":"64ec1403ff254ff7","fromSide":"right","toNode":"8cefb3bf09393b61","toSide":"left"},
+		{"id":"dcee47c0cff72570","fromNode":"aa4899dd1c160e40","fromSide":"bottom","toNode":"6199ed4297aec643","toSide":"right"},
+		{"id":"b9eef91ea9642c11","fromNode":"1f7313a5ffaa020b","fromSide":"right","toNode":"aa4899dd1c160e40","toSide":"top","label":"漫长的等待"},
+		{"id":"1472902a5d97166c","fromNode":"581c8efb67cd1042","fromSide":"right","toNode":"64ec1403ff254ff7","toSide":"left"},
+		{"id":"1ae560880e01cc3d","fromNode":"8cefb3bf09393b61","fromSide":"bottom","toNode":"f3c33ae36c333482","toSide":"top"},
+		{"id":"c85a8f37f56ba070","fromNode":"64ec1403ff254ff7","fromSide":"right","toNode":"f3c33ae36c333482","toSide":"left"},
+		{"id":"ec89cddcb1d3da9f","fromNode":"60fd28f9c6c2f662","fromSide":"bottom","toNode":"e1aab743feac2242","toSide":"top"}
+	]
+}
