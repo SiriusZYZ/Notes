@@ -4,54 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c8fa32a1ac679a27",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9013bf00a4e0ad61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/newcode/HJ6.质数因子.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b292a46bf8c6b809",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devops/1.介绍.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "26178a5919f5c07b",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
-                "viewState": {
-                  "x": 415.0126676043294,
-                  "y": 138.88339935436392,
-                  "zoom": -1.551174187264873
-                }
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
         "id": "ef1557adf27b8ce2",
         "type": "tabs",
         "children": [
@@ -61,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/1.1概览.md",
+                "file": "ComputerNetwork/2.http_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +31,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
-        "dimension": 78.11881188118812,
+        "dimension": 67.72277227722772,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -87,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/1.1TCP-IP概览.canvas"
+                "file": "ComputerNetwork/2.http_interview.md"
               }
             }
           },
@@ -113,7 +65,7 @@
       {
         "id": "e4ab87492e97656a",
         "type": "tabs",
-        "dimension": 21.881188118811885,
+        "dimension": 32.277227722772274,
         "children": [
           {
             "id": "d6baa96a3e8e9e50",
@@ -195,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
+                "file": "ComputerNetwork/2.http_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
+                "file": "ComputerNetwork/2.http_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,21 +186,37 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "26178a5919f5c07b",
+  "active": "3e9add465f640a34",
   "lastOpenFiles": [
-    "ComputerNetwork/1.1概览.md",
-    "ComputerNetwork/1.1TCP-IP概览.canvas",
-    "ComputerNetwork/3.1TCP基础.canvas",
-    "OS/canvas/6.内存.canvas",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "ComputerNetwork/1.tcp_ip_model.docx",
+    "ComputerNetwork/1.tcp_ip_model.html",
+    "ComputerNetwork/4.ip_base.md",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "ComputerNetwork/mine",
+    "ComputerNetwork/mine/1.1概览.md",
+    "ComputerNetwork/3.tcp_interview.md",
+    "ComputerNetwork/2.http_interview.md",
+    "ComputerNetwork/mine/3.1TCP基础.canvas",
+    "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+    "assets/1.2访问网站的全过程.png",
+    "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
+    "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
+    "Projects/flask/1.flask.md",
+    "devops/1.介绍.md",
     "devops/未命名.canvas",
+    "linux&shell/Linux命令.canvas",
+    "OS/未命名.md",
+    "OS/4.调度.md",
+    "linux&shell/1.Linux基础命令.md",
+    "OS/canvas/6.内存.canvas",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
-    "devops/1.介绍.md",
     "alogs/newcode/HJ6.质数因子.md",
     "devops",
     "assets/Pasted image 20230825113508.png",
     "assets/Pasted image 20230825105410.png",
-    "ComputerNetwork/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/3.1TCP握手.md",
     "assets/Pasted image 20230825105009.png",
     "alogs/7.二叉树.md",
@@ -262,34 +230,18 @@
     "linux&shell/4.shell简介.md",
     "assets/Pasted image 20230824095531.png",
     "assets/Pasted image 20230824095114.png",
-    "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
-    "linux&shell/1.Linux基础命令.md",
     "linux&shell/2.Linux用户和权限.md",
     "linux&shell",
-    "ComputerNetwork/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
-    "ComputerNetwork/2.1HTTP基本.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
-    "linux/2.Linux用户和权限.md",
-    "Projects/flask/1.flask.md",
     "assets/Pasted image 20230821165307.png",
-    "assets/Pasted image 20230821165120.png",
-    "linux/Linux命令.canvas",
-    "Projects/flask/0.安装和部署.md",
-    "Projects/flask/1.安装和部署.md",
-    "codes/python libs.md",
-    "codes/数据分析.md",
-    "alogs/1.环境搭建.md",
     "Projects/flask",
     "Projects",
     "alogs/newcode",
-    "OS/canvas",
-    "ComputerNetwork",
-    "linux",
-    "alogs/leetcode"
+    "OS/canvas"
   ]
 }
