@@ -39,17 +39,35 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "OS/canvas/5.1同步与资源共享.canvas",
+                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
                 "viewState": {
-                  "x": -1134.333147808764,
-                  "y": -849.6235620090046,
-                  "zoom": -0.6424699803752256
+                  "x": 415.0126676043294,
+                  "y": 138.88339935436392,
+                  "zoom": -1.551174187264873
                 }
               }
             }
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "ef1557adf27b8ce2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e9add465f640a34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerNetwork/1.1概览.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/canvas/5.1同步与资源共享.canvas"
+                "file": "ComputerNetwork/1.1TCP-IP概览.canvas"
               }
             }
           },
@@ -177,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/canvas/5.1同步与资源共享.canvas",
+                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/canvas/5.1同步与资源共享.canvas",
+                "file": "ComputerNetwork/1.1TCP-IP概览.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,22 +236,16 @@
   },
   "active": "26178a5919f5c07b",
   "lastOpenFiles": [
-    "OS/5.同步与资源共享.md",
-    "OS/4.调度.md",
-    "OS/3.线程.md",
-    "OS/2.进程.md",
-    "OS/1.操作系统的概念.md",
-    "ComputerNetwork/2.1HTTP基本.canvas",
-    "ComputerNetwork/1.2访问网站的全过程.canvas",
+    "ComputerNetwork/1.1概览.md",
     "ComputerNetwork/1.1TCP-IP概览.canvas",
+    "ComputerNetwork/3.1TCP基础.canvas",
+    "OS/canvas/6.内存.canvas",
     "devops/未命名.canvas",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
     "devops/1.介绍.md",
     "alogs/newcode/HJ6.质数因子.md",
-    "ComputerNetwork/3.1TCP基础.canvas",
     "devops",
-    "ComputerNetwork/未命名.md",
     "assets/Pasted image 20230825113508.png",
     "assets/Pasted image 20230825105410.png",
     "ComputerNetwork/2.3HTTP1.1优化.canvas",
@@ -259,6 +271,7 @@
     "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
+    "ComputerNetwork/2.1HTTP基本.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
     "linux/2.Linux用户和权限.md",
@@ -267,6 +280,10 @@
     "assets/Pasted image 20230821165120.png",
     "linux/Linux命令.canvas",
     "Projects/flask/0.安装和部署.md",
+    "Projects/flask/1.安装和部署.md",
+    "codes/python libs.md",
+    "codes/数据分析.md",
+    "alogs/1.环境搭建.md",
     "Projects/flask",
     "Projects",
     "alogs/newcode",
