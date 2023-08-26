@@ -39,11 +39,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "devops/未命名.canvas",
+                "file": "OS/canvas/5.1同步与资源共享.canvas",
                 "viewState": {
-                  "x": 1511.2521601115336,
-                  "y": 1862.6538473777844,
-                  "zoom": -1.3333333333333333
+                  "x": -1134.333147808764,
+                  "y": -849.6235620090046,
+                  "zoom": -0.6424699803752256
                 }
               }
             }
@@ -69,7 +69,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devops/未命名.canvas"
+                "file": "OS/canvas/5.1同步与资源共享.canvas"
               }
             }
           },
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -178,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devops/未命名.canvas",
+                "file": "OS/canvas/5.1同步与资源共享.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devops/未命名.canvas",
+                "file": "OS/canvas/5.1同步与资源共享.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,10 +218,18 @@
   },
   "active": "26178a5919f5c07b",
   "lastOpenFiles": [
+    "OS/5.同步与资源共享.md",
+    "OS/4.调度.md",
+    "OS/3.线程.md",
+    "OS/2.进程.md",
+    "OS/1.操作系统的概念.md",
+    "ComputerNetwork/2.1HTTP基本.canvas",
+    "ComputerNetwork/1.2访问网站的全过程.canvas",
+    "ComputerNetwork/1.1TCP-IP概览.canvas",
+    "devops/未命名.canvas",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
     "devops/1.介绍.md",
-    "devops/未命名.canvas",
     "alogs/newcode/HJ6.质数因子.md",
     "ComputerNetwork/3.1TCP基础.canvas",
     "devops",
@@ -252,24 +259,16 @@
     "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
-    "ComputerNetwork/2.1HTTP基本.canvas",
     "OS/7.文件系统.md",
     "codes/pandas.md",
     "linux/2.Linux用户和权限.md",
     "Projects/flask/1.flask.md",
     "assets/Pasted image 20230821165307.png",
     "assets/Pasted image 20230821165120.png",
-    "assets/Pasted image 20230821163607.png",
     "linux/Linux命令.canvas",
     "Projects/flask/0.安装和部署.md",
-    "Projects/flask/1.安装和部署.md",
-    "codes/python libs.md",
-    "codes/数据分析.md",
-    "alogs/1.环境搭建.md",
     "Projects/flask",
     "Projects",
-    "ComputerNetwork/未命名 1.canvas",
-    "未命名 1.canvas",
     "alogs/newcode",
     "OS/canvas",
     "ComputerNetwork",
