@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/2.http_interview.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/2.http_interview.md"
+                "file": "ComputerNetwork/4.ip_base.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/2.http_interview.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/2.http_interview.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,17 +186,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e9add465f640a34",
+  "active": "3adf43047ab67b62",
   "lastOpenFiles": [
+    "1.tcp_ip_model.pdf",
+    "光纤技术简介.docx",
+    "4.ip_base.pdf",
+    "3.tcp_interview.pdf",
+    "2.http_interview.pdf",
+    "ComputerNetwork/4.ip_base.docx",
     "ComputerNetwork/1.tcp_ip_model.md",
+    "ComputerNetwork/4.ip_base.md",
+    "ComputerNetwork/3.tcp_interview.md",
+    "ComputerNetwork/3.tcp_interview.docx",
+    "ComputerNetwork/2.http_interview.md",
+    "ComputerNetwork/2.http_interview.docx",
     "ComputerNetwork/1.tcp_ip_model.docx",
     "ComputerNetwork/1.tcp_ip_model.html",
-    "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/mine",
     "ComputerNetwork/mine/1.1概览.md",
-    "ComputerNetwork/3.tcp_interview.md",
-    "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
     "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
@@ -214,14 +222,12 @@
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
     "alogs/newcode/HJ6.质数因子.md",
-    "devops",
     "assets/Pasted image 20230825113508.png",
     "assets/Pasted image 20230825105410.png",
     "ComputerNetwork/3.1TCP握手.md",
     "assets/Pasted image 20230825105009.png",
     "alogs/7.二叉树.md",
     "slbs/QA.md",
-    "slbs/QA.html",
     "slbs/面经.md",
     "alogs/10.动态规划.md",
     "alogs/newcode/HJ24合唱队.md",
@@ -232,16 +238,11 @@
     "assets/Pasted image 20230824095114.png",
     "linux&shell/3.Linux实用技术.md",
     "linux&shell/2.Linux用户和权限.md",
-    "linux&shell",
     "ComputerNetwork/2.4HTTPS优化.canvas",
     "codes/python_plus.md",
     "linux/3.Linux实用技术.md",
     "OS/7.文件系统.md",
     "codes/pandas.md",
-    "assets/Pasted image 20230821165307.png",
-    "Projects/flask",
-    "Projects",
-    "alogs/newcode",
-    "OS/canvas"
+    "assets/Pasted image 20230821165307.png"
   ]
 }
