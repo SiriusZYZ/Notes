@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/python_plus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f03ebbd5714cc2d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "codes/python_plus.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/python_plus.md"
+                "file": "ComputerNetwork/4.ip_base.md"
               }
             }
           },
@@ -72,7 +59,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e4ab87492e97656a",
@@ -159,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/python_plus.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/python_plus.md",
+                "file": "ComputerNetwork/4.ip_base.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,9 +186,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f03ebbd5714cc2d",
+  "active": "3adf43047ab67b62",
   "lastOpenFiles": [
-    "ComputerNetwork/4.ip_base.md",
+    "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
     "4.ip_base.pdf",
@@ -208,6 +196,7 @@
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
     "ComputerNetwork/1.tcp_ip_model.md",
+    "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/3.tcp_interview.docx",
     "ComputerNetwork/2.http_interview.md",
