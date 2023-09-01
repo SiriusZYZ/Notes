@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "aa84965d5cc204fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ed3a67e97d521ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99e7a927284bb902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerNetwork/3.tcp_interview.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d25fe61ba3654866",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "dfebcec2f00ec324",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cc337d61feb903c4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "52c4443fc4e8f352",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "6fd5b4d2e98e2e1b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "right": {
+    "id": "b81e19f4baff6169",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ef1bebf9ae0a1de4",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "ComputerNetwork/3.tcp_interview.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d615634679983541",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "ComputerNetwork/3.tcp_interview.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "8221f02af326fd2f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "ComputerNetwork/3.tcp_interview.md"
+          }
+        }
+      },
+      {
+        "id": "82e73f50714965f0",
+        "type": "leaf",
+        "state": {
+          "type": "quiet-outline",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "82e73f50714965f0",
+  "lastOpenFiles": [
+    "codes/python_plus-SiriusOnHP.md",
+    "/codes/python_plus.md",
+    "/codes/python_plus-SiriusOnHP.md",
+    "ComputerNetwork/3.tcp_interview.md",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "SQL/12.索引.md",
+    "SQL/11.存储引擎.md",
+    "SQL/10.事务.md",
+    "slbs/QA.md",
+    "linux&shell/1.Linux基础命令.md",
+    "cpp/1.基本语法.md",
+    "alogs/2.链表.md",
+    "alogs/1.数组.md",
+    "alogs/算法性能分析.md",
+    "codes/python libs.md"
+  ]
+}
