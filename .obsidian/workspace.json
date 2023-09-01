@@ -15,9 +15,9 @@
               "state": {
                 "file": "linux&shell/Linux命令.canvas",
                 "viewState": {
-                  "x": 4591.815972280883,
-                  "y": 1618.5606014679513,
-                  "zoom": -1.1795544016114268
+                  "x": 3738.6996117419685,
+                  "y": 1579.2735502383234,
+                  "zoom": -0.6239988799642915
                 }
               }
             }
@@ -40,14 +40,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "SQL/10.事务.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md"
+                "file": "ComputerNetwork/3.tcp_interview.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,14 +215,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "591a38c6bd8c57fe",
+  "active": "05c347ba5bdd8a2f",
   "lastOpenFiles": [
-    "ComputerNetwork/3.tcp_interview.md",
     "linux&shell/Linux命令.canvas",
+    "SQL/10.事务.md",
+    "SQL/11.存储引擎.md",
+    "SQL/12.索引.md",
     "ComputerNetwork/4.ip_base.md",
+    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/1.tcp_ip_model.md",
-    "SQL/11.存储引擎.md",
     "linux&shell/2.Linux用户和权限.md",
     "OS/canvas/6.内存.canvas",
     "OS/6.内存和内存管理.md",
@@ -265,8 +267,6 @@
     "alogs/7.二叉树.md",
     "slbs/QA.md",
     "slbs/面经.md",
-    "alogs/10.动态规划.md",
-    "alogs/newcode/HJ24合唱队.md",
     "assets/Pasted image 20230824204151.png",
     "assets/Pasted image 20230824095531.png",
     "assets/Pasted image 20230824095114.png",
