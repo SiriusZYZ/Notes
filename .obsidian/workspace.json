@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md"
+                "file": "ComputerNetwork/3.tcp_interview.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,8 +186,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3adf43047ab67b62",
+  "active": "3e9add465f640a34",
   "lastOpenFiles": [
+    "ComputerNetwork/2.http_interview.md",
+    "SQL/11.存储引擎.md",
+    "linux&shell/Linux命令.canvas",
+    "linux&shell/2.Linux用户和权限.md",
+    "OS/canvas/6.内存.canvas",
+    "OS/6.内存和内存管理.md",
+    "OS/5.同步与资源共享.md",
+    "OS/3.线程.md",
+    "OS/2.进程.md",
+    "linux&shell/1.Linux基础命令.md",
+    "OS/1.操作系统的概念.md",
+    "ComputerNetwork/4.ip_base.md",
     "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
@@ -196,10 +208,8 @@
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
     "ComputerNetwork/1.tcp_ip_model.md",
-    "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/3.tcp_interview.docx",
-    "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/2.http_interview.docx",
     "ComputerNetwork/1.tcp_ip_model.docx",
     "ComputerNetwork/1.tcp_ip_model.html",
@@ -214,11 +224,8 @@
     "Projects/flask/1.flask.md",
     "devops/1.介绍.md",
     "devops/未命名.canvas",
-    "linux&shell/Linux命令.canvas",
     "OS/未命名.md",
     "OS/4.调度.md",
-    "linux&shell/1.Linux基础命令.md",
-    "OS/canvas/6.内存.canvas",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
     "alogs/newcode/HJ6.质数因子.md",
@@ -233,16 +240,9 @@
     "alogs/newcode/HJ24合唱队.md",
     "assets/Pasted image 20230824204151.png",
     "alogs/9.贪心算法.md",
-    "linux&shell/4.shell简介.md",
     "assets/Pasted image 20230824095531.png",
     "assets/Pasted image 20230824095114.png",
-    "linux&shell/3.Linux实用技术.md",
-    "linux&shell/2.Linux用户和权限.md",
     "ComputerNetwork/2.4HTTPS优化.canvas",
-    "codes/python_plus.md",
-    "linux/3.Linux实用技术.md",
-    "OS/7.文件系统.md",
-    "codes/pandas.md",
     "assets/Pasted image 20230821165307.png"
   ]
 }
