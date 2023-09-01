@@ -73,7 +73,7 @@
         }
       }
     ],
-    "currentTab": 3
+    "currentTab": 0
   },
   "right": {
     "id": "b81e19f4baff6169",
@@ -141,6 +141,7 @@
   },
   "active": "82e73f50714965f0",
   "lastOpenFiles": [
+    "/OS/canvas/6.内存.canvas",
     "codes/python_plus-SiriusOnHP.md",
     "/codes/python_plus.md",
     "/codes/python_plus-SiriusOnHP.md",
