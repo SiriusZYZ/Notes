@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82092e825aac0d1b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +197,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e9add465f640a34",
+  "active": "82092e825aac0d1b",
   "lastOpenFiles": [
     "ComputerNetwork/2.http_interview.md",
     "SQL/11.存储引擎.md",
