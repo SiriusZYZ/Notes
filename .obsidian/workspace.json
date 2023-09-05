@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "SQL/15.锁.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/17.运维篇.md"
+                "file": "SQL/15.锁.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "SQL/15.锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "SQL/15.锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,20 +197,25 @@
   },
   "active": "a1f60f21263525aa",
   "lastOpenFiles": [
+    "SQL/13.优化.md",
+    "SQL/14.视图、存储过程与触发器.md",
+    "SQL/12.索引.md",
+    "SQL/9.多表查询.md",
+    "SQL/5.DQL.md",
+    "SQL/17.运维篇.md",
+    "SQL/15.锁.md",
+    "OS/7.文件系统.md",
+    "codes/pandas.md",
+    "codes/python_plus.md",
     "assets/Pasted image 20230905173951.png",
     "assets/Pasted image 20230905173935.png",
     "assets/Pasted image 20230905173912.png",
     "assets/Pasted image 20230905173749.png",
     "assets/Pasted image 20230905173731.png",
     "SQL/18.主从复制.md",
-    "SQL/17.运维篇.md",
     "assets/Pasted image 20230905161614.png",
     "SQL/SQL基础篇总结.canvas",
     "SQL/16.InnoDB.md",
-    "SQL/15.锁.md",
-    "SQL/14.视图、存储过程与触发器.md",
-    "SQL/13.优化.md",
-    "SQL/12.索引.md",
     "ComputerNetwork/4.ip_base.md",
     "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
@@ -246,12 +251,7 @@
     "assets/Pasted image 20230825154106.png",
     "alogs/newcode/HJ6.质数因子.md",
     "assets/Pasted image 20230825113508.png",
-    "assets/Pasted image 20230825105410.png",
     "ComputerNetwork/3.1TCP握手.md",
-    "alogs/7.二叉树.md",
-    "slbs/QA.md",
-    "slbs/面经.md",
-    "alogs/10.动态规划.md",
-    "alogs/newcode/HJ24合唱队.md"
+    "alogs/7.二叉树.md"
   ]
 }
