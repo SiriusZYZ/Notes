@@ -4,52 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ef1557adf27b8ce2",
+        "id": "3eb357cc8cb0d7f8",
         "type": "tabs",
         "children": [
           {
-            "id": "3e9add465f640a34",
+            "id": "b6a1ef47b433c2f9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "linux&shell/Linux命令.canvas",
-                "viewState": {
-                  "x": 1005.3318417844919,
-                  "y": 1537.0461870461243,
-                  "zoom": -0.6239988799642915
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "05c347ba5bdd8a2f",
+            "id": "a1f60f21263525aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/10.事务.md",
+                "file": "SQL/18.主从复制.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "591a38c6bd8c57fe",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-                "viewState": {
-                  "x": 2087.4057844071976,
-                  "y": 953.7427958963914,
-                  "zoom": -0.8951631048849422
-                }
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,6 +40,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
+        "dimension": 67.72277227722772,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -68,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/Linux命令.canvas"
+                "file": "SQL/18.主从复制.md"
               }
             }
           },
@@ -90,6 +70,21 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e4ab87492e97656a",
+        "type": "tabs",
+        "dimension": 32.277227722772274,
+        "children": [
+          {
+            "id": "d6baa96a3e8e9e50",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +97,6 @@
       {
         "id": "bb97505b6331b20f",
         "type": "tabs",
-        "dimension": 76.79856115107914,
         "children": [
           {
             "id": "f80d04c9e5456243",
@@ -149,12 +143,20 @@
             }
           },
           {
-            "id": "bf6d80da09bcb3e2",
+            "id": "3cb57970e78e9a86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "64a2b6899552de9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
+                "file": "SQL/18.主从复制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,42 +168,18 @@
             }
           },
           {
-            "id": "43adbf8b30b87bba",
+            "id": "b2139d483208e0dc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
+                "file": "SQL/18.主从复制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ]
-      },
-      {
-        "id": "3cb3836a52d44d6e",
-        "type": "tabs",
-        "dimension": 23.201438848920862,
-        "children": [
-          {
-            "id": "d6baa96a3e8e9e50",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "3cb57970e78e9a86",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,35 +195,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e9add465f640a34",
+  "active": "a1f60f21263525aa",
   "lastOpenFiles": [
     "SQL/18.主从复制.md",
-    "SQL/18.主从.md",
-    "SQL/未命名.md",
     "SQL/17.日志.md",
     "SQL/16.InnoDB.md",
     "SQL/15.锁.md",
     "SQL/14.视图、存储过程与触发器.md",
     "SQL/13.优化.md",
-    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
-    "ComputerNetwork/2.http_interview.md",
-    "OS/2.进程.md",
-    "OS/4.调度.md",
-    "OS/canvas/6.内存.canvas",
-    "SQL/11.存储引擎.md",
     "SQL/12.索引.md",
-    "SQL/10.事务.md",
-    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/4.ip_base.md",
-    "linux&shell/Linux命令.canvas",
-    "ComputerNetwork/1.tcp_ip_model.md",
-    "linux&shell/2.Linux用户和权限.md",
-    "OS/6.内存和内存管理.md",
-    "OS/5.同步与资源共享.md",
-    "OS/3.线程.md",
-    "linux&shell/1.Linux基础命令.md",
-    "OS/1.操作系统的概念.md",
     "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
@@ -253,24 +212,43 @@
     "3.tcp_interview.pdf",
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/3.tcp_interview.docx",
+    "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/2.http_interview.docx",
     "ComputerNetwork/1.tcp_ip_model.docx",
     "ComputerNetwork/1.tcp_ip_model.html",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/mine/1.1概览.md",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
     "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "assets/1.2访问网站的全过程.png",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "Projects/flask/1.flask.md",
+    "devops/1.介绍.md",
     "devops/未命名.canvas",
+    "linux&shell/Linux命令.canvas",
+    "OS/未命名.md",
+    "OS/4.调度.md",
+    "linux&shell/1.Linux基础命令.md",
+    "OS/canvas/6.内存.canvas",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
+    "alogs/newcode/HJ6.质数因子.md",
     "assets/Pasted image 20230825113508.png",
     "assets/Pasted image 20230825105410.png",
+    "ComputerNetwork/3.1TCP握手.md",
     "assets/Pasted image 20230825105009.png",
+    "alogs/7.二叉树.md",
+    "slbs/QA.md",
+    "slbs/面经.md",
+    "alogs/10.动态规划.md",
+    "alogs/newcode/HJ24合唱队.md",
     "assets/Pasted image 20230824204151.png",
+    "alogs/9.贪心算法.md",
     "assets/Pasted image 20230824095531.png",
     "assets/Pasted image 20230824095114.png",
     "ComputerNetwork/2.4HTTPS优化.canvas",
