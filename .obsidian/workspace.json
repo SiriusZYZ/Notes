@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -28,21 +28,6 @@
                 "file": "SQL/10.事务.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "591a38c6bd8c57fe",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-                "viewState": {
-                  "x": 2087.4057844071976,
-                  "y": 953.7427958963914,
-                  "zoom": -0.8951631048849422
-                }
               }
             }
           }
@@ -65,7 +50,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/17.运维篇.md"
+                "file": "ComputerNetwork/3.tcp_interview.md"
               }
             }
           },
@@ -151,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,6 +201,10 @@
   },
   "active": "3e9add465f640a34",
   "lastOpenFiles": [
+    "SQL/10.事务.md",
+    "SQL/12.索引.md",
+    "SQL/13.优化.md",
+    "SQL/17.运维篇.md",
     "SQL/16.InnoDB.md",
     "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/mine/1.1概览.md",
@@ -223,7 +212,6 @@
     "alogs/10.动态规划.md",
     "alogs/11.排序算法.md",
     "alogs/12.图论.md",
-    "SQL/17.运维篇.md",
     "linux&shell/Linux命令.canvas",
     "assets/Pasted image 20230905173951.png",
     "assets/Pasted image 20230905173935.png",
@@ -237,7 +225,6 @@
     "SQL/17.日志.md",
     "SQL/15.锁.md",
     "SQL/14.视图、存储过程与触发器.md",
-    "SQL/13.优化.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/2.http_interview.md",
@@ -245,8 +232,6 @@
     "OS/4.调度.md",
     "OS/canvas/6.内存.canvas",
     "SQL/11.存储引擎.md",
-    "SQL/12.索引.md",
-    "SQL/10.事务.md",
     "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/1.tcp_ip_model.md",
     "linux&shell/2.Linux用户和权限.md",
