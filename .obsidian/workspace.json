@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "SQL/17.运维篇.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md"
+                "file": "SQL/17.运维篇.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "SQL/17.运维篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "SQL/17.运维篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +214,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3adf43047ab67b62",
+  "active": "3e9add465f640a34",
   "lastOpenFiles": [
+    "SQL/16.InnoDB.md",
+    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/mine/1.1概览.md",
     "alogs/9.贪心算法.md",
     "alogs/10.动态规划.md",
@@ -233,7 +235,6 @@
     "SQL/18.主从.md",
     "SQL/未命名.md",
     "SQL/17.日志.md",
-    "SQL/16.InnoDB.md",
     "SQL/15.锁.md",
     "SQL/14.视图、存储过程与触发器.md",
     "SQL/13.优化.md",
@@ -246,7 +247,6 @@
     "SQL/11.存储引擎.md",
     "SQL/12.索引.md",
     "SQL/10.事务.md",
-    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/1.tcp_ip_model.md",
     "linux&shell/2.Linux用户和权限.md",
