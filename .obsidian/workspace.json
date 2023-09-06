@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/17.运维篇.md"
+                "file": "ComputerNetwork/3.tcp_interview.md"
               }
             }
           },
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 275.5
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "ComputerNetwork/3.tcp_interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,8 +214,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e9add465f640a34",
+  "active": "3adf43047ab67b62",
   "lastOpenFiles": [
+    "ComputerNetwork/mine/1.1概览.md",
+    "alogs/9.贪心算法.md",
+    "alogs/10.动态规划.md",
+    "alogs/11.排序算法.md",
+    "alogs/12.图论.md",
+    "SQL/17.运维篇.md",
     "linux&shell/Linux命令.canvas",
     "assets/Pasted image 20230905173951.png",
     "assets/Pasted image 20230905173935.png",
@@ -223,7 +229,6 @@
     "assets/Pasted image 20230905173749.png",
     "assets/Pasted image 20230905173731.png",
     "assets/Pasted image 20230905161614.png",
-    "SQL/17.运维篇.md",
     "SQL/18.主从复制.md",
     "SQL/18.主从.md",
     "SQL/未命名.md",
@@ -247,10 +252,6 @@
     "linux&shell/2.Linux用户和权限.md",
     "OS/6.内存和内存管理.md",
     "OS/5.同步与资源共享.md",
-    "OS/3.线程.md",
-    "linux&shell/1.Linux基础命令.md",
-    "OS/1.操作系统的概念.md",
-    "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
     "4.ip_base.pdf",

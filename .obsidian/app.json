@@ -14,6 +14,6 @@
   "newFileLocation": "current",
   "spellcheckLanguages": null,
   "spellcheck": true,
-  "newLinkFormat": "relative",
+  "newLinkFormat": "absolute",
   "useMarkdownLinks": true
 }
