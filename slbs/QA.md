@@ -174,7 +174,24 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
 
 ## Tell me about the borehole acoustic evaluation project.
 
- - OK, So the project was a consignment from an state-owned oil filed company. They want a
+ - a consignment from an state-owned oil filed company. 
+ - determine the data quality of borehole acoustic instrument
+ - a team of 8 ppl
+   1. Matlab 2, which is the original implementation of the algorithms 
+   2. rest of us : Cpp
+ - Why CPP: these state-owned company wants to guarantee their software products would not contain any incontrollable foreign tech, matlab for example.
+ - We need to port every functions the Matlab crew wrote, along with the some of the Matlab built-in functions.
+ - among them, there is a function called vmd, which is the variational mode decomposition, and it has been called by more than 20 other function, which makes it vital for the whole project.
+ - Process:
+   1. At first I want to get the Matlab source code of it, but failed. 
+   2. Then i turn to the academic society, and found out that vmd was introduced in 2014 in an IEEE paper. In this paper, the authors attached the original source code of vmd in Matlab. And the script is open-source with an MIT license.  
+   3. The first thought come to my head was translating them as usual, but then i think why dont i look it up on github, see if anyone has implement it using cpp. And I did find one, the code was published by a guy called Hugo, he mentioned his implementation was somehow, slow and laggy.
+   4. So I tested that code, and found out that it took up too much memory, we were seeing an consumption of up to 4 giga bytes. which is totally unacceptable. But, still the answer is correct.
+   5. So there must be some kind of problem with the code. Maybe it doesn't free a pointer, or duplicate something repeatedly. To address the problem, I read the code very carefully (Both the original Matlab code and the Hugo's implementation) and found the problem. 
+   6. Vmd is done by iteration to minimize a certain loss function. And each iteration would takes the result of last iteration as part of the input. The result we are talking about is an array, which has the same size as the signal to be decomposed.
+   7. So if you want to save results of all the iteration for debugging, and your input is so long. That would be a huge problem. And this is the feature of the original Matlab code, and so does Hugo's code. Maybe he didn't notice that when he was porting from Matlab.
+   8. So the solution is clear and simple. As the iteration only use the result of last iteration, we only keep the last one. When the new result comes out, we override the last result. In this case, we can save a huge space, the times we save is depend on how many iteration are done in the process. And in some cases, we are seeing a reduction of memory usage by more than 100 times.
+   9. After I refactored the code, the calculation has been smoother,
 
 
 

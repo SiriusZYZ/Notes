@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/102.二叉树的层序遍历.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/102.二叉树的层序遍历.md"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -128,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -197,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/102.二叉树的层序遍历.md",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/102.二叉树的层序遍历.md",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +237,9 @@
   },
   "active": "f2baab6ec197e480",
   "lastOpenFiles": [
+    "alogs/leetcode/102.二叉树的层序遍历.md",
     "assets/Pasted image 20230907201615.png",
     "alogs/leetcode/2.两数相加.md",
-    "alogs/leetcode/102.二叉树的层序遍历.md",
     "alogs/leetcode/543.二叉树的直径.md",
     "alogs/leetcode/101.对称二叉树.md",
     "测试.md",
@@ -292,7 +291,6 @@
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "devops/未命名.canvas",
-    "linux&shell/Linux命令.canvas",
-    "assets/Pasted image 20230825154248.png"
+    "linux&shell/Linux命令.canvas"
   ]
 }
