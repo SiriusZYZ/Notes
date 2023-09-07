@@ -47,14 +47,11 @@
             "id": "25371a1bf82dd403",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
-                "viewState": {
-                  "x": 553.3318991011835,
-                  "y": 1481.4451780500506,
-                  "zoom": -1.1938141894211927
-                }
+                "file": "SQL/17.运维篇.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -78,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas"
+                "file": "SQL/17.运维篇.md"
               }
             }
           },
@@ -103,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -164,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "SQL/17.运维篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "SQL/17.运维篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,10 +228,10 @@
   },
   "active": "25371a1bf82dd403",
   "lastOpenFiles": [
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/2.http_interview.md",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "linux&shell/3.Linux实用技术.md",
     "OS/3.线程.md",
     "SQL/17.运维篇.md",
