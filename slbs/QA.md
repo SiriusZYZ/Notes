@@ -172,13 +172,16 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
   4. 
 # Project Experience
 
-## details 
+## Tell me about the borehole acoustic evaluation project.
+
+ - OK, So the project was a consignment from an state-owned oil filed company. They want a
+
 
 
 # Highlights
 ## Python and C++
 
-> What are the differences betweeen Cpp and Python?
+> What are the differences between Cpp and Python?
 > 1. **Syntax**: **Static Type vs Dynamic Type**. i would say Python is more flexible, and could do more in generic programming.
 > 2. **Performance**: **Python is based on C**. The scripts need to be translated to C and then compile. Cpp can just compile and run. So Cpp and C is relatively faster than Python.
 > 3. **Memory Management:** **manual or automatic** 

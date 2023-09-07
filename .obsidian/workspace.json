@@ -4,59 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ef1557adf27b8ce2",
+        "id": "3eb357cc8cb0d7f8",
         "type": "tabs",
         "children": [
           {
-            "id": "3e9add465f640a34",
+            "id": "b6a1ef47b433c2f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "05c347ba5bdd8a2f",
+            "id": "a1f60f21263525aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "241a5dfe857ca52a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25371a1bf82dd403",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,6 +40,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
+        "dimension": 67.72277227722772,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -75,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/17.运维篇.md"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -97,6 +70,21 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "e4ab87492e97656a",
+        "type": "tabs",
+        "dimension": 32.277227722772274,
+        "children": [
+          {
+            "id": "d6baa96a3e8e9e50",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,7 +98,6 @@
       {
         "id": "bb97505b6331b20f",
         "type": "tabs",
-        "dimension": 76.79856115107914,
         "children": [
           {
             "id": "f80d04c9e5456243",
@@ -136,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#leetcode100",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,12 +144,20 @@
             }
           },
           {
-            "id": "bf6d80da09bcb3e2",
+            "id": "3cb57970e78e9a86",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "64a2b6899552de9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,47 +169,23 @@
             }
           },
           {
-            "id": "43adbf8b30b87bba",
+            "id": "b2139d483208e0dc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/17.运维篇.md",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
-      },
-      {
-        "id": "3cb3836a52d44d6e",
-        "type": "tabs",
-        "dimension": 23.201438848920862,
-        "children": [
-          {
-            "id": "d6baa96a3e8e9e50",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "3cb57970e78e9a86",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,62 +197,63 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "25371a1bf82dd403",
+  "active": "3cb57970e78e9a86",
   "lastOpenFiles": [
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
-    "ComputerNetwork/4.ip_base.md",
-    "ComputerNetwork/3.tcp_interview.md",
-    "ComputerNetwork/2.http_interview.md",
-    "linux&shell/3.Linux实用技术.md",
-    "OS/3.线程.md",
+    "slbs/面经.md",
+    "SQL/未命名.canvas",
     "SQL/17.运维篇.md",
-    "SQL/10.事务.md",
-    "alogs/leetcode/56.合并区间.md",
-    "alogs/leetcode/53.最大子数组和.md",
-    "alogs/leetcode/48.旋转图像.md",
-    "alogs/leetcode/41.缺失的第一个正数.md",
-    "alogs/leetcode/21.合并两个有序链表.md",
-    "alogs/leetcode/240.搜索二维矩阵.md",
-    "alogs/leetcode/283.移动零.md",
-    "alogs/leetcode/35.搜索插入位置.md",
-    "alogs/leetcode/3.无重复字符的最长子串.md",
-    "alogs/leetcode/189.轮转数组.md",
-    "alogs/leetcode/560.和为k的子数组.md",
-    "alogs/leetcode/739.每日温度.md",
-    "alogs/leetcode/239.滑动窗口的最大值.md",
-    "alogs/leetcode/155.最小栈.md",
-    "alogs/leetcode/146.LRU缓存.md",
-    "alogs/leetcode/84.柱状图中最大的矩形.md",
-    "alogs/leetcode/42.接雨水.md",
-    "alogs/leetcode/15.三数之和.md",
-    "OS/canvas/6.内存.canvas",
-    "linux&shell/Linux命令.canvas",
+    "SQL/16.InnoDB.md",
+    "SQL/15.锁.md",
+    "SQL/14.视图、存储过程与触发器.md",
+    "SQL/13.优化.md",
+    "SQL/12.索引.md",
+    "SQL/9.多表查询.md",
+    "SQL/5.DQL.md",
+    "OS/7.文件系统.md",
+    "codes/pandas.md",
+    "codes/python_plus.md",
     "assets/Pasted image 20230905173951.png",
     "assets/Pasted image 20230905173935.png",
     "assets/Pasted image 20230905173912.png",
     "assets/Pasted image 20230905173749.png",
     "assets/Pasted image 20230905173731.png",
+    "SQL/18.主从复制.md",
     "assets/Pasted image 20230905161614.png",
-    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+    "SQL/SQL基础篇总结.canvas",
+    "ComputerNetwork/4.ip_base.md",
+    "codes/python_plus-SiriusOnHP.md",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
     "4.ip_base.pdf",
     "3.tcp_interview.pdf",
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/3.tcp_interview.docx",
+    "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/2.http_interview.docx",
     "ComputerNetwork/1.tcp_ip_model.docx",
     "ComputerNetwork/1.tcp_ip_model.html",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "ComputerNetwork/mine/1.1概览.md",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
     "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "assets/1.2访问网站的全过程.png",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
+    "Projects/flask/1.flask.md",
+    "devops/1.介绍.md",
     "devops/未命名.canvas",
+    "linux&shell/Linux命令.canvas",
+    "OS/未命名.md",
+    "OS/4.调度.md",
+    "linux&shell/1.Linux基础命令.md",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png",
+    "alogs/newcode/HJ6.质数因子.md",
     "assets/Pasted image 20230825113508.png",
-    "ComputerNetwork/2.4HTTPS优化.canvas"
+    "ComputerNetwork/3.1TCP握手.md"
   ]
 }
