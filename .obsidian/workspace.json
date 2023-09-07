@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2d3176984e010a9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/104.二叉树的最大深度.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/2.两数相加.md"
+                "file": "alogs/leetcode/104.二叉树的最大深度.md"
               }
             }
           },
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/2.两数相加.md",
+                "file": "alogs/leetcode/104.二叉树的最大深度.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/2.两数相加.md",
+                "file": "alogs/leetcode/104.二叉树的最大深度.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,11 +200,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a1f60f21263525aa",
+  "active": "2d3176984e010a9e",
   "lastOpenFiles": [
+    "assets/Pasted image 20230907162205.png",
+    "alogs/leetcode/2.两数相加.md",
+    "alogs/leetcode/104.二叉树的最大深度.md",
     "alogs/leetcode/94.二叉树中序遍历.md",
     "assets/Pasted image 20230907161359.png",
-    "alogs/leetcode/2.两数相加.md",
     "slbs/QA.md",
     "slbs/面经.md",
     "SQL/未命名.canvas",
@@ -241,7 +256,6 @@
     "devops/1.介绍.md",
     "devops/未命名.canvas",
     "linux&shell/Linux命令.canvas",
-    "OS/未命名.md",
     "assets/Pasted image 20230825154248.png",
     "assets/Pasted image 20230825154106.png"
   ]
