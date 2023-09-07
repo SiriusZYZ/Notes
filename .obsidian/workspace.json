@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4920a4b5073c3ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/101.对称二叉树.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/226.翻转二叉树.md"
+                "file": "alogs/leetcode/101.对称二叉树.md"
               }
             }
           },
@@ -161,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/226.翻转二叉树.md",
+                "file": "alogs/leetcode/101.对称二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/226.翻转二叉树.md",
+                "file": "alogs/leetcode/101.对称二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,10 +212,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5305180eff00473e",
+  "active": "f4920a4b5073c3ad",
   "lastOpenFiles": [
-    "alogs/leetcode/104.二叉树的最大深度.md",
     "alogs/leetcode/226.翻转二叉树.md",
+    "alogs/leetcode/101.对称二叉树.md",
+    "alogs/leetcode/104.二叉树的最大深度.md",
     "assets/Pasted image 20230907162205.png",
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/94.二叉树中序遍历.md",
@@ -254,7 +267,6 @@
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "Projects/flask/1.flask.md",
-    "devops/1.介绍.md",
     "devops/未命名.canvas",
     "linux&shell/Linux命令.canvas",
     "assets/Pasted image 20230825154248.png"
