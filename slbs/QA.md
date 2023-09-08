@@ -199,11 +199,11 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
 # Highlights
 ## Python and C++
 
-> What are the differences between Cpp and Python?
-> 1. **Syntax**: **Static Type vs Dynamic Type**. i would say Python is more flexible, and could do more in generic programming.
-> 2. **Performance**: **Python is based on C**. The scripts need to be translated to C and then compile. Cpp can just compile and run. So Cpp and C is relatively faster than Python.
+> What are the differences between cpp and Python?
+> 1. **Syntax**: **Static Type vs Dynamic Type**. I would say Python is more flexible, and could do more in generic programming.
+> 2. **Performance**: **Python is based on C**. The scripts need to be translated to C and then compile. cpp can just compile and run. So cpp and C is relatively faster than Python.
 > 3. **Memory Management:** **manual or automatic** 
->    - Cpp manual management: manually allocate and release 
+>    - cpp manual management: manually allocate and release 
 >    - Python automatic management
 > 4. **Community:** Both have active community.
 > personally, I think Python is more suitable for validate your idea. We have a vast variety of libraries to use, and you don't need to build an existing wheel. But when speaking of implementation, Cpp should be a better option. We want the code running in relatively high speed.
