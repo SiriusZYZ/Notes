@@ -191,7 +191,8 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
    6. Vmd is done by iteration to minimize a certain loss function. And each iteration would takes the result of last iteration as part of the input. The result we are talking about is an array, which has the same size as the signal to be decomposed.
    7. So if you want to save results of all the iteration for debugging, and your input is so long. That would be a huge problem. And this is the feature of the original Matlab code, and so does Hugo's code. Maybe he didn't notice that when he was porting from Matlab.
    8. So the solution is clear and simple. As the iteration only use the result of last iteration, we only keep the last one. When the new result comes out, we override the last result. By doing this, we can save a huge space, the times we save is depend on how many iteration are done in the process. And in some cases, we are seeing a reduction of memory usage by more than 100 times.
-   9. After I refactored the code, the problem was solved.
+   9. After I refactored the code, the problem was solved. And I also publish it on github if someone need it.
+
 
 
 
@@ -229,7 +230,9 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
 
 # Questions for slb
 
-- what is the daily routine of this job ?
-- how will my performance be evaluated?
+- In the intern day, I learned that each freshman should attend an Association Program, and then would be assigned to different positions. Can you tell me more about this process? Especially on how does slb decide which person would go to which department.
+- will there be a mentor to guide you through the program and the following job?
+- what is the daily routine of different kind of job, backend for example?
+- how will ones' performance be evaluated?
 - How does slb promote its employees? 
-- 
+- how long is the probation?
