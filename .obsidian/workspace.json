@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/98.验证二叉搜索树.md",
+                "file": "alogs/7.二叉树.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/98.验证二叉搜索树.md"
+                "file": "alogs/7.二叉树.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/98.验证二叉搜索树.md",
+                "file": "alogs/7.二叉树.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/98.验证二叉搜索树.md",
+                "file": "alogs/7.二叉树.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,8 +213,8 @@
   },
   "active": "f9b8256b350a48e6",
   "lastOpenFiles": [
-    "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/98.验证二叉搜索树.md",
+    "alogs/leetcode/2.两数相加.md",
     "alogs/7.二叉树.md",
     "alogs/leetcode/108.将有序数组转换为二叉搜索树.md",
     "assets/Pasted image 20230911160121.png",
