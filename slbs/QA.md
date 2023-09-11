@@ -100,10 +100,7 @@
   4. how many years () on this position
 - top 2-3 achievements related to the job you are applying for
 
-> my name is John, I have been a data analysts for five years in company A and company B. I have some background in data science and information sys in University XXX. During my career, I've done some incredible stuff. For Example, in A company I .... and resulted in ... 
-> 
 
-> i am John, a recent graduate from the University XXX. I have just graduate from collage as a master of XXX major. I know my way around my job and have multiple opportunities to put my knowledge into Chemistry research. I am passionate and working extremely responsible .  
 
 
 # self-introduction
@@ -172,7 +169,7 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
   4. 
 # Project Experience
 
-## Tell me about the borehole acoustic evaluation project.
+## Borehole acoustic evaluation project.
 
  - a consignment from an state-owned oil filed company. 
  - determine the data quality of borehole acoustic instrument
@@ -193,7 +190,7 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
    8. So the solution is clear and simple. As the iteration only use the result of last iteration, we only keep the last one. When the new result comes out, we override the last result. By doing this, we can save a huge space, the times we save is depend on how many iteration are done in the process. And in some cases, we are seeing a reduction of memory usage by more than 100 times.
    9. After I refactored the code, the problem was solved. And I also publish it on github if someone need it.
 
-
+## 
 
 
 # Highlights
