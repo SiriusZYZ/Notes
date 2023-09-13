@@ -198,6 +198,8 @@ That's all of my introduction.
 
 - vawt(): variable area wiggle trace 变面积摆动轨迹图
 - masw(): 
+- disba : 第三方库，用于输入速度模型计算频散曲线，输入包括p波速度和s波速度，层厚和密度
+- genetic algorithm: inversion
 
 # Highlights
 ## Python and C++
