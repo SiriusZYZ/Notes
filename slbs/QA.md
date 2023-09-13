@@ -190,8 +190,10 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
    8. So the solution is clear and simple. As the iteration only use the result of last iteration, we only keep the last one. When the new result comes out, we override the last result. By doing this, we can save a huge space, the times we save is depend on how many iteration are done in the process. And in some cases, we are seeing a reduction of memory usage by more than 100 times.
    9. After I refactored the code, the problem was solved. And I also publish it on github if someone need it.
 
-## 
+## Seismic Data
 
+- vawt(): variable area wiggle trace 变面积摆动轨迹图
+- 
 
 # Highlights
 ## Python and C++
