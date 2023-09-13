@@ -105,8 +105,12 @@
 
 # self-introduction
 
-My name is Zhou Yinze. I am a currently studying as a postgraduate student in the University of Electronic Science and Technology of China , and I am about to graduate in 2024. My major is electronic information, and my research direction is the application of distributed fiber optic sensing in oilfield monitoring and production optimization.  There are multiple opportunities for me to combine petroleum science and information technology during my years of postgraduate study. 
-
+Hi, interviewer! It's my pleasure to take part in today's interview.
+My name is Zhou Yinze. I am currently studying as a postgraduate student in the University of Electronic Science and Technology of China , and I am about to graduate in twenty-twenty-four. 
+My major is electronic information, which is a pretty much generalized. What I'm actually studying is the application of distributed fiber optic sensing in oilfield monitoring and production optimization.   
+During these year of study, I have many opportunities to combine petroleum science and information technology in my research, including parameters adjusting, modeling, visualization, inversion, and so on.
+I knew slb when I was the T.A. of my supervisor lecture, and joined the intern day event two weeks ago. And found myself very interested in the position of software engineering. 
+That's all of my introduction.
 # SLB background
 
 ## What do you know about SLB?
@@ -193,7 +197,7 @@ My name is Zhou Yinze. I am a currently studying as a postgraduate student in th
 ## Seismic Data
 
 - vawt(): variable area wiggle trace 变面积摆动轨迹图
-- 
+- masw(): 
 
 # Highlights
 ## Python and C++
