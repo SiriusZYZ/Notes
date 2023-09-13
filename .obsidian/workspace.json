@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "7d2b10aaecc3bf81",
+            "id": "5a317664ab019ec5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/169.多数元素.md",
+                "file": "alogs/leetcode/136.只出现一次的数字.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/169.多数元素.md"
+                "file": "alogs/leetcode/136.只出现一次的数字.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/169.多数元素.md",
+                "file": "alogs/leetcode/136.只出现一次的数字.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,14 +177,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/169.多数元素.md",
+                "file": "alogs/leetcode/136.只出现一次的数字.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,9 +199,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f0b298282cae7b61",
+  "active": "5a317664ab019ec5",
   "lastOpenFiles": [
     "alogs/leetcode/2.两数相加.md",
+    "alogs/leetcode/136.只出现一次的数字.md",
     "alogs/leetcode/169.多数元素.md",
     "alogs/leetcode/114.二叉树展开为链表.md",
     "assets/Pasted image 20230912153234.png",
@@ -238,7 +238,6 @@
     "SQL/17.运维篇.md",
     "SQL/16.InnoDB.md",
     "SQL/15.锁.md",
-    "SQL/14.视图、存储过程与触发器.md",
     "SQL/SQL基础篇总结.canvas",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
