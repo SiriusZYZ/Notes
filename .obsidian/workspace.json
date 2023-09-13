@@ -25,19 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/136.只出现一次的数字.md",
+                "file": "alogs/leetcode/2.两数相加.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ab7537c66b933ec5",
+            "id": "8dfa1ac949fec22a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/75.颜色分类.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/75.颜色分类.md"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#不熟",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/75.颜色分类.md",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/75.颜色分类.md",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,11 +211,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab7537c66b933ec5",
+  "active": "8dfa1ac949fec22a",
   "lastOpenFiles": [
-    "alogs/leetcode/136.只出现一次的数字.md",
-    "alogs/leetcode/75.颜色分类.md",
+    "slbs/面经.md",
+    "alogs/leetcode/118.杨辉三角.md",
+    "assets/Pasted image 20230913155532.png",
     "alogs/leetcode/2.两数相加.md",
+    "alogs/leetcode/136.只出现一次的数字.md",
+    "alogs/leetcode/206.反转链表.md",
+    "alogs/leetcode/15.三数之和.md",
+    "alogs/leetcode/75.颜色分类.md",
     "alogs/leetcode/169.多数元素.md",
     "alogs/leetcode/114.二叉树展开为链表.md",
     "assets/Pasted image 20230912153234.png",
@@ -233,7 +238,6 @@
     "alogs/leetcode/108.将有序数组转换为二叉搜索树.md",
     "assets/Pasted image 20230911160121.png",
     "slbs/QA.md",
-    "slbs/面经.md",
     "alogs/leetcode/17.电话号码的字母组合.md",
     "alogs/leetcode/78.子集.md",
     "assets/Pasted image 20230908113325.png",
@@ -244,12 +248,7 @@
     "alogs/leetcode/101.对称二叉树.md",
     "测试.md",
     "alogs/leetcode/226.翻转二叉树.md",
-    "alogs/leetcode/104.二叉树的最大深度.md",
-    "assets/Pasted image 20230907162205.png",
-    "alogs/leetcode/94.二叉树中序遍历.md",
     "SQL/未命名.canvas",
-    "SQL/17.运维篇.md",
-    "SQL/16.InnoDB.md",
     "SQL/SQL基础篇总结.canvas",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
