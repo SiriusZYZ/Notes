@@ -197,13 +197,24 @@ That's all of my introduction.
 ## Seismic Data
 
 - vawt(): variable area wiggle trace 变面积摆动轨迹图
-- masw(): multi-channel analysis surface wave
 
-假设面波信号为$f(x, t) = cos(\omega_0 t -k_0x) = cos(\omega_0 (t-k_0/\omega_0 x))$
+### MASW多道面波分析
+- multi-channel analysis surface wave
+假设面波信号为
+$$\begin{align} f(x, t) & = cos(\omega_0 t -k_0x) \\& = cos\left[\omega_0 (t-k_0/\omega_0 x)\right]\\ &=cos\left[\omega_0(t-1/c_0 x)\right] \end{align}$$
 对面波信号做傅里叶变化：
-$$F(x, \omega)= \pi[\delta(\omega-\omega_0) + \delta(\omega+\omega_0)]e^{-j\frac{k_0}{\omega_0}x}$$
+$$F(x, \omega)= \pi[\delta(\omega-\omega_0) + \delta(\omega+\omega_0)]e^{-j\frac{1}{c_0}x}$$
 求相位信息:
-$$P(x, \omega) = e^{-j\frac{k_0}{\omega_0}x}$$
+$$P(x, \omega) = e^{-j\frac{1}{c_0}x}$$
+我们进行给定一个面波速度$c$ 进行扫描，将其造成的时延放到$P(x, \omega)$ 相位信息中
+$$\begin{align}P_x(c, \omega) 
+&= P(x, \omega) \times e^{j\frac{1}{c}x} \\
+&= e^{-j \left(\frac{1}{c_0} - \frac{1}{c}\right)x}
+\end{align}$$
+在多道信号中，假设$x$ 序列为$\{x_1, ... x_n\}$， 如果我们对所有的序列进行扫描，可以得到，求和后取其幅值:
+$$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
+&= \left|\sum^n_{i=0} e^{-j \left(\frac{1}{c_0} - \frac{1}{c}\right)x_i}\right| \end{align}$$
+易知$\left(\frac{1}{c_0} - \frac{1}{c}\right) \to 0$ 时，$MASW(c)$ 取得最大值。通过选取不同的c来计算MASW可，求得一极值可以得到某一面波速度。
 
 
 - disba : 第三方库，用于输入速度模型计算频散曲线，输入包括p波速度和s波速度，层厚和密度
