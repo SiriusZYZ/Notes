@@ -196,10 +196,19 @@ That's all of my introduction.
 
 ## Seismic Data
 ### P波S波
-- P波(Pressure Wave) 即压缩波，即波和传播方向一致
-- S波(Sheer Wave) 即剪切波，即波和传播
-- 
 
+
+|        | P波                          | S波                          |
+| ------ | ---------------------------- | ---------------------------- |
+| 中文名 | 纵波                         | 横波                         |
+| 英文名 | Pressure Wave                | Sheer Wave                   |
+| 方向   | 粒子震动方向与波传播方向一致 | 粒子震动方向与波传播方向垂直 |
+| 速度   | 更快                         | 更慢                         |
+| 介质   | 固液气                       | 固体                             |
+- P波
+![](assets/164b4fc94546ffc46ba1fb3b42808000.gif)
+- S波:
+![](assets/a96a9389ef5d54b94dd963612aa8784d.gif)
 
 - vawt(): variable area wiggle trace 变面积摆动轨迹图
 
@@ -222,8 +231,12 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 &= \left|\sum^n_{i=0} e^{-j \left(\frac{1}{c_0} - \frac{1}{c}\right)x_i}\right| \end{align}$$
 易知$\left(\frac{1}{c_0} - \frac{1}{c}\right) \to 0$ 时，$MASW(c)$ 取得最大值。通过选取不同的c来计算MASW可，求得一极值可以得到某一面波速度。
 
+## 频散曲线正演
 
 - disba : 第三方库，用于输入速度模型计算频散曲线，输入包括p波速度和s波速度，层厚和密度
+
+### GA遗传算法
+
 - genetic algorithm: inversion
 
 # Highlights
