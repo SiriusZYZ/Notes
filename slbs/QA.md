@@ -205,7 +205,8 @@ $$\begin{align} f(x, t) & = cos(\omega_0 t -k_0x) \\& = cos\left[\omega_0 (t-k_0
 对面波信号做傅里叶变化：
 $$F(x, \omega)= \pi[\delta(\omega-\omega_0) + \delta(\omega+\omega_0)]e^{-j\frac{1}{c_0}x}$$
 求相位信息:
-$$P(x, \omega) = e^{-j\frac{1}{c_0}x}$$
+$$\begin{align}P(x, \omega) &= \frac{F(x, \omega)}{\left|F(x, \omega) \right|} \\
+&= e^{-j\frac{1}{c_0}x} \end{align}$$
 我们进行给定一个面波速度$c$ 进行扫描，将其造成的时延放到$P(x, \omega)$ 相位信息中
 $$\begin{align}P_x(c, \omega) 
 &= P(x, \omega) \times e^{j\frac{1}{c}x} \\
