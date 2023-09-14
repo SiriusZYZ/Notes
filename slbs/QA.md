@@ -195,6 +195,11 @@ That's all of my introduction.
    9. After I refactored the code, the problem was solved. And I also publish it on github if someone need it.
 
 ## Seismic Data
+### P波S波
+- P波(Pressure Wave) 即压缩波，即波和传播方向一致
+- S波(Sheer Wave) 即剪切波，即波和传播
+- 
+
 
 - vawt(): variable area wiggle trace 变面积摆动轨迹图
 
