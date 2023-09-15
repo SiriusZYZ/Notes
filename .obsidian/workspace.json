@@ -8,43 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0129663565cfec62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/2.两数相加.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a317664ab019ec5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/2.两数相加.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8dfa1ac949fec22a",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "viewState": {
+                  "x": 906.6633785648412,
+                  "y": 485.30173955438,
+                  "zoom": -0.4313538020218956
+                }
+              }
+            }
+          },
+          {
+            "id": "b47dab3ae5aed2d4",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "SQL/17.运维篇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "866915a0de7c60ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +66,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md"
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas"
               }
             }
           },
@@ -172,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/3.tcp_interview.md",
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,11 +225,18 @@
   },
   "active": "8dfa1ac949fec22a",
   "lastOpenFiles": [
+    "slbs/QA.md",
+    "SQL/17.运维篇.md",
+    "SQL/16.InnoDB.md",
+    "SQL/12.索引.md",
+    "SQL/11.存储引擎.md",
+    "SQL/13.优化.md",
+    "SQL/14.视图、存储过程与触发器.md",
+    "SQL/15.锁.md",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-    "ComputerNetwork/3.tcp_interview.md",
     "ComputerNetwork/2.http_interview.md",
-    "slbs/QA.md",
+    "ComputerNetwork/3.tcp_interview.md",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
     "assets/a96a9389ef5d54b94dd963612aa8784d.gif",
     "assets/Pasted image 20230914161502.png",
@@ -255,12 +264,6 @@
     "alogs/leetcode/230.二叉搜索树中第k小的元素.md",
     "assets/Pasted image 20230911170718.png",
     "assets/Pasted image 20230911170644.png",
-    "alogs/leetcode/98.验证二叉搜索树.md",
-    "alogs/leetcode/108.将有序数组转换为二叉搜索树.md",
-    "alogs/leetcode/17.电话号码的字母组合.md",
-    "alogs/leetcode/78.子集.md",
-    "alogs/leetcode/],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3.md",
-    "alogs/leetcode/102.二叉树的层序遍历.md",
     "SQL/未命名.canvas",
     "SQL/SQL基础篇总结.canvas",
     "1.tcp_ip_model.pdf",

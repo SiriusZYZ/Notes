@@ -107,9 +107,9 @@
 
 Hi, interviewer! It's my pleasure to take part in today's interview.
 My name is Zhou Yinze. I am currently studying as a postgraduate student in the University of Electronic Science and Technology of China , and I am about to graduate in twenty-twenty-four. 
-My major is electronic information, which is a pretty much generalized. What I'm actually studying is the application of distributed fiber optic sensing in oilfield monitoring and production optimization.   
-During these year of study, I have many opportunities to combine petroleum science and information technology in my research, including parameters adjusting, modeling, visualization, inversion, and so on.
-I knew slb when I was the T.A. of my supervisor lecture, and joined the intern day event two weeks ago. And found myself very interested in the position of software engineering. 
+My major is electronic information, which is pretty much generalized. What I'm actually studying is the application of distributed fiber optic sensing in oilfield monitoring and production optimization.   
+During these year of study, I have many opportunities to combine petroleum science and information technology in my research, including parameters adjusting, modeling, visualization, inversion, and so on. I also have several project experience which are related to software development.
+I knew slb when I was the T.A. of my supervisor lecture, and joined the intern day event two weeks ago. And found myself very interested in the position of software engineering. Therefore, I am applying this position.
 That's all of my introduction.
 # SLB background
 
