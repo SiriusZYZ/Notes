@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "linux&shell/Linux命令.canvas",
                 "viewState": {
-                  "x": 906.6633785648412,
-                  "y": 485.30173955438,
-                  "zoom": -0.4313538020218956
+                  "x": 4039.5834694584105,
+                  "y": 793.7074945007995,
+                  "zoom": -0.3462211191407238
                 }
               }
             }
@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -66,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -174,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,8 +224,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8dfa1ac949fec22a",
+  "active": "866915a0de7c60ba",
   "lastOpenFiles": [
+    "linux&shell/Linux命令.canvas",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "slbs/QA.md",
     "SQL/17.运维篇.md",
     "SQL/16.InnoDB.md",
@@ -233,7 +236,6 @@
     "SQL/13.优化.md",
     "SQL/14.视图、存储过程与触发器.md",
     "SQL/15.锁.md",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/3.tcp_interview.md",
@@ -261,7 +263,6 @@
     "alogs/leetcode/113.路径总和II.md",
     "assets/Pasted image 20230911214101.png",
     "assets/Pasted image 20230911210922.png",
-    "alogs/leetcode/230.二叉搜索树中第k小的元素.md",
     "assets/Pasted image 20230911170718.png",
     "assets/Pasted image 20230911170644.png",
     "SQL/未命名.canvas",
@@ -279,7 +280,6 @@
     "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
-    "devops/未命名.canvas",
-    "linux&shell/Linux命令.canvas"
+    "devops/未命名.canvas"
   ]
 }
