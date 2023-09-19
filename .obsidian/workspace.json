@@ -8,27 +8,120 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c9140a3de748174e",
+            "id": "7c34fd6c7ccc5402",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "ComputerNetwork/IP详解.canvas",
                 "viewState": {
-                  "x": 491.67652641939026,
-                  "y": -134.84085309093183,
+                  "x": 566.8787168862893,
+                  "y": 775.0016163252258,
                   "zoom": -0.8995544910400683
                 }
               }
             }
           },
           {
-            "id": "7c34fd6c7ccc5402",
+            "id": "47dcd6ba744d8e17",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.4.13"
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "viewState": {
+                  "x": 1438.4820618480283,
+                  "y": 571.6159890857065,
+                  "zoom": -0.15357599033569758
+                }
+              }
+            }
+          },
+          {
+            "id": "937834dc19aeee67",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
+                "viewState": {
+                  "x": -334.83006445223145,
+                  "y": 1761.1869424045558,
+                  "zoom": -1.349758238681618
+                }
+              }
+            }
+          },
+          {
+            "id": "bd4544f2a58f23b6",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+                "viewState": {
+                  "x": 1162.5,
+                  "y": 880,
+                  "zoom": -1.7284964382182755
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7d9a9de4dc4e5b3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91daced25b553a4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/4.调度.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba7e79c79ab65e50",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "OS/canvas/5.1同步与资源共享.canvas",
+                "viewState": {
+                  "x": 1174.9504770092044,
+                  "y": -269.9196341754529,
+                  "zoom": -1.0869144587280903
+                }
+              }
+            }
+          },
+          {
+            "id": "220ed71bf5ebe734",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/11.存储引擎.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4623469375d06717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/15.锁.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -53,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/IP详解.canvas"
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas"
               }
             }
           },
@@ -161,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/IP详解.canvas",
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/IP详解.canvas",
+                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,10 +303,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7c34fd6c7ccc5402",
+  "active": "47dcd6ba744d8e17",
   "lastOpenFiles": [
-    "ComputerNetwork/4.ip_base.md",
+    "OS/canvas/5.1同步与资源共享.canvas",
+    "OS/5.同步与资源共享.md",
+    "OS/canvas/6.内存.canvas",
+    "OS/6.内存和内存管理.md",
+    "SQL/11.存储引擎.md",
+    "OS/4.调度.md",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "SQL/15.锁.md",
+    "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/IP详解.canvas",
+    "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/IP地址详解.md",
     "未命名.md",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
@@ -223,14 +326,10 @@
     "linux&shell/Linux命令.canvas",
     "SQL/17.运维篇.md",
     "slbs/QA.md",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "SQL/16.InnoDB.md",
     "SQL/12.索引.md",
-    "SQL/11.存储引擎.md",
     "SQL/13.优化.md",
     "SQL/14.视图、存储过程与触发器.md",
-    "SQL/15.锁.md",
-    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/2.http_interview.md",
     "ComputerNetwork/3.tcp_interview.md",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
@@ -245,9 +344,6 @@
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/136.只出现一次的数字.md",
     "alogs/leetcode/206.反转链表.md",
-    "alogs/leetcode/15.三数之和.md",
-    "alogs/leetcode/75.颜色分类.md",
-    "alogs/leetcode/169.多数元素.md",
     "assets/Pasted image 20230912153234.png",
     "assets/Pasted image 20230911215928.png",
     "assets/Pasted image 20230911214101.png",
@@ -264,8 +360,6 @@
     "ComputerNetwork/4.ip_base.docx",
     "ComputerNetwork/3.tcp_interview.docx",
     "ComputerNetwork/2.http_interview.docx",
-    "ComputerNetwork/1.tcp_ip_model.docx",
-    "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
-    "ComputerNetwork/mine/1.2访问网站的全过程.canvas"
+    "ComputerNetwork/1.tcp_ip_model.docx"
   ]
 }
