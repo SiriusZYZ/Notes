@@ -6,43 +6,34 @@
       {
         "id": "f7a1d48fcb1169e0",
         "type": "tabs",
-        "dimension": 38.72255489021956,
         "children": [
           {
-            "id": "8dfa1ac949fec22a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ComputerNetwork/4.ip_base.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "36010e9cbe2fdb59",
-        "type": "tabs",
-        "dimension": 61.27744510978044,
-        "children": [
-          {
-            "id": "b07115fabdefd096",
+            "id": "c9140a3de748174e",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerNetwork/未命名.canvas",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "viewState": {
-                  "x": 835.9223396390338,
-                  "y": 566.56550591636,
-                  "zoom": -0.8333332824707034
+                  "x": 491.67652641939026,
+                  "y": -134.84085309093183,
+                  "zoom": -0.8995544910400683
                 }
               }
             }
+          },
+          {
+            "id": "7c34fd6c7ccc5402",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +53,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/未命名.canvas"
+                "file": "ComputerNetwork/IP详解.canvas"
               }
             }
           },
@@ -102,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -171,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/未命名.canvas",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/未命名.canvas",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,8 +198,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5,
-    "collapsed": true
+    "width": 292.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,10 +210,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b07115fabdefd096",
+  "active": "7c34fd6c7ccc5402",
   "lastOpenFiles": [
     "ComputerNetwork/4.ip_base.md",
-    "ComputerNetwork/未命名.canvas",
+    "ComputerNetwork/IP详解.canvas",
     "ComputerNetwork/IP地址详解.md",
     "未命名.md",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
