@@ -6,18 +6,38 @@
       {
         "id": "f7a1d48fcb1169e0",
         "type": "tabs",
+        "dimension": 38.72255489021956,
         "children": [
           {
             "id": "8dfa1ac949fec22a",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ComputerNetwork/4.ip_base.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "36010e9cbe2fdb59",
+        "type": "tabs",
+        "dimension": 61.27744510978044,
+        "children": [
+          {
+            "id": "b07115fabdefd096",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
-                "file": "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
+                "file": "ComputerNetwork/未命名.canvas",
                 "viewState": {
-                  "x": 491.0111898235186,
-                  "y": 11.06028338855846,
-                  "zoom": -0.5207877713477924
+                  "x": 835.9223396390338,
+                  "y": 566.56550591636,
+                  "zoom": -0.8333332824707034
                 }
               }
             }
@@ -42,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/mine/1.1TCP-IP概览.canvas"
+                "file": "ComputerNetwork/未命名.canvas"
               }
             }
           },
@@ -82,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -150,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
+                "file": "ComputerNetwork/未命名.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
+                "file": "ComputerNetwork/未命名.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 292.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,8 +221,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8dfa1ac949fec22a",
+  "active": "b07115fabdefd096",
   "lastOpenFiles": [
+    "ComputerNetwork/4.ip_base.md",
+    "ComputerNetwork/未命名.canvas",
+    "ComputerNetwork/IP地址详解.md",
+    "未命名.md",
+    "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/1.1概览.md",
     "ComputerNetwork/1.tcp_ip_model.md",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
@@ -232,12 +259,8 @@
     "alogs/leetcode/15.三数之和.md",
     "alogs/leetcode/75.颜色分类.md",
     "alogs/leetcode/169.多数元素.md",
-    "alogs/leetcode/114.二叉树展开为链表.md",
     "assets/Pasted image 20230912153234.png",
-    "alogs/leetcode/199.二叉树的右视图.md",
     "assets/Pasted image 20230911215928.png",
-    "alogs/leetcode/437.路径总和III.md",
-    "alogs/7.二叉树.md",
     "assets/Pasted image 20230911214101.png",
     "assets/Pasted image 20230911210922.png",
     "assets/Pasted image 20230911170718.png",
@@ -254,8 +277,6 @@
     "ComputerNetwork/2.http_interview.docx",
     "ComputerNetwork/1.tcp_ip_model.docx",
     "ComputerNetwork/mine/2.3HTTP1.1优化.canvas",
-    "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
-    "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
-    "devops/未命名.canvas"
+    "ComputerNetwork/mine/1.2访问网站的全过程.canvas"
   ]
 }
