@@ -6,6 +6,7 @@
       {
         "id": "f7a1d48fcb1169e0",
         "type": "tabs",
+        "dimension": 27.628032345013477,
         "children": [
           {
             "id": "7c34fd6c7ccc5402",
@@ -46,7 +47,7 @@
                 "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
                 "viewState": {
                   "x": -994.7759976294345,
-                  "y": 882.8618853892342,
+                  "y": 1548.0007560533093,
                   "zoom": -0.5164249562109151
                 }
               }
@@ -73,6 +74,7 @@
       {
         "id": "7d9a9de4dc4e5b3b",
         "type": "tabs",
+        "dimension": 72.37196765498652,
         "children": [
           {
             "id": "91daced25b553a4a",
@@ -90,14 +92,11 @@
             "id": "ba7e79c79ab65e50",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "OS/canvas/5.1同步与资源共享.canvas",
-                "viewState": {
-                  "x": 1338.0888178995035,
-                  "y": -283.51419339867306,
-                  "zoom": -1.0869144587280903
-                }
+                "file": "OS/6.内存和内存管理.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas"
+                "file": "OS/6.内存和内存管理.md"
               }
             }
           },
@@ -254,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
+                "file": "OS/6.内存和内存管理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
+                "file": "OS/6.内存和内存管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -291,7 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -303,19 +302,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "937834dc19aeee67",
+  "active": "ba7e79c79ab65e50",
   "lastOpenFiles": [
+    "OS/4.调度.md",
+    "OS/2.进程.md",
+    "OS/3.线程.md",
+    "OS/1.操作系统的概念.md",
     "OS/canvas/5.1同步与资源共享.canvas",
+    "SQL/15.锁.md",
+    "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "cpp/4.1储存类详解.md",
     "OS/5.同步与资源共享.md",
     "OS/canvas/6.内存.canvas",
     "OS/6.内存和内存管理.md",
     "SQL/11.存储引擎.md",
-    "OS/4.调度.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-    "SQL/15.锁.md",
-    "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/IP详解.canvas",
     "ComputerNetwork/4.ip_base.md",
     "ComputerNetwork/IP地址详解.md",
@@ -342,8 +344,6 @@
     "slbs/面经.md",
     "alogs/leetcode/118.杨辉三角.md",
     "assets/Pasted image 20230913155532.png",
-    "alogs/leetcode/2.两数相加.md",
-    "alogs/leetcode/136.只出现一次的数字.md",
     "assets/Pasted image 20230912153234.png",
     "assets/Pasted image 20230911215928.png",
     "assets/Pasted image 20230911214101.png",
