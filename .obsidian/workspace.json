@@ -45,9 +45,9 @@
               "state": {
                 "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
                 "viewState": {
-                  "x": -334.83006445223145,
-                  "y": 1761.1869424045558,
-                  "zoom": -1.349758238681618
+                  "x": -994.7759976294345,
+                  "y": 882.8618853892342,
+                  "zoom": -0.5164249562109151
                 }
               }
             }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "7d9a9de4dc4e5b3b",
@@ -94,8 +94,8 @@
               "state": {
                 "file": "OS/canvas/5.1同步与资源共享.canvas",
                 "viewState": {
-                  "x": 1174.9504770092044,
-                  "y": -269.9196341754529,
+                  "x": 1338.0888178995035,
+                  "y": -283.51419339867306,
                   "zoom": -1.0869144587280903
                 }
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas"
+                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas"
               }
             }
           },
@@ -254,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ComputerNetwork/mine/2.1HTTP基本.canvas",
+                "file": "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -303,17 +303,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "47dcd6ba744d8e17",
+  "active": "937834dc19aeee67",
   "lastOpenFiles": [
-    "cpp/4.1储存类详解.md",
     "OS/canvas/5.1同步与资源共享.canvas",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "cpp/4.1储存类详解.md",
     "OS/5.同步与资源共享.md",
     "OS/canvas/6.内存.canvas",
     "OS/6.内存和内存管理.md",
     "SQL/11.存储引擎.md",
     "OS/4.调度.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "SQL/15.锁.md",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/IP详解.canvas",
@@ -344,7 +344,6 @@
     "assets/Pasted image 20230913155532.png",
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/136.只出现一次的数字.md",
-    "alogs/leetcode/206.反转链表.md",
     "assets/Pasted image 20230912153234.png",
     "assets/Pasted image 20230911215928.png",
     "assets/Pasted image 20230911214101.png",
