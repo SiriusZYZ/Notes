@@ -37,29 +37,17 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "viewState": {
-                  "x": 2510,
-                  "y": 1320,
-                  "zoom": -2.0128876840821297
+                  "x": 570.6545245398925,
+                  "y": 952.2990652910039,
+                  "zoom": -0.6217767302165007
                 }
-              }
-            }
-          },
-          {
-            "id": "1bff2cc6e30e8fdd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OS/6.内存和内存管理.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS/6.内存和内存管理.md"
+                "file": "ComputerNetwork/IP详解.canvas"
               }
             }
           },
@@ -187,7 +175,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OS/6.内存和内存管理.md",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS/6.内存和内存管理.md",
+                "file": "ComputerNetwork/IP详解.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,11 +224,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1bff2cc6e30e8fdd",
+  "active": "fd28f9f41f42a711",
   "lastOpenFiles": [
     "linux&shell/Linux命令.canvas",
-    "OS/canvas/6.内存.canvas",
+    "ComputerNetwork/IP地址详解.md",
     "OS/6.内存和内存管理.md",
+    "OS/canvas/6.内存.canvas",
     "OS/canvas/5.1同步与资源共享.canvas",
     "OS/5.同步与资源共享.md",
     "OS/4.调度.md",
@@ -258,7 +247,6 @@
     "SQL/11.存储引擎.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/IP详解.canvas",
-    "ComputerNetwork/IP地址详解.md",
     "未命名.md",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/1.1概览.md",
