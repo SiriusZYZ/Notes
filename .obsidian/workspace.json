@@ -4,28 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7d9a9de4dc4e5b3b",
+        "id": "2817c0d79c81e4cd",
         "type": "tabs",
         "children": [
           {
-            "id": "9564bb571f98f3d3",
+            "id": "215bc01750a88361",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/208.实现前缀树Trie.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "d591a3ece0647ff3",
+            "id": "8a776970f6c634f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/70.爬楼梯.md",
+                "file": "287.寻找重复数.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/70.爬楼梯.md"
+                "file": "287.寻找重复数.md"
               }
             }
           },
@@ -160,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/70.爬楼梯.md",
+                "file": "287.寻找重复数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/70.爬楼梯.md",
+                "file": "287.寻找重复数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,8 +205,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d591a3ece0647ff3",
+  "active": "8a776970f6c634f2",
   "lastOpenFiles": [
+    "287.寻找重复数.md",
     "alogs/leetcode/208.实现前缀树Trie.md",
     "alogs/leetcode/70.爬楼梯.md",
     "alogs/leetcode/2.两数相加.md",
@@ -245,7 +242,6 @@
     "SQL/16.InnoDB.md",
     "SQL/12.索引.md",
     "SQL/13.优化.md",
-    "SQL/14.视图、存储过程与触发器.md",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
     "assets/a96a9389ef5d54b94dd963612aa8784d.gif",
     "assets/Pasted image 20230914161502.png",
