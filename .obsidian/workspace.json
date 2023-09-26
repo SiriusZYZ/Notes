@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "215bc01750a88361",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "8a776970f6c634f2",
             "type": "leaf",
             "state": {
@@ -27,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,6 +198,7 @@
   },
   "active": "8a776970f6c634f2",
   "lastOpenFiles": [
+    "LCR185.统计结果概率.md",
     "287.寻找重复数.md",
     "alogs/leetcode/208.实现前缀树Trie.md",
     "alogs/leetcode/70.爬楼梯.md",
@@ -241,7 +233,6 @@
     "slbs/QA.md",
     "SQL/16.InnoDB.md",
     "SQL/12.索引.md",
-    "SQL/13.优化.md",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
     "assets/a96a9389ef5d54b94dd963612aa8784d.gif",
     "assets/Pasted image 20230914161502.png",
