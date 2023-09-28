@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "287.寻找重复数.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "287.寻找重复数.md"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "287.寻找重复数.md",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "287.寻找重复数.md",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,8 +198,13 @@
   },
   "active": "8a776970f6c634f2",
   "lastOpenFiles": [
-    "LCR185.统计结果概率.md",
-    "287.寻找重复数.md",
+    "slbs/面经.md",
+    "QA/研发流程.md",
+    "QA/测试类型.md",
+    "QA/测试.md",
+    "alogs/leetcode/287.寻找重复数.md",
+    "alogs/7.二叉树.md",
+    "alogs/leetcode/LCR185.统计结果概率.md",
     "alogs/leetcode/208.实现前缀树Trie.md",
     "alogs/leetcode/70.爬楼梯.md",
     "alogs/leetcode/2.两数相加.md",
@@ -227,12 +232,7 @@
     "未命名.md",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/1.1概览.md",
-    "ComputerNetwork/1.tcp_ip_model.md",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
-    "SQL/17.运维篇.md",
-    "slbs/QA.md",
-    "SQL/16.InnoDB.md",
-    "SQL/12.索引.md",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
     "assets/a96a9389ef5d54b94dd963612aa8784d.gif",
     "assets/Pasted image 20230914161502.png",
