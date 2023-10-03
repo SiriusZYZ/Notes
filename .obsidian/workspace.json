@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/2.两数相加.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4668fd8a3d91e1ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "alogs/leetcode/207.课程表.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +196,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4668fd8a3d91e1ba",
+  "active": "4548f791201dc017",
   "lastOpenFiles": [
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/207.课程表.md",
