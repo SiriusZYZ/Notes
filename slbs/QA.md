@@ -130,12 +130,16 @@ That's all of my introduction.
   2. 
 ## how do you know SLB?
 - back in twenty twenty-two, I was the TA of my professor. He was teaching a lesson called Exploration Technology and Engineering. In a certain lesson, he mentioned the resistivity logging, and Schlumberger's Brothers. After the class, he sent an article regarding to slb, and I found out slb is actually the biggest oil field service company in the world.
-- Later on, one of the engineer of slb came to our school to give a lecture, 
-
+- Later on, one of the engineer of slb came to our school to give a lecture. Her name is Tianhua as I recall. Her lecture was about the oil field service industry, and focused on slb's pivot. And by then I knew the Beijing Geoscience Center of slb, and your digitalization and decarbonization business. 
+- In August, I came to Beijing to participate in the Inter Day Event, then I understand SLB better. 
 ## Why SLB?
-
-
-
+There are some certain aspects when I wanna decide which company suit me most.
+1. The first thing would be the position of the company in the industry. SLB is the biggest company in oil field service. During the Inter day event, I got to know that SLB's decarbonization business in Europe is massive. So you are not merely focusing on the petroleum, which is nice. These would be the guarantee of a secure job, as the company would gain enough profit to sustain its R&D department. 
+2. The Second one would be the job itself. I am applying for the software engineering, which is the job I always dream of. I like coding, implementing stuff and find out how to optimize them.
+3. Then I also want to check the platform and how it may impact my whole career planning. So during the Intern Day, I got to know that you guys have a concept of " borderless-career". It's possible to explore different positions when you are at SLB. And SLB provide comprehensive trainings to help you pivot, which is great. 
+4. The third thing would be the company's culture, and I think that is what I love SLB a lot. 
+   - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office and so on. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. But they never open a lecture for first aid and that's a pity.
+  - SLB also have a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
 # Profile
 
 ## biggest achievement?
