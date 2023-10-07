@@ -129,7 +129,8 @@ That's all of my introduction.
   1. the cutting edge technology
   2. 
 ## how do you know SLB?
-
+- back in twenty twenty-two, I was the TA of my professor. He was teaching a lesson called Exploration Technology and Engineering. In a certain lesson, he mentioned the resistivity logging, and Schlumberger's Brothers. After the class, he sent an article regarding to slb, and I found out slb is actually the biggest oil field service company in the world.
+- Later on, one of the engineer of slb came to our school to give a lecture, 
 
 ## Why SLB?
 
