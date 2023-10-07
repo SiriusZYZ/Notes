@@ -142,6 +142,14 @@ There are some certain aspects when I wanna decide which company suit me most.
   - SLB also have a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
 # Profile
 
+## advantages and disadvantages?
+
+for advantags:
+- I have strong learning ability, which means I can learn things fast and well, even through self-learning. 
+- I have multi-tasking skills.
+- I am able to 
+
+
 ## biggest achievement?
 
 ## your weakness? and how to compensate?
