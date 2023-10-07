@@ -306,6 +306,18 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 
 # Interests
 
+- I like reading. I read 30 books last year, including psychology, history, fiction, and other stuff.
+- I like photography. I have two camera, one is digital and the other is a film camera. I take pictures and make photography books. I also have a free-lance position at the school affiliated workshop. 
+- I like drawing. My mom work in the traditional art industry, so she signed me up for some art related lesson when I was little and encourage me to take drawing and painting as a relish of daily life.
+- I also make cocktails. I am the bartender of the workshop, when there is a party, I would be the one who shaking spirit and waving the bar spoon. But, you know, It's just a hobby so I am an amateur.
+- (Optional) I also translate the memes from twitter and Instagram. As they are funny and sometime inspiring.
+
+
+- Actually, I found most of my interest, including programing, are those you can improve through practice and retrospect. But the difference are photograph, painting, cocktails making are those more palpable by your own sensation. 
+- Normally, Before the cocktail party, I would search some new recipes on a website. The recipes may fits the author's taste, but not everyone's taste. I made a cocktail called silk stocking, its spirit is tequila according to the original recipe. But my friends and I found that tequila gave you a weird herbal aftertaste, while the cocktail is meant to be taste like cacao. So it's kind of off balance. The problem is the spirit, I first change it to Vodka, that's better, but not satisfying enough. Then I change to light rum, and the taste started to make sense. And my friend love it very much.
+- The point is dare to change or discover.
+
+- somehow I finds the things I like contains a lot of "what if" questions. Like what if I tune the shadow and the brightness, will that make any difference on the sensation that my photo or paintings conveyed to my readers? Or what if I add more single cream in the recipe, how may it change the taste of a certain cocktail? I mean regarding to these interest, including programming, theory is important, but practice is the essential part of all. Only by fine tuning the process you can actually make your work, or your code better.
 
 # Questions for slb
 
