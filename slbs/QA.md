@@ -135,11 +135,12 @@ That's all of my introduction.
 ## Why SLB?
 There are some certain aspects when I wanna decide which company suit me most.
 1. The first thing would be the position of the company in the industry. SLB is the biggest company in oil field service. During the Inter day event, I got to know that SLB's decarbonization business in Europe is massive. So you are not merely focusing on the petroleum, which is nice. These would be the guarantee of a secure job, as the company would gain enough profit to sustain its R&D department. 
-2. The Second one would be the job itself. I am applying for the software engineering, which is the job I always dream of. I like coding, implementing stuff and find out how to optimize them.
+2. The Second one would be the job itself. I am applying for the software engineering, which is the job I always dream of. I like coding, implementing stuff and find out how to optimize them. I learned that in BGC, people cares about techs and there are a lot of competition, Hackathons for example. 
 3. Then I also want to check the platform and how it may impact my whole career planning. So during the Intern Day, I got to know that you guys have a concept of " borderless-career". It's possible to explore different positions when you are at SLB. And SLB provide comprehensive trainings to help you pivot, which is great. 
 4. The third thing would be the company's culture, and I think that is what I love SLB a lot. 
    - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office and so on. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. But they never open a lecture for first aid and that's a pity.
   - SLB also have a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
+  - And I found people in SLB have a sense of ownership. In the propaganda video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on some kind of innovation competition. Then SLB found it plausible and decided to integrate them into the products as a new feature. Which i guess, would give those engineer a sense of achievement and ownership of SLB.
 # Profile
 
 ## advantages and disadvantages?
@@ -300,6 +301,9 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 
 # Honors & Rewards
 
+
+
+
 # Other Activities
 
 ## Teaching Assistant
@@ -320,6 +324,24 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 - somehow I finds the things I like contains a lot of "what if" questions. Like what if I tune the shadow and the brightness, will that make any difference on the sensation that my photo or paintings conveyed to my readers? Or what if I add more single cream in the recipe, how may it change the taste of a certain cocktail? I mean regarding to these interest, including programming, theory is important, but practice is the essential part of all. Only by fine tuning the process you can actually make your work, or your code better.
 
 # Questions for slb
+
+
+- ==**Probation time**==: I want to know how long is the probation, and the difference between probation and formally employment.
+- ==Question about association Program==:To my knowledge, the association program would last for 6 months, in this program we would learn thing including front end, back end, QA, DevOps etc. Which is great. 
+  1. I want to know, during this period of time, will there be any formal assignment or it would be a time we freshman just learn stuff and take the test?
+  2. Another thing I want to know is how SLB decides which candidates would be in which position. According to the job description,  software engineering is a little bit vague on what this job is  actually about. Will that process take the candidates' will into consideration, or that performance would be the determent?
+- **==Performance==**: During the Intern Day, one of your HR mentioned that, in SLB, "you promote yourself". Would you be kind enough to tell me the details ?
+
+
+
+
+
+
+
+
+
+
+
 
 - In the intern day, I learned that each freshman should attend an Association Program, and then would be assigned to different positions. Can you tell me more about this process? Especially on how does slb decide which person would go to which department.
 - will there be a mentor to guide you through the program and the following job?
