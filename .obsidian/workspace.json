@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "64fcd533afcce9fa",
+        "id": "70feb5bb674c4a73",
         "type": "tabs",
         "children": [
           {
-            "id": "4548f791201dc017",
+            "id": "87fc9652f7bbb6cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "423294b2d8e0b1f2",
+            "id": "60764f8a7d3b1aa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/394.字符串解码.md",
+                "file": "slbs/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/394.字符串解码.md"
+                "file": "slbs/QA.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/394.字符串解码.md",
+                "file": "slbs/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/394.字符串解码.md",
+                "file": "slbs/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,11 +209,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "423294b2d8e0b1f2",
+  "active": "60764f8a7d3b1aa3",
   "lastOpenFiles": [
+    "slbs/hrQA.md",
+    "slbs/QA.md",
     "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/394.字符串解码.md",
-    "slbs/QA.md",
     "alogs/leetcode/207.课程表.md",
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/105.从前序与中序遍历序列构造二叉树.md",
@@ -244,7 +245,6 @@
     "OS/5.同步与资源共享.md",
     "OS/4.调度.md",
     "ComputerNetwork/4.ip.md",
-    "cpp/词法约定-SiriusOnHP.md",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
