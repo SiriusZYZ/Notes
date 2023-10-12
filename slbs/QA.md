@@ -301,7 +301,7 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 
 # Honors & Rewards
 
-- during postgraduate study, I have received the first class 
+- during postgraduate study, I have received the first class of 
 
 
 # Other Activities
