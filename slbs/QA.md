@@ -145,9 +145,9 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 ## advantages and disadvantages?
 
-for advantags:
-- I have strong learning ability, which means I can learn things fast and well, even through self-learning. 
-- I have multi-tasking skills.
+for advantages:
+- I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7.
+- I have multi-tasking skills. Normally, I need to make progress on more than three different task a day this year. But I handle them quite well. Normally, I would read articles of my research direction 
 - I am able to 
 
 
@@ -301,7 +301,8 @@ $$\begin{align} MASW(c) &= \left|\sum^n_{i = 0}P_x(c, \omega)\right| \\
 
 # Honors & Rewards
 
-- during postgraduate study, I have received the first class of 
+- during postgraduate study, I have received the first class of postgraduate academic scholarship, which would only be bestow to the top 10% of the students.
+- 
 
 
 # Other Activities
