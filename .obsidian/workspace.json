@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "64fcd533afcce9fa",
+        "id": "70feb5bb674c4a73",
         "type": "tabs",
         "children": [
           {
-            "id": "4548f791201dc017",
+            "id": "87fc9652f7bbb6cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slbs/QA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60764f8a7d3b1aa3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,22 +32,31 @@
             }
           },
           {
-            "id": "423294b2d8e0b1f2",
+            "id": "f1e1eb95bed6c22e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
-                "viewState": {
-                  "x": 828.707071809809,
-                  "y": 251.3158206635946,
-                  "zoom": -0.6446697594552866
-                }
+                "file": "alogs/leetcode/1828.统计一个圆中点的数目.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d724eb72d382722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/2562.找出数组的串联值.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -55,7 +76,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/Linux命令.canvas"
+                "file": "alogs/leetcode/2562.找出数组的串联值.md"
               }
             }
           },
@@ -163,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
+                "file": "alogs/leetcode/2562.找出数组的串联值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/Linux命令.canvas",
+                "file": "alogs/leetcode/2562.找出数组的串联值.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,16 +233,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "423294b2d8e0b1f2",
+  "active": "1d724eb72d382722",
   "lastOpenFiles": [
     "alogs/leetcode/1828.统计一个圆中点的数目.md",
-    "alogs/leetcode/1828..md",
+    "alogs/leetcode/2562.找出数组的串联值.md",
+    "alogs/leetcode/1.两数之和.md",
+    "alogs/11.排序算法.md",
     "alogs/leetcode/2731.移动机器人.md",
-    "alogs/leetcode/2731..md",
+    "slbs/QA.md",
     "slbs/hrQA.md",
     "alogs/leetcode/394.字符串解码.md",
-    "alogs/leetcode/1.两数之和.md",
-    "slbs/QA.md",
     "alogs/leetcode/207.课程表.md",
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/105.从前序与中序遍历序列构造二叉树.md",
