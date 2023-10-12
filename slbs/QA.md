@@ -147,7 +147,7 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 for advantages:
 - I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7.
-- I have multi-tasking skills. Normally, I need to make progress on more than three different task a day this year. But I handle them quite well. Normally, I would read articles of my research direction 
+- I have multi-tasking skills. Normally, I need to make progress on more than three different task a day this year. But I handle them quite well. Normally, I would read articles of my research direction, write a compendium, stuff like that. In the afternoon, most of the team member are working in the office, so I prefer do the collaborative work, 
 - I am able to 
 
 
