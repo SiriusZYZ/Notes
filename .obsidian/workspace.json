@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b5396891da9e55e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/22.括号生成.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/39.组合总和.md"
+                "file": "alogs/leetcode/22.括号生成.md"
               }
             }
           },
@@ -160,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/39.组合总和.md",
+                "file": "alogs/leetcode/22.括号生成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/39.组合总和.md",
+                "file": "alogs/leetcode/22.括号生成.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,10 +221,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4133bcf3b2ab4e30",
+  "active": "b5396891da9e55e0",
   "lastOpenFiles": [
-    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/39.组合总和.md",
+    "alogs/leetcode/22.括号生成.md",
+    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
     "slbs/QA.md",
     "alogs/leetcode/1828.统计一个圆中点的数目.md",
@@ -240,7 +253,6 @@
     "QA/测试.md",
     "alogs/leetcode/287.寻找重复数.md",
     "alogs/leetcode/LCR185.统计结果概率.md",
-    "alogs/leetcode/208.实现前缀树Trie.md",
     "ComputerNetwork/IP详解.canvas",
     "linux&shell/Linux命令.canvas",
     "OS/canvas/6.内存.canvas",
