@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slbs/QA.md",
+                "file": "alogs/leetcode/1.两数之和.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6400da99cc50f1e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slbs/QA.md"
+                "file": "alogs/leetcode/2240.买钢笔和铅笔的方案数.md"
               }
             }
           },
@@ -147,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slbs/QA.md",
+                "file": "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slbs/QA.md",
+                "file": "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,14 +209,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87fc9652f7bbb6cc",
+  "active": "6400da99cc50f1e6",
   "lastOpenFiles": [
+    "alogs/leetcode/1.两数之和.md",
+    "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
+    "slbs/QA.md",
     "alogs/leetcode/1828.统计一个圆中点的数目.md",
     "alogs/leetcode/2562.找出数组的串联值.md",
-    "alogs/leetcode/1.两数之和.md",
     "alogs/11.排序算法.md",
     "alogs/leetcode/2731.移动机器人.md",
-    "slbs/QA.md",
     "slbs/hrQA.md",
     "alogs/leetcode/394.字符串解码.md",
     "alogs/leetcode/207.课程表.md",
@@ -229,7 +243,6 @@
     "alogs/leetcode/70.爬楼梯.md",
     "ComputerNetwork/IP详解.canvas",
     "linux&shell/Linux命令.canvas",
-    "ComputerNetwork/IP地址详解.md",
     "OS/canvas/6.内存.canvas",
     "OS/canvas/5.1同步与资源共享.canvas",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
