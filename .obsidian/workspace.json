@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "959f06e401eb2573",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpp/8.面向对象.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cbe3cd24ac7384d6",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/7.内存、指针和引用.md"
+                "file": "cpp/8.面向对象.md"
               }
             }
           },
@@ -159,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/7.内存、指针和引用.md",
+                "file": "cpp/8.面向对象.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/7.内存、指针和引用.md",
+                "file": "cpp/8.面向对象.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,10 +221,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cec3960b0575aba0",
+  "active": "959f06e401eb2573",
   "lastOpenFiles": [
-    "cpp/4.储存类.md",
     "cpp/7.内存、指针和引用.md",
+    "cpp/8.面向对象.md",
+    "cpp/4.储存类.md",
     "cpp/Eigen.md",
     "cpp/6.循环与判断.md",
     "cpp/1.基本语法.md",
@@ -238,7 +252,6 @@
     "alogs/leetcode/124.二叉树中的最大路径和.md",
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
-    "alogs/leetcode/121.买股票的追加时机.md",
     "assets/Pasted image 20230928163153.png",
     "ComputerNetwork/IP详解.canvas",
     "linux&shell/Linux命令.canvas",
