@@ -4,47 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "70feb5bb674c4a73",
+        "id": "5bbc6ceadeb596fb",
         "type": "tabs",
         "children": [
           {
-            "id": "87fc9652f7bbb6cc",
+            "id": "cec3960b0575aba0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4133bcf3b2ab4e30",
+            "id": "cbe3cd24ac7384d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/39.组合总和.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5396891da9e55e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/22.括号生成.md",
+                "file": "cpp/4.储存类.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/22.括号生成.md"
+                "file": "cpp/7.内存、指针和引用.md"
               }
             }
           },
@@ -172,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/22.括号生成.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/22.括号生成.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,8 +208,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b5396891da9e55e0",
+  "active": "cec3960b0575aba0",
   "lastOpenFiles": [
+    "cpp/Eigen.md",
+    "cpp/6.循环与判断.md",
+    "cpp/1.基本语法.md",
+    "cpp/2.数值与常量.md",
+    "cpp/3.变量.md",
+    "cpp/4.1储存类详解.md",
+    "cpp/7.内存、指针和引用.md",
+    "cpp/4.储存类.md",
+    "cpp/5.运算符.md",
     "alogs/leetcode/39.组合总和.md",
     "alogs/leetcode/22.括号生成.md",
     "alogs/leetcode/1.两数之和.md",
@@ -243,16 +239,7 @@
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
     "alogs/leetcode/121.买股票的追加时机.md",
-    "alogs/leetcode/994.腐烂的橘子.md",
-    "alogs/leetcode/200.岛屿数量.md",
     "assets/Pasted image 20230928163153.png",
-    "linux&shell/1.Linux基础命令.md",
-    "slbs/面经.md",
-    "QA/研发流程.md",
-    "QA/测试类型.md",
-    "QA/测试.md",
-    "alogs/leetcode/287.寻找重复数.md",
-    "alogs/leetcode/LCR185.统计结果概率.md",
     "ComputerNetwork/IP详解.canvas",
     "linux&shell/Linux命令.canvas",
     "OS/canvas/6.内存.canvas",
