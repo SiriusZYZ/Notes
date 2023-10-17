@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/8.面向对象.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/8.面向对象.md"
+                "file": "cpp/7.内存、指针和引用.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/8.面向对象.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/8.面向对象.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,8 +222,8 @@
   },
   "active": "cec3960b0575aba0",
   "lastOpenFiles": [
-    "cpp/7.内存、指针和引用.md",
     "cpp/8.面向对象.md",
+    "cpp/7.内存、指针和引用.md",
     "cpp/2.数值与常量.md",
     "cpp/3.变量.md",
     "assets/Pasted image 20231016205836.png",
