@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/7.内存、指针和引用.md",
+                "file": "cpp/8.面向对象.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "dcf0b01e7da5bf66",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
             "id": "cbe3cd24ac7384d6",
             "type": "leaf",
             "state": {
@@ -53,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,17 +220,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dcf0b01e7da5bf66",
+  "active": "cec3960b0575aba0",
   "lastOpenFiles": [
-    "assets/Pasted image 20231016205836.png",
     "cpp/7.内存、指针和引用.md",
     "cpp/8.面向对象.md",
+    "cpp/2.数值与常量.md",
+    "cpp/3.变量.md",
+    "assets/Pasted image 20231016205836.png",
     "cpp/4.储存类.md",
     "cpp/Eigen.md",
     "cpp/6.循环与判断.md",
     "cpp/1.基本语法.md",
-    "cpp/2.数值与常量.md",
-    "cpp/3.变量.md",
     "cpp/4.1储存类详解.md",
     "cpp/5.运算符.md",
     "alogs/leetcode/39.组合总和.md",
@@ -278,7 +267,6 @@
     "QA",
     "assets/Pasted image 20230913155532.png",
     "assets/Pasted image 20230912153234.png",
-    "assets/Pasted image 20230911215928.png",
     "SQL/未命名.canvas",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
