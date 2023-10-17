@@ -32,6 +32,16 @@
             }
           },
           {
+            "id": "dcf0b01e7da5bf66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
             "id": "cbe3cd24ac7384d6",
             "type": "leaf",
             "state": {
@@ -44,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -221,7 +231,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "959f06e401eb2573",
+  "active": "dcf0b01e7da5bf66",
   "lastOpenFiles": [
     "assets/Pasted image 20231016205836.png",
     "cpp/7.内存、指针和引用.md",
