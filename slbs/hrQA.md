@@ -29,6 +29,11 @@ There are some certain aspects when I wanna decide which company suit me most.
    - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office and so on. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. But they never open a lecture for first aid and that's a pity.
   - SLB also have a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
   - And I found people in SLB have a sense of ownership. In the propaganda video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on some kind of innovation competition. Then SLB found it plausible and decided to integrate them into the products as a new feature. Which i guess, would give those engineer a sense of achievement and ownership of SLB.
+
+# Project
+- 
+
+
 # Profile
 
 ## collage life
