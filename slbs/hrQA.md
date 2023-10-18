@@ -77,4 +77,4 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 ## what do you see yourself in five year?
 
-- Hopefully, I wish I have learned a lot during the following five years, and be able to be a full-stack developer. I also picture my self staying at BGC, be an important member of the team, and make a lot of friends here. I balance my work and life well and keeping my interest.
+- Hopefully, I wish I have learned a lot during the following five years, and be able to be a full-stack developer. I also picture my self staying at BGC, be an important member of the team, and make a lot of friends here. I also wish I could contribute to the open source community. I balance my work and life well and keep developing my interest.
