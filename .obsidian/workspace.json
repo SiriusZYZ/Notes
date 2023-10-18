@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2cd0dc15dc488552",
+        "id": "ae94485f7e92c7d0",
         "type": "tabs",
         "children": [
           {
-            "id": "adc9306ac7a03077",
+            "id": "b30e68427f182519",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
+                "file": "slbs/hrQA.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md"
+                "file": "slbs/hrQA.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
+                "file": "slbs/hrQA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
+                "file": "slbs/hrQA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,11 +196,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "adc9306ac7a03077",
+  "active": "b30e68427f182519",
   "lastOpenFiles": [
-    "alogs/leetcode/1.两数之和.md",
-    "alogs/leetcode/2530.执行k次操作后的最大分数.md",
     "slbs/hrQA.md",
+    "alogs/leetcode/2530.执行k次操作后的最大分数.md",
+    "alogs/leetcode/1.两数之和.md",
     "slbs/QA.md",
     "cpp/4.储存类.md",
     "cpp/9.STL.md",
