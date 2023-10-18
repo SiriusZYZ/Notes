@@ -33,4 +33,13 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 ## collage life
 
-- I think my collage life is full of challenges, but also fruitful in many ways. 
+- I think my collage life is full of challenges, but also fruitful in many ways.  
+  - **==Curriculum:==** The curriculums are not easy to pass, most of them requires a lot of practice, but I managed to pass them all and have a good GPA, and received the first class of  scholarship .
+  - **==Research:==** My research direction is also quite hard. There are tons of unexpected problems, from the availability of the data to the validation process.   It's also a new direction of the research team, none of us has the background on flow profiling, including my mentor. But after 2 years of self-study, and propelling the process with others. We have got some data, although they are not comprehensive enough, but it's a good start. I also develop some forward process and inversion process. I am also establishing codes for the simulation process which, after my graduation, the other may use them as a complement of field experiment.
+  - **==workshop:==** I also enjoyed a lot in the extra-curriculum activities. I joined a school-affiliated workshop when I was at my first year in the UESTC. So it has been like 5 years of service. We write articles of interesting stuff around the campus. I also made a lot of friends there. We are from a vast variety of majors, so we got inspired from others perspective and knowledge a lot. 
+  - **==Interest:==** I also maintain good health in the university, I swim a lot, and sometimes I will play badminton with my fellow teammates. I also develop an interest of photography, and cocktail making.
+  - So I would conclude my university life as challengeable but fruitful.
+
+## what do you see yourself in five year?
+
+- Hopefully, I wish I have learned a lot during the following five years, and be able to be a full-stack developer. I also picture my self staying at BGC, be an important member of the team, and make a lot of friends here. I balance my work and life well and keeping my interest.
