@@ -30,3 +30,7 @@ There are some certain aspects when I wanna decide which company suit me most.
   - SLB also have a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
   - And I found people in SLB have a sense of ownership. In the propaganda video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on some kind of innovation competition. Then SLB found it plausible and decided to integrate them into the products as a new feature. Which i guess, would give those engineer a sense of achievement and ownership of SLB.
 # Profile
+
+## collage life
+
+- I think my collage life is full of challenges, but also fruitful in many ways. 
