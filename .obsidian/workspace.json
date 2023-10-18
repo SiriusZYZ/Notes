@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f789dba1552e14ee",
+            "id": "adc9306ac7a03077",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slbs/hrQA.md"
+                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md"
               }
             }
           },
@@ -59,8 +59,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e4ab87492e97656a",
@@ -89,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "alogs/leetcode/2530.执行k次操作后的最大分数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,10 +196,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f789dba1552e14ee",
+  "active": "adc9306ac7a03077",
   "lastOpenFiles": [
-    "slbs/QA.md",
+    "alogs/leetcode/1.两数之和.md",
+    "alogs/leetcode/2530.执行k次操作后的最大分数.md",
     "slbs/hrQA.md",
+    "slbs/QA.md",
     "cpp/4.储存类.md",
     "cpp/9.STL.md",
     "cpp/7.内存、指针和引用.md",
@@ -215,7 +216,6 @@
     "cpp/5.运算符.md",
     "alogs/leetcode/39.组合总和.md",
     "alogs/leetcode/22.括号生成.md",
-    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
     "alogs/leetcode/1828.统计一个圆中点的数目.md",
     "alogs/leetcode/2562.找出数组的串联值.md",
@@ -226,7 +226,6 @@
     "alogs/leetcode/2.两数相加.md",
     "alogs/leetcode/105.从前序与中序遍历序列构造二叉树.md",
     "assets/Pasted image 20231003162435.png",
-    "alogs/7.二叉树.md",
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
     "assets/Pasted image 20230928163153.png",
