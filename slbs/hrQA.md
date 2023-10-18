@@ -38,6 +38,10 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 ### difficulties
 
+- So this is a project that party A requires us to  deliver software module in Cpp, but our source code are written in Matlab.
+- the biggest difficulties would be the part when you don't know the source code of a certain matlab built-in function . You need to find how this function works, check if anyone have overwrite that function in cpp, well actually any language will do, because the source code matters.
+- I got a function called vmd, it's the variational mode decompostion. 
+
 ### details
  - a consignment from an state-owned oil filed company. 
  - determine the data quality of borehole acoustic instrument
