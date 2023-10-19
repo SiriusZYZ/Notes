@@ -47,18 +47,16 @@ There are some certain aspects when I wanna decide which company suit me most.
 ### difficulties
 
 - So this is a project that party A requires us to  deliver software module in Cpp, but our source code are written in Matlab.
-- the biggest difficulties would be the part when you don't know the source code of a certain matlab built-in function . You need to find how this function works, check if anyone have overwrite that function in cpp, well actually any language will do, because the source code matters.
-- I got a function called vmd, it's the variational mode decompostion. 
+- the biggest difficulties came when a part of my job was to translate a certain matlab built-in function. You need to find how this function works, check if anyone overhaul them in other programing language. And try to implement one in your cpp module.
+- So I got a built-in function called variational mode decomposition, also known as VMD. It's a function for signal decomposition. It's a new method so we havn't seen many people using it. So I checked the paper which introduce vmd, found their source code written in Matlab. I also found a cpp implementation in Github. But they takes up too many memory space. So I carefully go through their code and found the unnecessary and buggy part. Then I refactored the whole function to make it more efficient and reusable.
 
 ### details
- - a consignment from an state-owned oil filed company. 
- - determine the data quality of borehole acoustic instrument
- - a team of 8 ppl
-   1. Matlab 2, which is the original implementation of the algorithms 
-   2. rest of us : Cpp
- - Why CPP: these state-owned company wants to guarantee their software products would not contain any incontrollable foreign tech, matlab for example.
- - We need to port every functions the Matlab crew wrote, along with the some of the Matlab built-in functions.
- - among them, there is a function called vmd, which is the variational mode decomposition, and it has been called by more than 20 other function, which makes it vital for the whole project.
+ - It's a consignment from an state-owned oil filed company. The whole thing was about determination of the data quality of borehole acoustic instrument.
+ - We have a team of 8 people, 2 of the team contributed the Matlab code, and the rest of us port them and the dependencies into cpp.
+ -  the biggest difficulties came when a part of my job was to translate a certain matlab built-in function. You need to find how this function works, check if anyone overhaul them in other programing language. And try to implement one in your cpp module.
+- So I got a built-in function called variational mode decomposition, also known as VMD. It's a function for signal decomposition and it's crucial because it's called by many other function. It's a new method so we haven't seen many people using it. So I checked the paper which introduce VMD, found their Matlabsource code. I also found a cpp implementation in Github. But they takes up too many memory space. So I carefully go through their code, do some proofreading job, and found the unnecessary and buggy part. Then I refactored the whole function to make it more efficient and reusable.
+
+
  - Process:
    1. At first I want to get the Matlab source code of it, but failed. 
    2. Then i turn to the academic society, and found out that vmd was introduced in 2014 in an IEEE paper. In this paper, the authors attached the original source code of vmd in Matlab. And the script is open-source with an MIT license.  
@@ -75,6 +73,10 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 > Field experience
 > So our team has a DTS equipment, and a friend of my mentor has a DAS equipment. They somehow got in touch with a oil field service company in 克拉玛依 in twenty-twenty-one. The FEs want to see if DFOS could help them estimate the main production section in some heavy oil well. The logging was done by lower a continuous tubing into the auxiliary pipe. We used the DTS and the DAS to monitor the well when they change production schema. 
+
+> web crawling
+> The key problem of the whole project is to establish a thermodynamic model of the fluid, the wellbore and the formation. Which, naturally, you need information of the fluid behavior, such as its density, viscosity, heat capacity and so on. And this parameters change due to the temperature and pressure. I happened to find that a website called NIST, they provide thermodynamic properties of different compounds. So I tried to fetch a small amount of data by set up a automation script in Python to query`[ˈkwɪəri]` their public API repeatedly. 
+
 
 > Conclusion / details
 - To be brief, the whole project is about how to estimate the flow condition in the wellbore using data from Distributed Fiber Optic Sensor. To be specific, we want to know the flow rate, gas oil ratio, or GOR, water cut, and so on. The data we have are from Distributed Temperature Sensing, also known as DTS, and Distributed Acoustic Sensing, or DAS. The first one provide you with the temperature distribution along the wellbore, while the latter one provide the dynamic strain rate distribution.
