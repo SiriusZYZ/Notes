@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/206.反转链表.md",
+                "file": "slbs/hrQA.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/206.反转链表.md"
+                "file": "slbs/hrQA.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/206.反转链表.md",
+                "file": "slbs/hrQA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/206.反转链表.md",
+                "file": "slbs/hrQA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,12 +198,12 @@
   },
   "active": "b30e68427f182519",
   "lastOpenFiles": [
-    "alogs/leetcode/1726.同积元组.md",
-    "alogs/leetcode/206.反转链表.md",
+    "slbs/QA.md",
     "slbs/hrQA.md",
+    "alogs/leetcode/206.反转链表.md",
+    "alogs/leetcode/1726.同积元组.md",
     "alogs/leetcode/2530.执行k次操作后的最大分数.md",
     "alogs/leetcode/1.两数之和.md",
-    "slbs/QA.md",
     "cpp/4.储存类.md",
     "cpp/9.STL.md",
     "cpp/7.内存、指针和引用.md",

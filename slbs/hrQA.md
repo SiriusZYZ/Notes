@@ -64,7 +64,38 @@ There are some certain aspects when I wanna decide which company suit me most.
    9. After I refactored the code, the problem was solved. And I also publish it on github if someone need it.
 
 
+## DFOS project
+
+> Field experience
+> So our team has a DTS equipment, and a friend of my mentor has a DAS equipment. They somehow got in touch with a oil field service company in 克拉玛依, they want to see if DFOS could help them estimate the main production section in some heavy oil well. We went there in twenty-twenty-one. The logging is done by lower a continuous tubing into the auxiliary pipe. We used the DTS and the DAS to monitor the well when they change production 
+
+> Conclusion / details
+- To be brief, the whole project is about how to estimate the flow condition in the wellbore using data from Distributed Fiber Optic Sensor. To be specific, we want to know the flow rate, gas oil ratio, or GOR, water cut, and so on. The data we have are from Distributed Temperature Sensing, also known as DTS, and Distributed Acoustic Sensing, or DAS. The first one provide you with the temperature distribution along the wellbore, while the latter one provide the dynamic strain rate distribution.
+- To solve this problem, we need to combine these data with the flow model and the thermodynamic model. We also need some signal processing technique to understand DAS data better.
+- The most difficult part of this project, would be the lack of data. We can not solve the problem without other constrain, such as the well completion, the formation or reservoir information. We also need the PLT data to validate if our model works correctly. 
+- This kind of difficulty could be solved by cooperate with oil field service company or the oil field owner. We are also working on establishing a simulation process using finite element model, to do some experiment.
+- This project is also challenging in modeling, parameters calculation, inversion process, and other way. But I managed to solve them already. Anyway, I hope the data problem would be solved very soon.
+
+
 # Profile
+
+## advantages and disadvantages?
+
+for advantages:
+- I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7.
+- I have multi-tasking skills. Normally, I need to make progress on more than three different task a day this year. But I handle them quite well. Normally, I would read articles of my research direction, write a compendium, stuff like that. In the afternoon, most of the team member are working in the office, so I prefer do the collaborative work, 
+- I am able to 
+
+
+## biggest achievement?
+
+## your weakness? and how to compensate?
+
+## what do you see yourself in 3-5 years?
+
+
+## A word to describe yourself?
+
 
 ## collage life
 
