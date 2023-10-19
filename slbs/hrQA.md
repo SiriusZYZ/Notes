@@ -11,6 +11,11 @@ That's all of my introduction.
 ### who is your supervisor?
 - He is the chair of SPWLA south western china chapter. His research focus is acoustic behavior in the wellbore, especially on the completion of the wellbore.
 
+# work location: why Beijing
+- Well I guess the biggest reason is Beijing is a city of opportunities. The headquarters of a lot of companies locate in Beijing. And I know BGC is one of the biggest software development center of SLB. So it's possible to work with many brilliant people across the whole county and even the whole world. And that attracts me most.
+- I also have some friend in Beijing. Some of them are still in collage, some of them have already been working. The point is I have a social support system in Beijing. Shanghai is also a city of opportunities, but I have no friend there so Shanghai is not a good choice.
+- My parents are also supportive about I work in Beijing the whole stuff. 
+
 
 # SLB background
 
@@ -31,7 +36,8 @@ There are some certain aspects when I wanna decide which company suit me most.
 3. The third thing would be the company's culture, and I think that is what I love SLB a lot. 
    - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. But they never open a lecture for first aid and that's a pity.
   - BGC also has a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
-  - And I found people in BGC have a sense of ownership, and the company cares about employee's innovative ideas. In the campus recruiting intro video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on the innovation competition. Then SLB found it feasible and decided to integrate this feature into the products . Which i guess, would give those engineer a sense of achievement and ownership of SLB.
+  - And I found people in BGC have a sense of ownership, and the company cares about employee's innovative ideas. In the campus recruiting intro video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on the innovation competition. Then SLB found it feasible and decided to integrate this feature into the products . Which I guess, would give those engineer a sense of achievement and ownership of SLB. And I think that's very nice.
+  
 
 # Project
 ## Borehole acoustic evaluation project.
@@ -81,16 +87,23 @@ There are some certain aspects when I wanna decide which company suit me most.
 ## advantages and disadvantages?
 
 for advantages:
-- I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7.
-- I have multi-tasking skills. Normally, I need to make progress on more than three different task a day this year. But I handle them quite well. Normally, I would read articles of my research direction, write a compendium, stuff like that. In the afternoon, most of the team member are working in the office, so I prefer do the collaborative work, 
-- I am able to 
+- I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7 and it's the top 10 percent in my major.
+- I have multi-tasking skills. As a postgraduate student looking for a job, I need to balance the time I spend on self-promoting, academic research, and some of the project. But I handle them quite well. I would have a regular routine to divide my time properly to make progress on different tasks. My timetable is also flexible, in case there is a contingency.
+- I am able to collaborate with others quite well and I could blend in the new group quickly. In one of my project experience, I don't know any of my teammates at first. But after a few round of discussion, I manage to blend in the team and collaborate well with them. I even keep in touch with one of the teammate after the project is done, and sometimes we exercise together in the campus.
 
-
+disadvantages:
+- Sometimes I get a little bit nervous when something important is about to take place. For example, if I am about to give an opening speech in front of many people, I would feel tense the night before. But l read a psychology article about anxiety and other negative mood, and it said anxiety is a mood that urge you to prepare for the upcoming difficulties, and it's a normal reaction. So whenever I feel anxious, I would  try to do something and get more prepared. I guess you can't actually eliminate anxiety but that helps me a lot.
+- 【先别说】Sometimes I am not assertive enough. It takes a little bit more time for me to make a decision and I want to hear more about others opinion. But this happens more when the decision is insignificant and about daily life. Like I often have no clue about what to eat when there are a lot of alternatives. But when the decision is significant, like which company is my top choice, whether I should get a master degree, What to do in an emergency,  I seldom hesitate.
 ## biggest achievement?
+
+- I think my biggest achievement for now, is that I balance my life very well in the postgraduate study. I learn a lot during my research on DFOS application. I also learn a lot about programming and contribute to the open-source community.
+- I also manage to make a bunch of good friends during this period of time, they are from different school and we are having a good time.
+- I also read a lot about psychology, history and other subject beyond my scope. 
+
 
 ## your weakness? and how to compensate?
 
-## what do you see yourself in 3-5 years?
+
 
 
 ## A word to describe yourself?
