@@ -24,10 +24,12 @@ That's all of my introduction.
   1. founded by Schlumberger Brothers, in 20
 - Business scope
   - oil field service
-  -
+  - decarbonization
+  - innovation energy
+
 # how do you know SLB?
 - back in twenty twenty-two, I was the TA of my professor. He was teaching a lesson called Exploration Technology and Engineering. In a certain lesson, he mentioned the resistivity logging, and Schlumberger's Brothers. After the class, he sent an article regarding to slb, and I found out slb is actually the biggest oil field service company in the world.
-- Later on, one of the engineer of slb came to our school to give a lecture. Her name is Tianhua as I recall. Her lecture was about the oil field service industry, and focused on slb's pivot. And by then I knew the Beijing Geoscience Center of slb, and your digitalization and decarbonization business. 
+- Later on, one of the engineer of slb came to our school to give a lecture. Her name is Tianhua as I recall. Her lecture was about the oil field service industry, and focused on slb's new business. And by then I knew the Beijing Geoscience Center of slb, and your digitalization and decarbonization business. 
 - In August, I came to Beijing to participate in the Inter Day Event, then I understand SLB better. 
 # Why SLB?
 There are some certain aspects when I wanna decide which company suit me most.
