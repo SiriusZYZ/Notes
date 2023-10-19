@@ -83,6 +83,10 @@ There are some certain aspects when I wanna decide which company suit me most.
 - This kind of difficulty could be solved by cooperate with oil field service company or the oil field owner. We are also working on establishing a simulation process using finite element model, to do some experiment.
 - This project is also challenging in modeling, parameters calculation, inversion process, and other way. But I managed to solve them already. Anyway, I hope the data problem would be solved very soon.
 
+## wenyuan
+
+- To be brief, the whole project was the idea of my mentor and another professor from the transmission school. They developed a DAS instrument, but want to apply it for seismic `[ˈsaɪzmɪk]` exploration. My mentor has the background of seismic signal processing, and I have the background of Distributed sensor. So we form a team, to participate in a national competition.
+- But actually I don't know anything about seismic signal processing, and the schedule was tight and I need to establish a processing procedure for DAS data. So I reached out to my mentor and one of a senior 
 
 # Profile
 
@@ -103,8 +107,10 @@ disadvantages:
 - I also read a lot about psychology, history and other subject beyond my scope. 
 
 
-## your weakness? and how to compensate?
+## biggest failure?
 
+- I didn't do well in the collage entrance exam a few years ago. I did well in senior high school, and I got an expectation to go to Fu Dan university, or at least Sun-Yat-Sen university. But I end up in UESTC.  
+- But I guess a blessing in disguise is a blessing in disguise, I adapted myself to the life in UESTC quickly, and found myself interested in my bachelor major, which was actually a combination of computer science, signal processing and geoscience. 
 
 
 
