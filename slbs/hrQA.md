@@ -74,7 +74,7 @@ There are some certain aspects when I wanna decide which company suit me most.
 ## DFOS project
 
 > Field experience
-> So our team has a DTS equipment, and a friend of my mentor has a DAS equipment. They somehow got in touch with a oil field service company in 克拉玛依, they want to see if DFOS could help them estimate the main production section in some heavy oil well. We went there in twenty-twenty-one. The logging is done by lower a continuous tubing into the auxiliary pipe. We used the DTS and the DAS to monitor the well when they change production 
+> So our team has a DTS equipment, and a friend of my mentor has a DAS equipment. They somehow got in touch with a oil field service company in 克拉玛依 in twenty-twenty-one. The FEs want to see if DFOS could help them estimate the main production section in some heavy oil well. The logging was done by lower a continuous tubing into the auxiliary pipe. We used the DTS and the DAS to monitor the well when they change production schema. 
 
 > Conclusion / details
 - To be brief, the whole project is about how to estimate the flow condition in the wellbore using data from Distributed Fiber Optic Sensor. To be specific, we want to know the flow rate, gas oil ratio, or GOR, water cut, and so on. The data we have are from Distributed Temperature Sensing, also known as DTS, and Distributed Acoustic Sensing, or DAS. The first one provide you with the temperature distribution along the wellbore, while the latter one provide the dynamic strain rate distribution.
@@ -83,10 +83,18 @@ There are some certain aspects when I wanna decide which company suit me most.
 - This kind of difficulty could be solved by cooperate with oil field service company or the oil field owner. We are also working on establishing a simulation process using finite element model, to do some experiment.
 - This project is also challenging in modeling, parameters calculation, inversion process, and other way. But I managed to solve them already. Anyway, I hope the data problem would be solved very soon.
 
-## wenyuan
+## Challenge Cup
 
+> difficulties
+> the biggest difficulties was the tight schedule. I was informed that I need to establish the whole analysis process within a week, while I have no clues on how seismic data processing work.
+> So I reached out to my mentor, who has the background knowledge. He gave me some keywords and a few books to refer to. And reading articles and those books, it came with an Eureka moment. Then I started to program to find out if the methods worked.
+
+> experiment plan?
+> 
+
+> detail
 - To be brief, the whole project was the idea of my mentor and another professor from the transmission school. They developed a DAS instrument, but want to apply it for seismic `[ˈsaɪzmɪk]` exploration. My mentor has the background of seismic signal processing, and I have the background of Distributed sensor. So we form a team, to participate in a national competition.
-- But actually I don't know anything about seismic signal processing, and the schedule was tight and I need to establish a processing procedure for DAS data. So I reached out to my mentor and one of a senior 
+- But actually I don't know anything about seismic signal processing, and the schedule was tight and I need to establish a processing procedure for DAS data. So I reached out to my mentor and a classmate, to better understand how to extract useful information from the array signal. With their help, I learnt how to process the DAS signal to calculate the dispersion curve using the MASW method. And find a way to estimate the velocity model from it.
 
 # Profile
 
