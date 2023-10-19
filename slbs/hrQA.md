@@ -26,7 +26,7 @@ That's all of my introduction.
 - In August, I came to Beijing to participate in the Inter Day Event, then I understand SLB better. 
 # Why SLB?
 There are some certain aspects when I wanna decide which company suit me most.
-1. The first thing would be the position of the company in the industry. SLB is the biggest company in oil field service. During the Inter day event, I got to know that SLB's decarbonization business in Europe is massive. So you are not merely focusing on the petroleum, which is nice. These would be the guarantee of a secure job, as the company would gain enough profit to sustain its R&D department. 
+1. The first thing would be the position of the company in the industry. SLB is the biggest company in oil field service. I also got to know that SLB's decarbonization business in Europe is massive. These would be the guarantee of a secure job, as the company would gain enough profit to sustain its R&D department. 
 2. The Second one would be the job itself. I am applying for the software engineering, which is the job I always dream of. I like coding, implementing stuff and find out how to optimize them. I learned that in BGC, people cares about techs and there are a lot of competition, Hackathons for example. 
 3. Then I also want to check the platform and how it may impact my whole career planning. So during the Intern Day, I got to know that you guys have a concept of " borderless-career". It's possible to explore different positions when you are at SLB. And SLB provide comprehensive trainings to help you pivot, which is great. 
 4. The third thing would be the company's culture, and I think that is what I love SLB a lot. 
