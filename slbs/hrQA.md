@@ -1,3 +1,10 @@
+![](assets/Pasted%20image%2020231020132924.png)
+
+
+- The following procedure  includes launch a meeting. So we want every part of the team to join a meeting, including the front end, back end, network engineers, QA, PM, and so on. We want to know which team should focus on solving which known problems. We also want to know if the feedback problems has already existed in our internal log.
+- Next, we need to set up a timetable. We need to sort the problems to see which one has the top priority. Then we could set up a feasible timetable. We also want our PM to monitor our progress.
+
+
 
 # self-introduction
 
