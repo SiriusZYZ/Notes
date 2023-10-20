@@ -4,22 +4,74 @@
     "type": "split",
     "children": [
       {
-        "id": "ae94485f7e92c7d0",
+        "id": "f71880549b9088b8",
         "type": "tabs",
         "children": [
           {
-            "id": "b30e68427f182519",
+            "id": "d761ba61d7a9ef9a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "linux&shell/Linux命令.canvas",
+                "viewState": {
+                  "x": 3123.4021417080503,
+                  "y": 1579.81324003607,
+                  "zoom": -0.9056750607761805
+                }
+              }
+            }
+          },
+          {
+            "id": "e7d636dbce876f88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "ComputerNetwork/3.tcp.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ae361e11a0e6a66f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS/6.内存和内存管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "740a6c7ae20f423c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/17.运维篇.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d2d6df8fc8355ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/15.锁.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -31,7 +83,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
-        "dimension": 79.70297029702971,
+        "dimension": 63.21626617375231,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -39,7 +91,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "slbs/hrQA.md"
+                "file": "SQL/15.锁.md"
               }
             }
           },
@@ -64,7 +116,7 @@
       {
         "id": "e4ab87492e97656a",
         "type": "tabs",
-        "dimension": 20.2970297029703,
+        "dimension": 36.78373382624769,
         "children": [
           {
             "id": "d6baa96a3e8e9e50",
@@ -88,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "SQL/15.锁.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "SQL/15.锁.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 297.5
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -184,7 +236,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,11 +248,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b30e68427f182519",
+  "active": "f80d04c9e5456243",
   "lastOpenFiles": [
+    "SQL/11.存储引擎.md",
+    "SQL/16.InnoDB.md",
+    "SQL/5.DQL.md",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/3.tcp.md",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "ComputerNetwork/2.http.md",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "SQL/17.运维篇.md",
+    "OS/6.内存和内存管理.md",
+    "linux&shell/Linux命令.canvas",
+    "linux&shell/3.Linux实用技术.md",
+    "linux&shell/4.shell简介.md",
+    "SQL/15.锁.md",
+    "SQL/13.优化.md",
+    "SQL/14.视图、存储过程与触发器.md",
+    "slbs/hrQA.md",
     "assets/Pasted image 20231020132924.png",
     "slbs/QA.md",
-    "slbs/hrQA.md",
     "alogs/leetcode/206.反转链表.md",
     "alogs/leetcode/1726.同积元组.md",
     "alogs/leetcode/2530.执行k次操作后的最大分数.md",
@@ -213,29 +281,14 @@
     "cpp/Eigen.md",
     "cpp/6.循环与判断.md",
     "cpp/1.基本语法.md",
-    "cpp/2.数值与常量.md",
-    "cpp/3.变量.md",
-    "cpp/4.1储存类详解.md",
-    "cpp/5.运算符.md",
-    "alogs/leetcode/39.组合总和.md",
-    "alogs/leetcode/22.括号生成.md",
-    "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
-    "alogs/leetcode/1828.统计一个圆中点的数目.md",
-    "alogs/leetcode/2562.找出数组的串联值.md",
-    "alogs/11.排序算法.md",
-    "alogs/leetcode/2731.移动机器人.md",
-    "alogs/leetcode/394.字符串解码.md",
     "assets/Pasted image 20231003162435.png",
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
     "assets/Pasted image 20230928163153.png",
     "ComputerNetwork/IP详解.canvas",
-    "linux&shell/Linux命令.canvas",
     "OS/canvas/6.内存.canvas",
     "OS/canvas/5.1同步与资源共享.canvas",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
-    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
@@ -243,7 +296,6 @@
     "assets/Pasted image 20230914161502.png",
     "QA",
     "assets/Pasted image 20230913155532.png",
-    "assets/Pasted image 20230912153234.png",
     "SQL/未命名.canvas",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
