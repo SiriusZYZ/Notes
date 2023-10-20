@@ -73,6 +73,7 @@ There are some certain aspects when I wanna decide which company suit me most.
 
 > Field experience
 > So our team has a DTS equipment, and a friend of my mentor has a DAS equipment. They somehow got in touch with a oil field service company in 克拉玛依 in twenty-twenty-one. The FEs want to see if DFOS could help them estimate the main production section in some heavy oil well. The logging was done by lower a continuous tubing into the auxiliary pipe. We used the DTS and the DAS to monitor the well when they change production schema. 
+> In the first day, we check our equipment carefully to see if they work well, we also do some safety training. The other day we went to the oil field to actually log some data. We finished one well once a day.
 
 > web crawling
 > The key problem of the whole project is to establish a thermodynamic model of the fluid, the wellbore and the formation. Which, naturally, you need information of the fluid behavior, such as its density, viscosity, heat capacity and so on. And this parameters change due to the temperature and pressure. I happened to find that a website called NIST, they provide thermodynamic properties of different compounds. So I tried to fetch a small amount of data by set up a automation script in Python to query`[ˈkwɪəri]` their public API repeatedly. 
