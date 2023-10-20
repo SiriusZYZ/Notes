@@ -57,21 +57,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9d2d6df8fc8355ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/15.锁.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -91,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQL/15.锁.md"
+                "file": "SQL/17.运维篇.md"
               }
             }
           },
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/15.锁.md",
+                "file": "SQL/17.运维篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,14 +145,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/15.锁.md",
+                "file": "SQL/17.运维篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -248,8 +235,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f80d04c9e5456243",
+  "active": "740a6c7ae20f423c",
   "lastOpenFiles": [
+    "SQL/15.锁.md",
     "SQL/11.存储引擎.md",
     "SQL/16.InnoDB.md",
     "SQL/5.DQL.md",
@@ -263,7 +251,6 @@
     "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
     "linux&shell/4.shell简介.md",
-    "SQL/15.锁.md",
     "SQL/13.优化.md",
     "SQL/14.视图、存储过程与触发器.md",
     "slbs/hrQA.md",
