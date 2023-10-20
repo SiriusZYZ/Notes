@@ -4,35 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "ae94485f7e92c7d0",
+        "id": "f71880549b9088b8",
         "type": "tabs",
         "children": [
           {
-            "id": "b30e68427f182519",
+            "id": "d761ba61d7a9ef9a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "linux&shell/Linux命令.canvas",
+                "viewState": {
+                  "x": 3123.4021417080503,
+                  "y": 1579.81324003607,
+                  "zoom": -0.9056750607761805
+                }
+              }
+            }
+          },
+          {
+            "id": "e7d636dbce876f88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "slbs/hrQA.md",
+                "file": "ComputerNetwork/3.tcp.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3108c03fd45262d3",
+            "id": "ae361e11a0e6a66f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "OS/6.内存和内存管理.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "740a6c7ae20f423c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/17.运维篇.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +71,7 @@
       {
         "id": "adeb946ca38d52b6",
         "type": "tabs",
-        "dimension": 79.70297029702971,
+        "dimension": 63.21626617375231,
         "children": [
           {
             "id": "6b285761fadf873b",
@@ -52,7 +79,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "SQL/17.运维篇.md"
               }
             }
           },
@@ -77,7 +104,7 @@
       {
         "id": "e4ab87492e97656a",
         "type": "tabs",
-        "dimension": 20.2970297029703,
+        "dimension": 36.78373382624769,
         "children": [
           {
             "id": "d6baa96a3e8e9e50",
@@ -101,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "SQL/17.运维篇.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "SQL/17.运维篇.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 297.5
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -197,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,12 +236,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3108c03fd45262d3",
+  "active": "f80d04c9e5456243",
   "lastOpenFiles": [
     "misc",
-    "未命名",
+    "SQL/15.锁.md",
+    "SQL/11.存储引擎.md",
+    "SQL/16.InnoDB.md",
+    "SQL/5.DQL.md",
+    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
+    "ComputerNetwork/3.tcp.md",
+    "ComputerNetwork/mine/2.1HTTP基本.canvas",
+    "ComputerNetwork/2.http.md",
+    "ComputerNetwork/1.tcp_ip_model.md",
+    "SQL/17.运维篇.md",
+    "OS/6.内存和内存管理.md",
+    "linux&shell/Linux命令.canvas",
+    "linux&shell/3.Linux实用技术.md",
+    "linux&shell/4.shell简介.md",
+    "SQL/13.优化.md",
+    "SQL/14.视图、存储过程与触发器.md",
     "slbs/hrQA.md",
-    "conflict-files-obsidian-git.md",
     "assets/Pasted image 20231020132924.png",
     "slbs/QA.md",
     "alogs/leetcode/206.反转链表.md",
@@ -228,29 +269,14 @@
     "assets/Pasted image 20231016205836.png",
     "cpp/Eigen.md",
     "cpp/6.循环与判断.md",
-    "cpp/1.基本语法.md",
-    "cpp/2.数值与常量.md",
-    "cpp/3.变量.md",
-    "cpp/4.1储存类详解.md",
-    "cpp/5.运算符.md",
-    "alogs/leetcode/39.组合总和.md",
-    "alogs/leetcode/22.括号生成.md",
-    "alogs/leetcode/2240.买钢笔和铅笔的方案数.md",
-    "alogs/leetcode/1828.统计一个圆中点的数目.md",
-    "alogs/leetcode/2562.找出数组的串联值.md",
-    "alogs/11.排序算法.md",
-    "alogs/leetcode/2731.移动机器人.md",
     "assets/Pasted image 20231003162435.png",
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
     "assets/Pasted image 20230928163153.png",
     "ComputerNetwork/IP详解.canvas",
-    "linux&shell/Linux命令.canvas",
     "OS/canvas/6.内存.canvas",
     "OS/canvas/5.1同步与资源共享.canvas",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
-    "ComputerNetwork/mine/2.1HTTP基本.canvas",
-    "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
     "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
@@ -266,6 +292,7 @@
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
     "ComputerNetwork/3.tcp_interview.docx",
-    "ComputerNetwork/2.http_interview.docx"
+    "ComputerNetwork/2.http_interview.docx",
+    "ComputerNetwork/1.tcp_ip_model.docx"
   ]
 }
