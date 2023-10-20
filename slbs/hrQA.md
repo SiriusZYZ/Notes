@@ -107,6 +107,7 @@ for advantages:
 - I have strong learning ability, which means I can learn things fast and well, even through self-learning. I kind of learn by myself in most of my curriculum in a very short time, but my test scores are high. My GPA is 3.7 and it's the top 10 percent in my major.
 - I have multi-tasking skills. As a postgraduate student looking for a job, I need to balance the time I spend on self-promoting, academic research, and some of the project. But I handle them quite well. I would have a regular routine to divide my time properly to make progress on different tasks. My timetable is also flexible, in case there is a contingency.
 - I am able to collaborate with others quite well and I could blend in the new group quickly. In one of my project experience, I don't know any of my teammates at first. But after a few round of discussion, I manage to blend in the team and collaborate well with them. I even keep in touch with one of the teammate after the project is done, and sometimes we exercise together in the campus.
+- I am also a caring person according to my friends. Many of them would reach out to me if they are upset, and I would listen carefully to them and cheer them up.
 
 disadvantages:
 - Sometimes I get a little bit nervous when something important is about to take place. For example, if I am about to give an opening speech in front of many people, I would feel tense the night before. But l read a psychology article about anxiety and other negative mood, and it said anxiety is a mood that urge you to prepare for the upcoming difficulties, and it's a normal reaction. So whenever I feel anxious, I would  try to do something and get more prepared. I guess you can't actually eliminate anxiety but that helps me a lot.
@@ -127,7 +128,7 @@ disadvantages:
 
 ## A word to describe yourself?
 flexibility?
-- I think I
+- I think I am flexible in many ways. I can adapt to the new environment quickly. I
 
 ## collage life
 
