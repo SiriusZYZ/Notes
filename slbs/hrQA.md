@@ -2,7 +2,7 @@
 # self-introduction
 
 Hi, interviewer! It's my pleasure to take part in today's interview.
-My name is Zhou Yinze. I am currently studying as a postgraduate student in the University of Electronic Science and Technology of China , and I am about to graduate in twenty-twenty-four. 
+My name is Yinze Zhou. I am currently studying as a postgraduate student in the University of Electronic Science and Technology of China , and I am about to graduate in twenty-twenty-four. 
 My major is electronic information, which is pretty much generalized. What I'm actually studying is the application of distributed fiber optic sensing in oilfield monitoring and production optimization.   
 During these year of study, I have many opportunities to combine petroleum science and information technology in my research, including parameters adjusting, modeling, visualization, inversion, and so on. I also have several project experience which are related to software development.
 I knew slb when I was the T.A. of my supervisor's class, and joined the intern day event a few weeks ago. And found myself very interested in the position of software engineering. 
@@ -36,7 +36,7 @@ There are some certain aspects when I wanna decide which company suit me most.
 1. The first thing would be the position of the company in the industry. SLB is the biggest company in oil field service. I also got to know that SLB's decarbonization business in Europe is massive. These would be the guarantee of a secure job, as the company would gain enough profit to sustain its R&D department. 
 2. The Second one would be the job itself. I am applying for the software engineering, which is the job I always dream of. I like coding, implementing stuff and find out how to optimize them. I learned that in BGC, people cares about techs and there are a lot of competition, Hackathons for example.  I believe I could learn a lot in this position.
 3. The third thing would be the company's culture, and I think that is what I love SLB a lot. 
-   - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. But they never open a lecture for first aid and that's a pity.
+   - SLB cares about safety of its employees. You have rigorous safety protocols for field engineers and mechanics engineers , you have safety training for personnel who work in the office. But I want to mention something that touch me a lot.  I read an article about the first aid day on your WeChat public account. It's about CPR and AED equipment training,  what to do when someone is choking, and other first aid knowledge. I was really impressed because I always want to learn how to properly perform the CPR back in the school. And I think learning first aid knowledge not only benefit the employee themselves, but also benefit to the whole society.
   - BGC also has a diverse and inclusive culture. Which means one can learn a lot from others with different background. And I think that would benefit in both the professional way and the daily life way. 
   - And I found people in BGC have a sense of ownership, and the company cares about employee's innovative ideas. In the campus recruiting intro video clip, I learned that some of your products fancy features are origin from the employees' inspiration. At first, it was those software engineers who came up with some new idea and try to demonstrate on the innovation competition. Then SLB found it feasible and decided to integrate this feature into the products . Which I guess, would give those engineer a sense of achievement and ownership of SLB. And I think that's very nice.
   
@@ -92,12 +92,13 @@ There are some certain aspects when I wanna decide which company suit me most.
 > So I reached out to my mentor, who has the background knowledge. He gave me some keywords and a few books to refer to. And reading articles and those books, it came with an Eureka moment. Then I started to program to find out if the methods worked.
 
 > experiment plan?
-> 
+> We were thinking about using some iron ball to simulate the source.
 
 > detail
 - To be brief, the whole project was the idea of my mentor and another professor from the transmission school. They developed a DAS instrument, but want to apply it for seismic `[ˈsaɪzmɪk]` exploration. My mentor has the background of seismic signal processing, and I have the background of Distributed sensor. So we form a team, to participate in a national competition.
-- But actually I don't know anything about seismic signal processing, and the schedule was tight and I need to establish a processing procedure for DAS data. So I reached out to my mentor and a classmate, to better understand how to extract useful information from the array signal. With their help, I learnt how to process the DAS signal to calculate the dispersion curve using the MASW method. And find a way to estimate the velocity model from it.
-
+- My job include gathering information, assisting the experiment, establishing a data analysis process, and some document writing.
+- But actually I don't know anything about seismic signal processing at that time, and the schedule was tight and I need to establish a processing procedure for DAS data. So I reached out to my mentor and a classmate, to better understand how to extract useful information from the array signal. With their help, I learnt how to process the DAS signal to calculate the dispersion curve using the MASW method. And find a way to estimate the velocity model from it. 
+- In the end the team won the first price of the provincial competition.
 # Profile
 
 ## advantages and disadvantages?
@@ -125,7 +126,8 @@ disadvantages:
 
 
 ## A word to describe yourself?
-
+flexibility?
+- I think I
 
 ## collage life
 
