@@ -40,25 +40,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS/6.内存和内存管理.md",
+                "file": "cpp/4.储存类.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "740a6c7ae20f423c",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "staged": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +66,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cpp/4.储存类.md"
+              }
             }
           },
           {
@@ -125,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cpp/4.储存类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cpp/4.储存类.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,8 +224,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "740a6c7ae20f423c",
+  "active": "f80d04c9e5456243",
   "lastOpenFiles": [
+    "OS/6.内存和内存管理.md",
     "misc/slbs/面经.md",
     "misc/slbs/hrQA.md",
     "misc/slbs/QA.md",
@@ -248,7 +242,6 @@
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "ComputerNetwork/2.http.md",
     "ComputerNetwork/1.tcp_ip_model.md",
-    "OS/6.内存和内存管理.md",
     "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
     "linux&shell/4.shell简介.md",
