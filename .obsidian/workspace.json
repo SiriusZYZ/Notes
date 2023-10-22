@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/4.储存类.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/4.储存类.md"
+                "file": "cpp/7.内存、指针和引用.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/4.储存类.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/4.储存类.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,8 +224,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f80d04c9e5456243",
+  "active": "ae361e11a0e6a66f",
   "lastOpenFiles": [
+    "cpp/3.变量.md",
+    "cpp/4.储存类.md",
     "OS/6.内存和内存管理.md",
     "misc/slbs/面经.md",
     "misc/slbs/hrQA.md",
@@ -252,12 +254,10 @@
     "alogs/leetcode/1726.同积元组.md",
     "alogs/leetcode/2530.执行k次操作后的最大分数.md",
     "alogs/leetcode/1.两数之和.md",
-    "cpp/4.储存类.md",
     "cpp/9.STL.md",
     "cpp/7.内存、指针和引用.md",
     "cpp/8.面向对象.md",
     "assets/Pasted image 20231016205836.png",
-    "cpp/Eigen.md",
     "assets/Pasted image 20231003162435.png",
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
