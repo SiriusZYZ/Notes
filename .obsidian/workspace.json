@@ -40,26 +40,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e3419564afcde69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +67,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md"
+                "file": "cpp/7.内存、指针和引用.md"
               }
             }
           },
@@ -128,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
+                "file": "cpp/7.内存、指针和引用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,11 +224,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0e3419564afcde69",
+  "active": "ae361e11a0e6a66f",
   "lastOpenFiles": [
-    "alogs/leetcode/1.两数之和.md",
+    "alogs/leetcode/1402.做菜顺序.md",
     "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
-    "cpp/7.内存、指针和引用.md",
     "cpp/3.变量.md",
     "cpp/4.储存类.md",
     "OS/6.内存和内存管理.md",
@@ -268,6 +255,7 @@
     "alogs/leetcode/206.反转链表.md",
     "alogs/leetcode/1726.同积元组.md",
     "alogs/leetcode/2530.执行k次操作后的最大分数.md",
+    "alogs/leetcode/1.两数之和.md",
     "cpp/9.STL.md",
     "assets/Pasted image 20231016205836.png",
     "assets/Pasted image 20231003162435.png",
