@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b74bb10a968f3020",
+        "id": "960d67633b1ea449",
         "type": "tabs",
         "children": [
           {
-            "id": "dc1916d577b4d554",
+            "id": "3e7bad6c00f86a57",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/1.两数之和.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d7ce7484f1dcea8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -34,7 +51,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "alogs/leetcode/2520.统计能整除数字的位数.md"
+              }
             }
           },
           {
@@ -82,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +163,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "骰子",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,8 +193,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -189,13 +209,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dc1916d577b4d554",
+  "active": "1d7ce7484f1dcea8",
   "lastOpenFiles": [
-    "ComputerNetwork/3.tcp.md",
     "alogs/leetcode/1.两数之和.md",
+    "alogs/leetcode/2520.统计能整除数字的位数.md",
+    "codes/python_plus.md",
+    "cpp/2.数值与常量.md",
+    "ComputerNetwork/3.tcp.md",
     "alogs/leetcode/1155.掷骰子等于目标和的方法数.md",
     "alogs/leetcode/LCR185.统计结果概率.md",
-    "cpp/2.数值与常量.md",
     "cpp/1.基本语法.md",
     "alogs/leetcode/1402.做菜顺序.md",
     "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
@@ -219,8 +241,6 @@
     "ComputerNetwork/1.tcp_ip_model.md",
     "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
-    "linux&shell/4.shell简介.md",
-    "SQL/13.优化.md",
     "assets/Pasted image 20231020132924.png",
     "assets/Pasted image 20231016205836.png",
     "assets/Pasted image 20231003162435.png",
