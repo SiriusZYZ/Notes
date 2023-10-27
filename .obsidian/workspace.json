@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1d7ce7484f1dcea8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/2520.统计能整除数字的位数.md"
+                "file": "alogs/leetcode/1.两数之和.md"
               }
             }
           },
@@ -101,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
+                "file": "alogs/leetcode/1.两数之和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/2520.统计能整除数字的位数.md",
+                "file": "alogs/leetcode/1.两数之和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,10 +196,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1d7ce7484f1dcea8",
+  "active": "3e7bad6c00f86a57",
   "lastOpenFiles": [
-    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2520.统计能整除数字的位数.md",
+    "alogs/leetcode/1465.切割后面积最大的蛋糕.md",
+    "alogs/leetcode/1.两数之和.md",
     "codes/python_plus.md",
     "cpp/2.数值与常量.md",
     "ComputerNetwork/3.tcp.md",
@@ -240,7 +228,6 @@
     "ComputerNetwork/2.http.md",
     "ComputerNetwork/1.tcp_ip_model.md",
     "linux&shell/Linux命令.canvas",
-    "linux&shell/3.Linux实用技术.md",
     "assets/Pasted image 20231020132924.png",
     "assets/Pasted image 20231016205836.png",
     "assets/Pasted image 20231003162435.png",
