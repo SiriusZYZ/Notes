@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
+                "file": "codes/python libs.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md"
+                "file": "codes/python libs.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
+                "file": "codes/python libs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
+                "file": "codes/python libs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,10 +198,14 @@
   },
   "active": "3e7bad6c00f86a57",
   "lastOpenFiles": [
+    "codes/pandas.md",
+    "codes/python_plus.md",
+    "codes/python_plus-SiriusOnHP.md",
+    "codes/python libs.md",
+    "codes/数据分析.md",
+    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2520.统计能整除数字的位数.md",
     "alogs/leetcode/1465.切割后面积最大的蛋糕.md",
-    "alogs/leetcode/1.两数之和.md",
-    "codes/python_plus.md",
     "cpp/2.数值与常量.md",
     "ComputerNetwork/3.tcp.md",
     "alogs/leetcode/1155.掷骰子等于目标和的方法数.md",
@@ -221,12 +225,8 @@
     "misc",
     "SQL/15.锁.md",
     "SQL/11.存储引擎.md",
-    "SQL/16.InnoDB.md",
-    "SQL/5.DQL.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
-    "ComputerNetwork/2.http.md",
-    "ComputerNetwork/1.tcp_ip_model.md",
     "linux&shell/Linux命令.canvas",
     "assets/Pasted image 20231020132924.png",
     "assets/Pasted image 20231016205836.png",
