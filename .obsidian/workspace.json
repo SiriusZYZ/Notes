@@ -198,6 +198,7 @@
   },
   "active": "3e7bad6c00f86a57",
   "lastOpenFiles": [
+    "devops/1.SRE学习路线.md",
     "codes/pandas.md",
     "codes/python_plus.md",
     "codes/python_plus-SiriusOnHP.md",
@@ -224,7 +225,6 @@
     "conflict-files-obsidian-git.md",
     "misc",
     "SQL/15.锁.md",
-    "SQL/11.存储引擎.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "linux&shell/Linux命令.canvas",
