@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "960d67633b1ea449",
+        "id": "00b42423f7d2acbe",
         "type": "tabs",
         "children": [
           {
-            "id": "3e7bad6c00f86a57",
+            "id": "fe7f26f7da6838e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "alogs/leetcode/1.两数之和.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "526db53b9c4d758f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/python libs.md"
+                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md"
               }
             }
           },
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,15 +209,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e7bad6c00f86a57",
+  "active": "526db53b9c4d758f",
   "lastOpenFiles": [
-    "codes/python_plus.md",
+    "alogs/leetcode/1.两数之和.md",
+    "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
+    "ComputerNetwork/IP详解.canvas",
     "codes/python libs.md",
+    "codes/python_plus.md",
     "codes/pandas.md",
     "devops/1.SRE学习路线.md",
     "codes/python_plus-SiriusOnHP.md",
     "codes/数据分析.md",
-    "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2520.统计能整除数字的位数.md",
     "alogs/leetcode/1465.切割后面积最大的蛋糕.md",
     "cpp/2.数值与常量.md",
@@ -224,7 +239,6 @@
     "SQL/17.运维篇.md",
     "conflict-files-obsidian-git.md",
     "misc",
-    "SQL/15.锁.md",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "linux&shell/Linux命令.canvas",
@@ -234,7 +248,6 @@
     "assets/Pasted image 20231003151801.png",
     "assets/Pasted image 20231003151731.png",
     "assets/Pasted image 20230928163153.png",
-    "ComputerNetwork/IP详解.canvas",
     "OS/canvas/6.内存.canvas",
     "OS/canvas/5.1同步与资源共享.canvas",
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
