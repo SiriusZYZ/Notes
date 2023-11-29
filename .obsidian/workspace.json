@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md"
+                "file": "alogs/leetcode/1.两数之和.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
+                "file": "alogs/leetcode/1.两数之和.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
+                "file": "alogs/leetcode/1.两数之和.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -197,7 +198,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +211,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "526db53b9c4d758f",
+  "active": "6b285761fadf873b",
   "lastOpenFiles": [
     "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
