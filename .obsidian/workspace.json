@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe7f26f7da6838e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alogs/leetcode/1.两数之和.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "526db53b9c4d758f",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
