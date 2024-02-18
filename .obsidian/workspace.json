@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/Eigen.md",
+                "file": "linux&shell/4.shell简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/Eigen.md"
+                "file": "linux&shell/4.shell简介.md"
               }
             }
           },
@@ -72,7 +72,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e4ab87492e97656a",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cpp/Eigen.md",
+                "file": "linux&shell/4.shell简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cpp/Eigen.md",
+                "file": "linux&shell/4.shell简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +191,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -212,12 +215,16 @@
   },
   "active": "526db53b9c4d758f",
   "lastOpenFiles": [
+    "linux&shell/1.Linux基础命令.md",
+    "codes/pandas.md",
+    "linux&shell/3.Linux实用技术.md",
+    "alogs/11.排序算法.md",
+    "cpp/Eigen.md",
     "alogs/leetcode/1.两数之和.md",
     "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
     "ComputerNetwork/IP详解.canvas",
     "codes/python libs.md",
     "codes/python_plus.md",
-    "codes/pandas.md",
     "devops/1.SRE学习路线.md",
     "codes/python_plus-SiriusOnHP.md",
     "codes/数据分析.md",
@@ -235,10 +242,6 @@
     "cpp/4.储存类.md",
     "OS/6.内存和内存管理.md",
     "misc/slbs/面经.md",
-    "misc/slbs/hrQA.md",
-    "misc/slbs/QA.md",
-    "SQL/17.运维篇.md",
-    "conflict-files-obsidian-git.md",
     "misc",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
