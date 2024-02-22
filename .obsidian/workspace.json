@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/4.shell简介.md",
+                "file": "linux&shell/5.shell编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/5.shell编程.md",
+                "file": "linux&shell/2.Linux用户和权限.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,13 +212,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5081ea6d8f9ba5ad",
+  "active": "526db53b9c4d758f",
   "lastOpenFiles": [
-    "linux&shell/4.shell简介.md",
-    "linux&shell/5.shell编程.md",
-    "linux&shell/1.Linux基础命令.md",
-    "linux&shell/3.Linux实用技术.md",
     "linux&shell/2.Linux用户和权限.md",
+    "linux&shell/3.Linux实用技术.md",
+    "linux&shell/5.shell编程.md",
+    "linux&shell/4.shell简介.md",
+    "linux&shell/1.Linux基础命令.md",
     "codes/pandas.md",
     "alogs/11.排序算法.md",
     "cpp/Eigen.md",
