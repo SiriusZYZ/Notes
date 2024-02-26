@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/5.shell编程.md",
+                "file": "alogs/12.图论.md",
                 "mode": "source",
                 "source": false
               }
@@ -51,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/5.shell编程.md"
+                "file": "alogs/12.图论.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/5.shell编程.md",
+                "file": "alogs/12.图论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/5.shell编程.md",
+                "file": "alogs/12.图论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,9 +213,11 @@
   },
   "active": "526db53b9c4d758f",
   "lastOpenFiles": [
+    "alogs/misc.md",
+    "alogs/12.图论.md",
+    "linux&shell/5.shell编程.md",
     "linux&shell/2.Linux用户和权限.md",
     "linux&shell/3.Linux实用技术.md",
-    "linux&shell/5.shell编程.md",
     "linux&shell/4.shell简介.md",
     "linux&shell/1.Linux基础命令.md",
     "codes/pandas.md",
@@ -239,8 +240,6 @@
     "cpp/1.基本语法.md",
     "alogs/leetcode/1402.做菜顺序.md",
     "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
-    "cpp/7.内存、指针和引用.md",
-    "cpp/3.变量.md",
     "misc",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
