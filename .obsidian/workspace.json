@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md",
+                "file": "codes/python libs.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "4913452025e2f97b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -50,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md"
+                "file": "codes/python libs.md"
               }
             }
           },
@@ -100,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md",
+                "file": "codes/python libs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md",
+                "file": "codes/python libs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,14 +199,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4913452025e2f97b",
+  "active": "5081ea6d8f9ba5ad",
   "lastOpenFiles": [
+    "codes/python_plus.md",
+    "codes/python_plus-SiriusOnHP.md",
+    "linux&shell/5.shell编程.md",
+    "linux&shell/4.shell简介.md",
+    "linux&shell/2.Linux用户和权限.md",
     "alogs/12.图论.md",
     "alogs/misc.md",
-    "linux&shell/5.shell编程.md",
-    "linux&shell/2.Linux用户和权限.md",
     "linux&shell/3.Linux实用技术.md",
-    "linux&shell/4.shell简介.md",
     "linux&shell/1.Linux基础命令.md",
     "codes/pandas.md",
     "alogs/11.排序算法.md",
@@ -226,9 +217,7 @@
     "alogs/leetcode/2824.统计和小于目标的下标对数目.md",
     "ComputerNetwork/IP详解.canvas",
     "codes/python libs.md",
-    "codes/python_plus.md",
     "devops/1.SRE学习路线.md",
-    "codes/python_plus-SiriusOnHP.md",
     "codes/数据分析.md",
     "alogs/leetcode/2520.统计能整除数字的位数.md",
     "alogs/leetcode/1465.切割后面积最大的蛋糕.md",
