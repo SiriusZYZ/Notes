@@ -52,15 +52,15 @@ from pckg import *
 - `from ... import *` 将`pckg` 包中所有内容导入，且不需要加包名前缀
 
 
-## 编写自己的模块
+## 自编模块的导入
 
 - 在程序执行的根目录下：
 ```shell
 sl$ tree -P *.py
 .
 ├── a.py
-└── utils
-    ├── module1
+└── dir1
+    ├── dir1_1
     │   ├── b.py
     │   ├── c.py
     │   ├── __init__.py
@@ -68,7 +68,7 @@ sl$ tree -P *.py
 ```
 
 > **==同一根目录下的单层调用==**
-> 如果`b` 想要调用`c` ，有两种方式:
+> 如果`b` 想要调用`c` ，有两种方式，可以直接使用文件名作为包名
 ```python
 # @ b.py
 # 1 import
@@ -80,7 +80,7 @@ from c import *
 
 > ==**向子目录文件的单层调用**==
 > 如果`a` 想要调用`c`，应以`.` 的方式表达文件夹层次关系。
-> 对于要在`utils` 中加入`__init__.py` 令Python将`./utils`视为一个模块。
+> >对于Python 版本低于3.3，要在`dir1`和`dir1_1`中加入`__init__.py` 令Python将`./dir1`和`./dir1/dir1_1`视为模块。这种做法是必须的，如果导包路径上任意文件夹下没有`__init__.py`，会导致错误。
 ```python
 # @a.py
 #1 import 
@@ -90,6 +90,13 @@ import utils.module1.b
 from utils.module1.b import *
 ```
 
+>==`__init__.py`与包管理==
+>`__init__.py` 的主要作用是将同一目录下的各源文件关联起来到目录名中，并使用同一的逻辑命名空间。
+>导入`dir1`时，会直接执行`__init__.py`
+```python
+# @a.py
+import dir1
+```
 
 
 
