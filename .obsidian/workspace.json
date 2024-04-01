@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "codes/python_plus.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/python libs.md"
+                "file": "codes/python_plus.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "codes/python_plus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/python libs.md",
+                "file": "codes/python_plus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,8 +201,10 @@
   },
   "active": "5081ea6d8f9ba5ad",
   "lastOpenFiles": [
-    "codes/python_plus.md",
+    "codes/python_plus-sirius's Mac mini.md",
+    "codes/python_plus-sirius's Mac mini.md~RF9531756.TMP",
     "codes/python libs.md",
+    "codes/python_plus.md",
     "codes/python_plus-SiriusOnHP.md",
     "linux&shell/5.shell编程.md",
     "linux&shell/4.shell简介.md",
@@ -227,7 +229,6 @@
     "alogs/leetcode/LCR185.统计结果概率.md",
     "cpp/1.基本语法.md",
     "alogs/leetcode/1402.做菜顺序.md",
-    "alogs/leetcode/2316.统计无向图中无法互相到达点对数.md",
     "misc",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
@@ -255,7 +256,6 @@
     "3.tcp_interview.pdf",
     "2.http_interview.pdf",
     "ComputerNetwork/4.ip_base.docx",
-    "ComputerNetwork/3.tcp_interview.docx",
-    "ComputerNetwork/2.http_interview.docx"
+    "ComputerNetwork/3.tcp_interview.docx"
   ]
 }

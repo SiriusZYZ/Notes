@@ -28,16 +28,9 @@ from pckg import *
 
 ### sys.modules
 
-当模块被导入时，首先检查`sys.modules`的字典。该字典**将模块名称与已经加载的模块一一映射**。要迭代`sys.modules`，建议使用`sys.modules.copy()`而非直接迭代。这能避免其他线程活动影响该字典的大小，导致`for` 语句的迭代器出错。
+当模块被导入时，首先检查`sys.modules`的字典。该字典将模块名称与已经加载的模块一一映射。要迭代`sys.modules`，建议使用`sys.modules.copy()`而非直接迭代。这能避免其他线程活动影响该字典的大小，导致`for` 语句的迭代器出错。
 
 ### sys.path
-`sys.path`是一个由字符串组成的列表，用于**指定模块的搜索路径**。初始化自环境变量 [`PYTHONPATH`](https://docs.python.org/zh-cn/3/using/cmdline.html#envvar-PYTHONPATH)，再加上一条与安装有关的默认路径。
-
-```python
->>> sys.path
-['', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\DLLs', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\win32', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\win32\\lib', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\Pythonwin', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages']
-```
-
 
 ### 首次导入
 如果是首次导入时，会执行:
