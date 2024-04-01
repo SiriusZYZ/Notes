@@ -90,12 +90,18 @@ import utils.module1.b
 from utils.module1.b import *
 ```
 
->==`__init__.py`与包管理==
->`__init__.py` 的主要作用是将同一目录下的各源文件关联起来到目录名中，并使用同一的逻辑命名空间。
->导入`dir1`时，会直接执行`__init__.py`
+>==包管理`__init__.py`==
+>包管理中，文件之间的调用方式不同了
+>`__init__.py` 的主要作用是将同一目录下的各源文件关联起来，并使用同一的逻辑命名空间(目录名)。
+>> 在`__init__.py` 可以使用`.` 来指代当前目录，并使用`from` 来进行包导入。如果该文件夹被看作一个包，则应该使用`.` 这种相对路径方式和`from`来进行包整合
+```python
+# @ dir1/dir1_1/__init__.py
+from . import * # 将同一文件夹下*.py 的内容全部包含到__init__.py中
+```
+>导入`dir1_1`时，会直接执行`__init__.py`，而`__init__.py`又导入了同一个目录下的所有其他源文件
 ```python
 # @a.py
-import dir1
+from dir1.dir1_1 import *# here runs ./dir1/dir1_1/__init__.py
 ```
 
 
