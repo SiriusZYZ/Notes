@@ -1,6 +1,8 @@
 # 模块
 
-## 基本
+## 基本语法
+
+### import
 
 ```python
 import pckg
@@ -12,6 +14,33 @@ import pckg as alias
 ```
 - `import` 将接下来的包`pckg`以别名`alias`作为模块导入，并以使用时需加别名前缀，即`alias.attributes`
 
+实际上，`import` 是一种赋值语句，将一整个模块赋给某个变量。
+```python
+>>> import numpy
+>>> type(numpy)
+<class 'module'>
+```
+
+必须注意的是，`import` 后的`pckg.attr` 被改变时是全局的。以下例子中，c中有一个变量为`c.x=3`，`b.py`使用`import` 导入`c`，并修改`c.x=5`。`a.py` 使用`import` 导入`b`和`c`。由于导入过程中会执行文件，因此`b`中的修改会导致`a` 读取`c.x`时变量被更改。
+不过这种`b`中的更改只会在内存中作用，不会最终作用到`c` 的具体源码或字节码中。
+```python
+# a.py
+import b # or from b import *
+import c
+print(c.x)
+
+# b.py
+import c
+c.x = 5
+
+# c.py
+x = 3
+
+#% ipy
+python a.py
+>>> 5
+```
+### from
 ```python
 from pckg import attr1, attr2
 ```
@@ -22,6 +51,12 @@ from pckg import *
 ```
 - `from ... import *` 将`pckg` 包中所有内容导入，且不需要加包名前缀
 
+
+## 编写自己的模块
+
+- 在程序执行的根目录下，
+
+
 ## 模块导入的技术细节
 
 > 与C不同，Python的导入并非把一个文件的文本插入另外一个文件，而是运行时的运算。
@@ -30,15 +65,19 @@ from pckg import *
 
 当模块被导入时，首先检查`sys.modules`的字典。该字典**将模块名称与已经加载的模块一一映射**。要迭代`sys.modules`，建议使用`sys.modules.copy()`而非直接迭代。这能避免其他线程活动影响该字典的大小，导致`for` 语句的迭代器出错。
 
-### sys.path
-`sys.path`是一个由字符串组成的列表，用于 **指定模块的搜索路径**。初始化自环境变量 [`PYTHONPATH`](https://docs.python.org/zh-cn/3/using/cmdline.html#envvar-PYTHONPATH)，再加上一条与安装有关的默认路径。
+### 模块搜索路径
 
+按优先级次序包括
+1. 程序的主目录 
+2. [`PYTHONPATH`](https://docs.python.org/zh-cn/3/using/cmdline.html#envvar-PYTHONPATH)
+3. 标准库目录
+4. `.pth` 目录
+这种优先级也意味着，同名模块中优先级高的会被更早导入，因此要注意模块重名情况。
+可以使用`sys` 模块的`path` 变量查看搜索路径
 ```python
 >>> sys.path
 ['', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\DLLs', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\win32', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\win32\\lib', 'C:\\Users\\admin\\AppData\\Roaming\\Python\\Python311\\site-packages\\Pythonwin', 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages']
 ```
-
-
 ### 首次导入
 如果是首次导入时，会执行:
 1. 找到对应的模块文件
@@ -46,7 +85,17 @@ from pckg import *
    > 如果模块中只发现了`.pyc` 而没有源码`.py` 依旧能完成导入。这种情况下，可以只发布`.pyc` 而不发布`.py` 来隐藏你的包技术细节。
 3. 执行模块的所有代码来创建定义的对象。
 
+### 再次导入和重新导入
 
+当已经导入模块，后续再导入模块时就不会执行模块中的代码。因此在进程导入模块后修改模块源码，将不会反映到进程中。
+要想重新导入，需要使用`importlib.reload(m: module)`，该函数接受一个模块对象，参考[`import`的本质是赋值](#import)
+比如:
+```python
+import importlib.reload
+import numpy
+
+importlib.reload(numpy)
+```
 
 
 # 变量
