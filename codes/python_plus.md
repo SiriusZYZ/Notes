@@ -52,7 +52,7 @@ from pckg import *
 - `from ... import *` 将`pckg` 包中所有内容导入，且不需要加包名前缀
 
 
-## 自编模块的导入
+## 模块的内部调用
 
 - 在程序执行的根目录下：
 ```shell
@@ -90,18 +90,32 @@ import utils.module1.b
 from utils.module1.b import *
 ```
 
->==包管理`__init__.py`==
+>==包管理中的`__init__.py`==
 >包管理中，文件之间的调用方式不同了
->`__init__.py` 的主要作用是将同一目录下的各源文件关联起来，并使用同一的逻辑命名空间(目录名)。
->> 在`__init__.py` 可以使用`.` 来指代当前目录，并使用`from` 来进行包导入。如果该文件夹被看作一个包，则应该使用`.` 这种相对路径方式和`from`来进行包整合
+>1. `__init__.py` 的主要作用是将同一目录下的各源文件关联起来，并使用同一的逻辑命名空间(目录名)。
+>2. 如果该文件夹被看作一个包，则应该使用`.` 这种相对路径方式和`from`来进行包整合。在`__init__.py` 可以使用`from` 来进行包导入，并使用`.` 来指代当前目录($\approx$`./`)。
+>3. `__init__.py` 中的`from` 存在两种载入其他文件的方式:
+>> 将同目录下文件也视为一个模块导入
 ```python
 # @ dir1/dir1_1/__init__.py
-from . import * # 将同一文件夹下*.py 的内容全部包含到__init__.py中
+from . import b # 将同一文件夹下b.py 的内容包含到__init__.py
+
+# @ a.py
+import dir1.dir1_1 as m
+m.b.attrs  # 需要指出b才能调用b内部的东西
+dir(m)
+>>> ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'b'] # 此处b 是一个模块
 ```
->导入`dir1_1`时，会直接执行`__init__.py`，而`__init__.py`又导入了同一个目录下的所有其他源文件
+> > 将同目录下文件内容全部导入，不视为模块
 ```python
-# @a.py
-from dir1.dir1_1 import *# here runs ./dir1/dir1_1/__init__.py
+# @ dir1/dir1_1/__init__.py
+from .b import * # 将同一文件夹下b.py 的内容包含到__init__.py
+
+# @ a.py
+import dir1.dir1_1 as m
+m.attrs  # 不需要指出b就能调用b中的东西, 这是因为__init__.py已经把这些东西当成模块的全局attrs了
+dir(m)
+>>> ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'b的所有attrs...']
 ```
 
 
