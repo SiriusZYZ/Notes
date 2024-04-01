@@ -1,8 +1,8 @@
 {
-  "theme": "system",
+  "theme": "obsidian",
   "accentColor": "#bb78c4",
   "baseFontSize": 17,
   "translucency": false,
   "nativeMenus": false,
-  "cssTheme": "Atom"
+  "cssTheme": ""
 }
