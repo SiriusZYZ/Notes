@@ -54,7 +54,43 @@ from pckg import *
 
 ## 编写自己的模块
 
-- 在程序执行的根目录下，
+- 在程序执行的根目录下：
+```shell
+sl$ tree -P *.py
+.
+├── a.py
+└── utils
+    ├── module1
+    │   ├── b.py
+    │   ├── c.py
+    │   ├── __init__.py
+    ├── __init__.py
+```
+
+> **==同一根目录下的单层调用==**
+> 如果`b` 想要调用`c` ，有两种方式:
+```python
+# @ b.py
+# 1 import
+import c
+
+# 2 from import
+from c import *
+```
+
+> ==**向子目录文件的单层调用**==
+> 如果`a` 想要调用`c`，应以`.` 的方式表达文件夹层次关系。
+> 对于要在`utils` 中加入`__init__.py` 令Python将`./utils`视为一个模块。
+```python
+# @a.py
+#1 import 
+import utils.module1.b
+
+#2 from
+from utils.module1.b import *
+```
+
+
 
 
 ## 模块导入的技术细节
