@@ -87,6 +87,7 @@ sl$ tree -P *.py
     │   ├── c.py
     │   ├── __init__.py
     ├── __init__.py
+    ├── d.py
 ```
 
 > **==同一根目录下的单层调用==**
@@ -110,6 +111,16 @@ import utils.module1.b
 
 #2 from
 from utils.module1.b import *
+```
+
+> ==**向父目录文件的单层调用**==
+> 如果`b`向调用`d`，注意到[模块搜索路径](#模块搜索路径) 中无论哪一个位置都不可能搜索到`d` 这就导致必须要向`sys.path` 中增加搜索目录了
+```python
+# @b.py
+import sys
+sys.path.append("..")
+
+import b
 ```
 
 >==包管理中的`__init__.py`==
