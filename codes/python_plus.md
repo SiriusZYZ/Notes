@@ -47,12 +47,34 @@ from pckg import attr1, attr2
 - `from ... import` 将`pckg.attr1` 及`pckg.attr2` 导入，不需要加包名前缀，调用直接使用`attr1` 及`attr2` 即可
 
 ```python
+from pckg import attr1 as a1
+```
+- `from ... import` 将`pckg.attr`  导入并赋给别名`a1`
+
+```python
 from pckg import *
 ```
 - `from ... import *` 将`pckg` 包中所有内容导入，且不需要加包名前缀
 
+### exec
 
-## 模块的内部调用
+有时，存在一些你想导入字符串变量指代的模块。
+比如:
+```python
+>>> target_module = "math"
+>>> import target_module
+```
+但实际不行，`import`语句会把`target_module`解析为某个在搜索路径中的模块名，而非本文件中定义的字符串对象`target_module : string` 
+
+要解决这个问题，使用`exec()`。`exec()`
+```python
+>>> target_module = "math"
+>>> exec(f"import {target_module}")
+```
+`exec()` 有种在python中执行python的感觉，它接受一个字符串，该字符串被视为一行Python代码并在当前作用域下执行。
+## 模块的跨目录调用
+
+在跨目录调用时，首先铭记模块导入的路径优先级顺序，见[模块搜索路径](#模块搜索路径)
 
 - 在程序执行的根目录下：
 ```shell
@@ -93,9 +115,12 @@ from utils.module1.b import *
 >==包管理中的`__init__.py`==
 >包管理中，文件之间的调用方式不同了
 >1. `__init__.py` 的主要作用是将同一目录下的各源文件关联起来，并使用同一的逻辑命名空间(目录名)。
+>   > 这种做法的好处是把一组源码视为一个整体，可以避免不同模块之间存在同名文件导致不知道用哪个的情况
 >2. 如果该文件夹被看作一个包，则应该使用`.` 这种相对路径方式和`from`来进行包整合。在`__init__.py` 可以使用`from` 来进行包导入，并使用`.` 来指代当前目录($\approx$`./`)。
+>   > 相对路径导入是为了解决包内文件可能与搜索路径中的其他源码文件重名的情况
+>   > 相对导入的作用域只适用于
 >3. `__init__.py` 中的`from` 存在两种载入其他文件的方式:
->> 将同目录下文件也视为一个模块导入
+>   >将同目录下文件也视为一个模块导入，例如`matplotlib.pyplot` 这种模式
 ```python
 # @ dir1/dir1_1/__init__.py
 from . import b # 将同一文件夹下b.py 的内容包含到__init__.py
@@ -106,7 +131,7 @@ m.b.attrs  # 需要指出b才能调用b内部的东西
 dir(m)
 >>> ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'b'] # 此处b 是一个模块
 ```
-> > 将同目录下文件内容全部导入，不视为模块
+> > 将同目录下文件内容全部导入，不视为模块。这种方法可以把较深层次中的一些源码直接引入到包中，在主脚本`import`时就不用写很长一段导包路径
 ```python
 # @ dir1/dir1_1/__init__.py
 from .b import * # 将同一文件夹下b.py 的内容包含到__init__.py
@@ -118,6 +143,26 @@ dir(m)
 >>> ['__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'b的所有attrs...']
 ```
 
+## 高级模块话题
+
+> ==**模块中可以显式指定能被`from`导入和不能的对象**==
+> 指定模块中能被导入的对象能最大化减少在主函数`from import *`的影响
+> 1. `__all__: list` 列表变量指定了本模块中所有可以由`from .. import *` 时能被导入的变量名。如:
+> 2. `_X: list` 列表变量指定了本模块中所有不能由`from .. import *` 时能被导入的变量名。
+> 3. `_Varaiable_Name` 使用前加下划线的变量名可以直接避免被导入
+
+> ==**`__name__`**==和==**`"__main__"`**==
+> 每个模块(或文件)都有`__name__`自动生成的内置属性
+> 1. 如果文件作为顶层程序文件启动，则会设置为`"__main__"` 
+> 2. 如果文件作为模块被导入，则会被设置为作出导入行为的文件角度来看的模块名
+> 通常可以用这个方法进行自我测试，来验证本文件是要被执行还是作为包导入:
+```python
+# @__init__.py
+pass
+
+if __name__ == "__main__":
+	print("This is a module entry.")
+```
 
 
 ## 模块导入的技术细节
