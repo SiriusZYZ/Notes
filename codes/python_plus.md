@@ -413,8 +413,78 @@ def my_func2(x, y):
 0.024982690811157227
 ```
 
+## 保留被装饰函数的metadata
 
 
+
+你写了一个装饰器作用在某个函数上，但是这个函数的重要的元信息比如名字、文档字符串、注解和参数签名都丢失了：
+```python
+def my_dec(func):
+	def wrapper(*args, **kwargs):
+		#do something
+		return ret
+	return wrapper
+
+@my_dec
+def my_sum(*args):
+	'''
+	This func return the sum of all parameters.
+	'''
+	return sum(args)
+
+# 这种情况下所有注解和参数签名全部丢失了
+>>> my_sum.__name__
+'wrapper'
+>>> my_sum.__doc__
+>>> my_sum.__annotations__
+{}
+```
+
+
+任何时候你定义装饰器的时候，都应该使用 `functools` 库中的 `@wraps` 装饰器来注解底层包装函数。例如：
+
+```python
+from functools import wraps
+
+def my_dec(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+		#do something
+        return result
+    return wrapper
+```
+
+下面我们使用这个被包装后的函数并检查它的元信息：
+
+``` python
+a
+```
+
+
+## 讨论[](https://python3-cookbook.readthedocs.io/zh-cn/latest/c09/p02_preserve_function_metadata_when_write_decorators.html#id4 "永久链接至标题")
+
+在编写装饰器的时候复制元信息是一个非常重要的部分。如果你忘记了使用 `@wraps` ， 那么你会发现被装饰函数丢失了所有有用的信息。比如如果忽略 `@wraps` 后的效果是下面这样的：
+
+>>> countdown.__name__
+'wrapper'
+>>> countdown.__doc__
+>>> countdown.__annotations__
+{}
+>>>
+
+`@wraps` 有一个重要特征是它能让你通过属性 `__wrapped__` 直接访问被包装函数。例如:
+
+>>> countdown.__wrapped__(100000)
+>>>
+
+`__wrapped__` 属性还能让被装饰函数正确暴露底层的参数签名信息。例如：
+
+>>> from inspect import signature
+>>> print(signature(countdown))
+(n:int)
+>>>
+
+一个很普遍的问题是怎样让装饰器去直接复制原始函数的参数签名信息， 如果想自己手动实现的话需要做大量的工作，最好就简单的使用 `@wraps` 装饰器。 通过底层的 `__wrapped__` 属性访问到函数签名信息。
 # 运算
 ---
 ## 位运算
@@ -455,6 +525,10 @@ reverse：排序规则. reverse = True 或者 reverse = False，有默认值。
 
 # 函数
 ---
+## 函数的元数据
+- `func.__name__` 为函数对象在定义时的名字，简而言之就是函数名
+- `func.__doc__` 为函数首行的字符串，
+
 ## 函数的特点
 
 1. python中万物皆为对象，function也不例外
@@ -463,7 +537,7 @@ reverse：排序规则. reverse = True 或者 reverse = False，有默认值。
 >>> a
 <function <lambda> at 0x0000022018B648B8>
 ```
-2. 由此，函数作为一个对象也可以被传入其他函数中
+2. 由此，函数作为一个对象也可以被传入其他函数中，此处可以参考[装饰器](#装饰器)
 ```python
 >>> def cal_number(func, x):
 ...     print(func(x))
@@ -507,6 +581,7 @@ reverse：排序规则. reverse = True 或者 reverse = False，有默认值。
 def __(argument_list):
 	return expression
 ```
+
 
 
 # 判断
