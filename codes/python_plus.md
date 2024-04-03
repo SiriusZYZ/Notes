@@ -426,9 +426,9 @@ def my_dec(func):
 	return wrapper
 
 @my_dec
-def my_sum(*args):
+def my_sum(a: int, b: int, c:int) -> int:
 	'''
-	This func return the sum of all parameters.
+	This func return the sum of three int.
 	'''
 	return sum(args)
 
@@ -452,39 +452,24 @@ def my_dec(func):
 		#do something
         return result
     return wrapper
+@my_dec
+def my_sum(a: int, b: int, c:int) -> int:
+	'''
+	This func return the sum of three int.
+	'''
+	return sum(args)
+
+# 使用wraps包装后就能保留原始信息
+>>> my_sum.__name__
+'my_sum'
+>>> my_sum.__doc__
+'\n\tThis func return the sum of all parameters.\n\t'
+>>> my_sum.__annotations__
+{'a': <class 'int'>, 'b': <class 'int'>, 'c': <class 'int'>, 'return': <class 'int'>}
 ```
 
-下面我们使用这个被包装后的函数并检查它的元信息：
-
-``` python
-a
-```
 
 
-## 讨论[](https://python3-cookbook.readthedocs.io/zh-cn/latest/c09/p02_preserve_function_metadata_when_write_decorators.html#id4 "永久链接至标题")
-
-在编写装饰器的时候复制元信息是一个非常重要的部分。如果你忘记了使用 `@wraps` ， 那么你会发现被装饰函数丢失了所有有用的信息。比如如果忽略 `@wraps` 后的效果是下面这样的：
-
->>> countdown.__name__
-'wrapper'
->>> countdown.__doc__
->>> countdown.__annotations__
-{}
->>>
-
-`@wraps` 有一个重要特征是它能让你通过属性 `__wrapped__` 直接访问被包装函数。例如:
-
->>> countdown.__wrapped__(100000)
->>>
-
-`__wrapped__` 属性还能让被装饰函数正确暴露底层的参数签名信息。例如：
-
->>> from inspect import signature
->>> print(signature(countdown))
-(n:int)
->>>
-
-一个很普遍的问题是怎样让装饰器去直接复制原始函数的参数签名信息， 如果想自己手动实现的话需要做大量的工作，最好就简单的使用 `@wraps` 装饰器。 通过底层的 `__wrapped__` 属性访问到函数签名信息。
 # 运算
 ---
 ## 位运算
@@ -527,7 +512,23 @@ reverse：排序规则. reverse = True 或者 reverse = False，有默认值。
 ---
 ## 函数的元数据
 - `func.__name__` 为函数对象在定义时的名字，简而言之就是函数名
-- `func.__doc__` 为函数首行的字符串，
+- `func.__doc__` 为函数首行的字符串，我们的函数注解也通常写在这里
+- `func.__annoations__` 为函数变量注解，当显式指定形参的类型和返回值时就会显示。
+如下:
+```python
+>>> def my_func(a: int, b: float, c: str) -> str:
+...     '''
+...     This func truncates a, b, c into a string.
+...     '''
+...     return str(a)+str(b)+c
+...
+>>> my_func.__name__
+'my_func'
+>>> my_func.__doc__
+'\n\tThis func truncates a, b, c into a string.\n\t'
+>>> my_func.__annotations__
+{'a': <class 'int'>, 'b': <class 'float'>, 'c': <class 'str'>, 'return': <class 'str'>}
+```
 
 ## 函数的特点
 
