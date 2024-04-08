@@ -506,3 +506,154 @@ dtype: object
 4    12
 dtype: int64
 ```
+
+
+# archive
+## DataFrame 相关
+### 读取数据
+
+
+- 通过`pandas.DataFrame.from_dict(data, orient, dtype, columns)`从字典中读取数据，详见[官网](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.from_dict.html). 
+- 以下是从单一字典中读取数据的示例
+1. 默认情况下，字典的`键值`是数据的column，`orient` 参数默认的值是`columns`
+```python
+>>> data = {'col_1': [3, 2, 1, 0], 'col_2': ['a', 'b', 'c', 'd']}
+>>> pd.DataFrame.from_dict(data)
+   col_1 col_2
+0      3     a
+1      2     b
+2      1     c
+3      0     d
+```
+2. 修改`orient`为`index` 时， 字典的键值用作数据的index
+```python
+>>> data = {'col_1': [3, 2, 1, 0], 'col_2': ['a', 'b', 'c', 'd']}
+>>> pandas.DataFrame.from_dict(data, orient = 'index')
+       0  1  2  3
+col_1  3  2  1  0
+col_2  a  b  c  d
+```
+当`orient`为`index` 时，可以为设置columns
+```python
+>>> data = {'col_1': [3, 2, 1, 0], 'col_2': ['a', 'b', 'c', 'd']}
+>>> pandas.DataFrame.from_dict(data, orient='index', columns = ['A', 'B', 'C', 'D'])
+       A  B  C  D
+col_1  3  2  1  0
+col_2  a  b  c  d
+```
+
+
+### 数据操作
+- `pandas.DataFrame.apply(function, axis=0, raw=False)`可以按column(`axis=0`)或按index(`axis=1`)对DataFrame应用函数
+```python
+>>> df = pandas.DataFrame([[4, 9]] * 3, columns=['A', 'B'])
+>>> df
+   A  B
+0  4  9
+1  4  9
+2  4  9
+>>> df.apply(numpy.sqrt)
+     A    B
+0  2.0  3.0
+1  2.0  3.0
+2  2.0  3.0
+```
+### 数据处理
+
+### 存取
+
+使用pandas转存csv文件
+
+```python
+import pandas as pd
+
+# PATH = '...'
+data = pd.read_csv('PATH')				#数据包含第一列，第一行为列属性，Header默认为0，index_col默认为None
+data = pd.read_csv('PATH',index_col=0)	#即把第一列作为索引，第一行为行属性
+data = pd.read_csv('PATH',header=None)	#第一行与第一列均为数据
+```
+
+检查行、列信息
+
+```python
+data.index								#二维数据行属性
+data.columns							#二维数据列属性
+```
+
+数据抽取  
+
+```python
+data.loc['index','column']				#按照行列名进行抽取，可以使用切片
+data.iloc[i,j]							#按照行列序号进行抽取，可以使用切片
+```
+
+使用函数将字典转为DataFrame：
+
+```python
+df = pd.DataFrame.from_dict([dict,])	#将列表中的一系列字典转为DataFrame
+```
+
+将DataFrame存为csv格式:
+
+```python
+df.to_csv(path,sep=str,na_rep=str,float_format='%.',header=bool,index=bool)
+'''
+path			: 设定转存地址,可以为相对路径也可以是绝对路径,要带上后缀.csv .
+sep				: 设定分隔符，默认逗号
+na_rep			: 设定空值替换，默认''
+float_format	: 设定小数格式,如'%.2f'代表两位小数
+header			: 设定是否写入列标签，默认True
+index			: 设定是否写入索引,默认True
+'''
+```
+
+
+
+### 预处理
+
+使用pandas查看文件概要
+
+```python
+data.head()
+```
+
+时间处理
+
+```python
+import datetime
+
+time = "10/12/2019 17:57:50"
+d = datetime.datetime.strptime(time,"%Y-%m-%d %H:%M:%S")
+print(d)
+---------------------------------
+datetime.datetime(2019, 10, 12, 17, 57, 50)
+```
+
+  
+
+
+
+### 数据操作
+
+求差分
+
+```
+series = [...]
+delta = [series[i+1]-series[i] for i in range(len(series)-1)]
+```
+
+求平滑
+
+``` python
+import numpy as np
+
+Series = []								#Series为被求平滑对象
+N = N									#N为平滑窗长度
+mode='MODE'								#MODE有'full','same','valid'三个选择，将导致不同长度
+np.convolve(Series, np.ones((N,))/N, mode='MODE')
+```
+
+使用`pands.DataFrame.apply()`按columns 遍历
+```python
+import 
+```
