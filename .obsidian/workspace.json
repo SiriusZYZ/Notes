@@ -32,19 +32,19 @@
             }
           },
           {
-            "id": "cac5c5507f2ac704",
+            "id": "5485dbe5fb3da432",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "codes/pylibs/collections.md",
+                "file": "codes/pylibs/log.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +64,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "codes/pylibs/collections.md"
+                "file": "codes/pylibs/log.md"
               }
             }
           },
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "codes/pylibs/collections.md",
+                "file": "codes/pylibs/log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "codes/pylibs/collections.md",
+                "file": "codes/pylibs/log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,13 +224,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa85e17060f43dae",
+  "active": "5485dbe5fb3da432",
   "lastOpenFiles": [
+    "codes/pylibs/collections.md",
+    "codes/pylibs/log.md",
     "codes/pylibs/random.md",
     "codes/python libs.md",
     "codes/pylibs/matplotlib.md",
     "codes/python_plus.md",
-    "codes/pylibs/collections.md",
     "codes/pylibs/pandas.md",
     "codes/pylibs/cProfile.md",
     "misc/数据分析.md",
@@ -254,7 +255,6 @@
     "ComputerNetwork/IP详解.canvas",
     "devops/1.SRE学习路线.md",
     "alogs/leetcode/2520.统计能整除数字的位数.md",
-    "alogs/leetcode/1465.切割后面积最大的蛋糕.md",
     "misc",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",

@@ -44,4 +44,11 @@ dq = collections.deque([iterable, [, maxlen]]) # maxlen指定了最大长度
 | `count(x) -> int`     | 查询`x` 个数       |                 |
 | `__get__(idx)`        | 支持索引访问         | `dq[idx]`       |
 
-# defaultdict
+# defaultdict 带默认值的字典
+
+返回一个新的类似字典的对象。 [`defaultdict`](https://docs.python.org/zh-cn/3/library/collections.html#collections.defaultdict "collections.defaultdict") 是内置 [`dict`](https://docs.python.org/zh-cn/3/library/stdtypes.html#dict "dict") 类的子类。 它重写了一个方法并添加了一个可写的实例变量。 其余的功能与 [`dict`](https://docs.python.org/zh-cn/3/library/stdtypes.html#dict "dict") 类相同因而不在此文档中写明。
+
+```python
+dfd = collections.defaultdict(int) # 默认值为int 0
+dfd = collections.defaultdict(list) # 默认值为 list()
+```
