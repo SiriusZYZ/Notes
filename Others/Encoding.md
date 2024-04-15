@@ -39,15 +39,59 @@ Unicode 的目标是**将世界上所有语言的任何字符或符号转换成�
 > **Unicode的映射方式**
 > 字符集中每个定义的字符会被分配一个数字，这个数字为"码点(code node)"。比如汉字的`汉` 在Unicode 中的码点为`0x6C49`，可以用`U+6c49`即`U+`加上16进制下的码点来表示Unicode字符。
  
-> **Unicode 的编码方案与UTF**
-> 1. Unicode 本身
+> **Unicode 的编码空间**
+> Unicode 把码元划分成了17个空间，称为"编码空间"或平面，每个空间有$2^{16}$(65536)个码点。17个编码空间中只使用了部分平面：
+> 1. `U+0000`~`U+FFFF` 基本多文种平面(BMP)，或称Plane 0、0号平面，包含绝大多数常用字符。
+>    ![](assets/Pasted%20image%2020240415213320.png)
 
+所有平面如下:
 
+| 平面                 | 范围                    | 中文名           | 英文名                                          |
+| ------------------ | --------------------- | ------------- | -------------------------------------------- |
+| 0号                 | `U+0000`至`U+FFFF`     | **基本多文种平面**   | Basic Multilingual Plane，**BMP**             |
+| 1号                 | `U+10000`至`U+1FFFF`   | **多文种补充平面**   | Supplementary Multilingual Plane, **SMP**    |
+| 2号                 | `U+20000`至`U+2FFFF`   | **表意文字补充平面**  | Supplementary Ideographic Plane, **SIP**     |
+| 3号                 | `U+30000`至`U+3FFFF`   | **表意文字第三平面**  | Tertiary Ideographic Plane, **TIP**          |
+| 4号  <br>至  <br>13号 | `U+40000`至`U+DFFFF`   | （未启用）         |                                              |
+| 14号                | `U+E0000`至`U+EFFFF`   | **特别用途补充平面**  | Supplementary Special-purpose Plane, **SSP** |
+| 15号                | `U+F0000`至`U+FFFFF`   | **私人使用区（A区)** | Private Use Area-A, **PUA-A**                |
+| 16号                | `U+100000`至`U+10FFFF` | **私人使用区（B区)** | Private Use Area-B, **PUA-B**                |
 
+## Unicode的编码方式
+ Unicode的实现方式不同于编码方式。**一个字符的Unicode码点确定**。但是在实际传输过程中，由于不同[系统平台](https://zh.wikipedia.org/wiki/%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0 "系统平台")的设计不一定一致，以及出于节省空间的目的，对Unicode编码的实现方式有所不同。Unicode的实现方式称为**Unicode转换格式**（Unicode Transformation Format，简称为UTF）。
+
+Unicode的主流编码格式包括了:
+1. UTF-8
+2. UTF-16
+3. GB-18030
+
+### UTF-8
+> **简介**
+> 一种**变长编码**，使用1~4个`bytes` 来表示Unicode码点(根据RFC 3629规范)。变长的目的是减少最常用的字符对应Unicode码点的字节使用量。
+
+> **Unicode码点范围与所需字节数：**
+
+| 字节数 | 码点范围               | 对应文字              |
+| --- | ------------------ | ----------------- |
+| 1   | `U+0000`~`U+007F`  | ASCII字符集          |
+| 2   | `U+0080`~`U+07FF`  | 带符号的拉丁文、希腊文、阿拉伯文等 |
+| 3   | `U+0800`~`U+FFFF`  | 其他BMP字符，包括大部分常用文字 |
+| 4   | `U+1000`~`U+1FFFF` | 其他辅助平面            |
+
+> **UTF-8字节规则:**
+
+|码点的位数|码点起值|码点终值|字节序列|Byte 1|Byte 2|Byte 3|Byte 4|Byte 5|Byte 6|
+|---|---|---|---|---|---|---|---|---|---|
+|7|U+0000|U+007F|1|`0xxxxxxx`|
+|11|U+0080|U+07FF|2|`110xxxxx`|`10xxxxxx`|
+|16|U+0800|U+FFFF|3|`1110xxxx`|`10xxxxxx`|`10xxxxxx`|
+|21|U+10000|U+1FFFFF|4|`11110xxx`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|
+|26|U+200000|U+3FFFFFF|5|`111110xx`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|
+|31|U+4000000|U+7FFFFFFF|6|`1111110x`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|`10xxxxxx`|
 
 # Base16, Base32, Base64
 
-# why and what
+## why and what
 - 有些字符在某些环境中无法显示，比如各种转义字符，或者在特定环境中有特殊作用的字符，如`/`， `.` 等字符在URL中的作用。但是有些字符是必定可以显示和使用的，包括字母和数字。
 - 如果可以把所有字符编码成必然能打印而且在各种环境中都不会有特殊含义的字符，那就能实现一种通用的通信和存储编码方式了。
 - Base 系列的编码方式主要是将二进制数据`0100101..` 以可打印的字符表示出来。
@@ -56,10 +100,10 @@ Unicode 的目标是**将世界上所有语言的任何字符或符号转换成�
   2. base32使用32个可打印字符
   3. base64使用64个可打印字符
 
-## How
+### How
 
-### base16
+#### base16
 
-### base32
+#### base32
 
-### base64
+#### base64
