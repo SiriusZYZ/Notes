@@ -64,14 +64,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Encoding.md",
+                "file": "misc/Encoding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "784ec08150cfc416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc/Ciphers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -91,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Encoding.md"
+                "file": "misc/Ciphers.md"
               }
             }
           },
@@ -140,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Encoding.md",
+                "file": "misc/Ciphers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Encoding.md",
+                "file": "misc/Ciphers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,17 +264,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8141702f57d5f36b",
+  "active": "784ec08150cfc416",
   "lastOpenFiles": [
+    "misc/Encoding.md",
+    "misc/Ciphers.md",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
     "assets/Pasted image 20240416100101.png",
     "assets/Pasted image 20240415213320.png",
     "linux&shell/devops/未命名.canvas",
-    "Others/Encoding.md",
     "linux&shell/devops/未命名 1.md",
     "linux&shell/devops/1.介绍.md",
-    "Others",
+    "misc",
     "linux&shell/devops/1.SRE学习路线.md",
     "Python/python libs.md",
     "Python/python_plus.md",
@@ -280,7 +293,7 @@
     "Python/pylibs/random.md",
     "Python/pylibs/matplotlib.md",
     "Python/pylibs/pandas.md",
-    "misc/数据分析.md",
+    "archive/数据分析.md",
     "Python/pylibs/time.md",
     "Python/pylibs",
     "codes/python_plus-SiriusOnHP.md",
@@ -289,7 +302,7 @@
     "codes/python_plus-sirius's Mac mini.md~RF9531756.TMP",
     "alogs/12.图论.md",
     "ComputerNetwork/IP详解.canvas",
-    "misc",
+    "archive",
     "ComputerNetwork/mine/2.2HTTP与HTTPS.canvas",
     "ComputerNetwork/mine/2.1HTTP基本.canvas",
     "assets/Pasted image 20231020132924.png",
@@ -303,8 +316,7 @@
     "ComputerNetwork/mine/1.2访问网站的全过程.canvas",
     "ComputerNetwork/mine/1.1TCP-IP概览.canvas",
     "ComputerNetwork/mine/3.1TCP基础.canvas",
-    "assets/164b4fc94546ffc46ba1fb3b42808000.gif",
-    "misc/QA",
+    "archive/QA",
     "1.tcp_ip_model.pdf",
     "光纤技术简介.docx",
     "4.ip_base.pdf",

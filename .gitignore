@@ -1,5 +1,2 @@
-<<<<<<< HEAD
-/slbs/
-=======
-slbs/
->>>>>>> origin/main
+# omit archive
+/archive
