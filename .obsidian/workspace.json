@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/Ciphers.md",
+                "file": "misc/Cryptography.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/Ciphers.md"
+                "file": "misc/Cryptography.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/Ciphers.md",
+                "file": "misc/Cryptography.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/Ciphers.md",
+                "file": "misc/Cryptography.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
   "active": "784ec08150cfc416",
   "lastOpenFiles": [
     "misc/Encoding.md",
-    "misc/Ciphers.md",
+    "misc/Cryptography.md",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
     "assets/Pasted image 20240416100101.png",
