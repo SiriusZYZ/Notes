@@ -76,7 +76,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/Cryptography.md",
+                "file": "linux&shell/5.shell编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/Cryptography.md"
+                "file": "linux&shell/5.shell编程.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/Cryptography.md",
+                "file": "linux&shell/5.shell编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/Cryptography.md",
+                "file": "linux&shell/5.shell编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -266,8 +265,8 @@
   },
   "active": "784ec08150cfc416",
   "lastOpenFiles": [
-    "misc/Encoding.md",
     "misc/Cryptography.md",
+    "misc/Encoding.md",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
     "assets/Pasted image 20240416100101.png",
