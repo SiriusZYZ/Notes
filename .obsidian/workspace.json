@@ -116,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -199,7 +200,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "784ec08150cfc416",
+  "active": "3cb57970e78e9a86",
   "lastOpenFiles": [
     "misc/Cryptography.md",
     "misc/pending-prometheus & Zabbix.md",
