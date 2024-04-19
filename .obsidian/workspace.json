@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/4.shell简介.md",
+                "file": "linux&shell/5.shell变量.md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/4.shell简介.md"
+                "file": "linux&shell/5.shell变量.md"
               }
             }
           },
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/4.shell简介.md",
+                "file": "linux&shell/5.shell变量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/4.shell简介.md",
+                "file": "linux&shell/5.shell变量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,9 +202,9 @@
   },
   "active": "784ec08150cfc416",
   "lastOpenFiles": [
+    "linux&shell/4.shell简介.md",
     "linux&shell/5.shell变量.md",
     "linux&shell/1.Linux基础命令.md",
-    "linux&shell/4.shell简介.md",
     "misc/Cryptography.md",
     "Python/Pending-psutils.md",
     "linux&shell/devops/未命名.canvas",
