@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "48e2f2510ce379fd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +211,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3cb57970e78e9a86",
+  "active": "48e2f2510ce379fd",
   "lastOpenFiles": [
     "misc/Cryptography.md",
     "misc/pending-prometheus & Zabbix.md",
