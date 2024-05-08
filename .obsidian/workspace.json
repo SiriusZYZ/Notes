@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "48e2f2510ce379fd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.12"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "29697003bfb43e4b",
@@ -211,7 +199,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "48e2f2510ce379fd",
+  "active": "784ec08150cfc416",
   "lastOpenFiles": [
     "misc/Cryptography.md",
     "misc/pending-prometheus & Zabbix.md",
