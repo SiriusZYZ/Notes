@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux&shell/5.shell变量.md",
+                "file": "misc/pending-prometheus & Zabbix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ee4938673fc37fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc/regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/5.shell变量.md"
+                "file": "misc/regex.md"
               }
             }
           },
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/5.shell变量.md",
+                "file": "misc/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/5.shell变量.md",
+                "file": "misc/regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,11 +212,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "784ec08150cfc416",
+  "active": "3ee4938673fc37fc",
   "lastOpenFiles": [
-    "misc/Cryptography.md",
     "misc/pending-prometheus & Zabbix.md",
+    "misc/regex.md",
     "linux&shell/5.shell变量.md",
+    "misc/Cryptography.md",
     "linux&shell/4.shell简介.md",
     "linux&shell/1.Linux基础命令.md",
     "Python/Pending-psutils.md",
@@ -234,7 +248,6 @@
     "Python/pylibs/time.md",
     "Python/pylibs",
     "codes/python_plus-SiriusOnHP.md",
-    "codes/python_plus-sirius's Mac mini.md",
     "codes/python_plus-sirius's Mac mini.md~RF9531756.TMP",
     "ComputerNetwork/IP详解.canvas",
     "archive",
