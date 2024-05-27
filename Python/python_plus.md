@@ -213,7 +213,7 @@ if __name__ == "__main__":
 import importlib.reload
 import numpy
 
-importlib.reload(numpy)
+numpy = importlib.reload(numpy)
 ```
 
 
