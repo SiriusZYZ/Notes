@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "004f6da68ee11812",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc/bitwise operation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -64,7 +51,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/bitwise operation.md"
+                "file": "misc/regex.md"
               }
             }
           },
@@ -113,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/bitwise operation.md",
+                "file": "misc/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/bitwise operation.md",
+                "file": "misc/regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "位运算",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -224,8 +211,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7783f611b6df2acc",
+  "active": "8e21e45d5b91e44b",
   "lastOpenFiles": [
+    "misc/bitwise operation.md",
     "misc/Cryptography.md",
     "templates/notes-templates.md",
     "Python/python_plus.md",
@@ -238,7 +226,6 @@
     "linux&shell/devops/1.SRE学习路线.md",
     "linux&shell/devops/1.介绍.md",
     "archive/flask/0.安装和部署.md",
-    "misc/bitwise operation.md",
     "templates",
     "misc/regex.md",
     "misc/pending-prometheus & Zabbix.md",

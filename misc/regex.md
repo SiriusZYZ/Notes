@@ -1,3 +1,8 @@
+---
+aliases:
+  - 正则表达式
+date: 2024-05-27
+---
 # 正则表达式简介
 
 正则表达式(Regular Expression, regex)是一种文本模式，可以用于描述或匹配字符串的特定模式(pattern)
