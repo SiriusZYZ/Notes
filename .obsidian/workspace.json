@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "00b42423f7d2acbe",
+        "id": "5d97f127e08811d5",
         "type": "tabs",
         "children": [
           {
-            "id": "784ec08150cfc416",
+            "id": "8e21e45d5b91e44b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc/pending-prometheus & Zabbix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3ee4938673fc37fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "misc/regex.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,9 +34,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "misc/regex.md"
-              }
+              "state": {}
             }
           },
           {
@@ -101,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,10 +191,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3ee4938673fc37fc",
+  "active": "8e21e45d5b91e44b",
   "lastOpenFiles": [
-    "misc/pending-prometheus & Zabbix.md",
     "misc/regex.md",
+    "misc/pending-prometheus & Zabbix.md",
     "linux&shell/5.shell变量.md",
     "misc/Cryptography.md",
     "linux&shell/4.shell简介.md",
