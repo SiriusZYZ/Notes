@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,6 +214,7 @@
   },
   "active": "8e21e45d5b91e44b",
   "lastOpenFiles": [
+    "misc/regex-sirius's Mac mini.md",
     "misc/bitwise operation.md",
     "misc/Cryptography.md",
     "templates/notes-templates.md",
@@ -247,7 +249,6 @@
     "linux&shell/Linux命令.canvas",
     "linux&shell/3.Linux实用技术.md",
     "Python/pylibs/logging.md",
-    "Python/pylibs/cProfile.md",
     "Python/pylibs",
     "codes/python_plus-sirius's Mac mini.md~RF9531756.TMP",
     "ComputerNetwork/IP详解.canvas",
