@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/bitwise operation.md",
+                "file": "misc/regex.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md"
+                "file": "misc/regex.md"
               }
             }
           },
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md",
+                "file": "misc/regex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux&shell/2.Linux用户和权限.md",
+                "file": "misc/regex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 252.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,12 +212,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e21e45d5b91e44b",
+  "active": "33f10ba547f49489",
   "lastOpenFiles": [
-    "misc/regex.md",
     "misc/regex-sirius's Mac mini.md",
-    "misc/bitwise operation.md",
+    "misc/regex.md",
     "misc/Cryptography.md",
+    "misc/bitwise operation.md",
+    "linux&shell/2.Linux用户和权限.md",
     "templates/notes-templates.md",
     "Python/python_plus.md",
     "Python/python libs.md",
@@ -234,7 +237,6 @@
     "linux&shell/1.Linux基础命令.md",
     "Python/Pending-psutils.md",
     "linux&shell/devops/未命名.canvas",
-    "linux&shell/2.Linux用户和权限.md",
     "misc/Encoding.md",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
