@@ -127,7 +127,7 @@ regex的模式在各环境的支持性
 | `\cx` | 匹配由x指明的控制字符。例如， `\cM `匹配一个 Control-M 或回车符。x 的值必须为 A-Z 或 a-z 之一。否则，将 c 视为一个原义的 'c' 字符。 |
 | `\f`  | 匹配一个换页符。等价于 `\x0c `和` \cL`。                                                           |
 
-### 匹配特定位置
+### 匹配位置
 
 某些情况下，我想找到所有以`tion`结尾的单词，这就要求regex提供针对位置的匹配。
 正则表达式中的匹配，其匹配为“零宽度”的匹配。为了理解字符串里面的“位置”，可以把字符串理解为`"".join(splitted_string)`，即以空字符拼接起来的字符串：
@@ -169,13 +169,19 @@ regex的模式在各环境的支持性
 '#I# #have# #4# #burgers#!'
 # \b 等价于 (?<!\w)(?=\w)|(?<=\w)(?!\w)
 >>> re.sub(r"(?<!\w)(?=\w)|(?<=\w)(?!\w)", "#", "hello world!")
+# 使用\b查找以`tion`结尾的单词
+>>> re.findall(r"\w+tion\b", "The completion required evaluation and implementation.")
+['completion', 'evaluation', 'implementation']
 ```
 
 ```python
+# (?=p) 用于匹配模式前面的位置
 >>> re.sub(r"(?=source)","#", "open source")
 'open #source'
+# (?<=p) 用于匹配模式后面的位置
+>>> re.sub(r"(?<=source)","#", "open source")
+'open source#'
 ```
-
 ## 圆括号和子模式
 
 ## 模式的重复
