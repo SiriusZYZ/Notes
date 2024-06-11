@@ -36,6 +36,10 @@ regex的模式在各环境的支持性
 | **C#**         | √     | √       | √     | √     |             |             | √     | √     | √      | √       |
 \* 支持，但要命令行加入 `--posix`或` --re-interval`，见man awk中的interval expression
 
+## 如何理解模式
+
+
+
 # 模式的编写规则
 
 ## 单个普通字符
@@ -138,6 +142,11 @@ regex的模式在各环境的支持性
 | `\B`          | 匹配非单词与空格的交界               |
 | `(?=pattern)` | 匹配`pattern`               |
 
+
+```python
+>>> re.sub(r"(?=source)","#", "open source")
+'open #source'
+```
 
 ## 圆括号和子模式
 
