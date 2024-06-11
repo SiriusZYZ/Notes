@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/pylibs/collections.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "84fca035113897bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Python/pylibs/re.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,16 +200,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "84fca035113897bb",
+  "active": "8e21e45d5b91e44b",
   "lastOpenFiles": [
+    "Python/pylibs/collections.md",
+    "Python/python libs.md",
+    "Python/pylibs/re.md",
     "Python/pylibs/cProfile.md",
     "Python/pylibs/logging.md",
     "Python/pylibs/matplotlib.md",
     "Python/pylibs/pandas.md",
     "Python/pylibs/random.md",
     "Python/pylibs/time.md",
-    "Python/pylibs/re.md",
-    "Python/pylibs/collections.md",
     "misc/bitwise operation.md",
     "linux&shell/2.Linux用户和权限.md",
     "misc/regex.md",
@@ -230,7 +218,6 @@
     "misc/Cryptography.md",
     "templates/notes-templates.md",
     "Python/python_plus.md",
-    "Python/python libs.md",
     "OS/2.进程.md",
     "OS/未命名.md",
     "OS/1.操作系统的概念.md",

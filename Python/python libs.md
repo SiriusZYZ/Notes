@@ -15,7 +15,8 @@
 数学:
 - [`random`](Python/pylibs/random.md) 生成伪随机数
 
-
+字符串操作:
+- [`re`](./pylibs/re) 正则表达式
 
 
 # 第三方库
