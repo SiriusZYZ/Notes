@@ -8,6 +8,41 @@
 
 ## `re`所支持的语法扩展
 
+### 捕获语法
+
+`(...)`
+	捕获组合，`re`的组合除了能实现子模式以外，还能被在匹配结果中被单独捕获
+```python
+# 在主模式匹配成功后, 加了括号的组合会被分别捕获
+>>> re.findall(r"(\w+) (\w+)", "i am very happy")
+[('i', 'am'), ('very', 'happy')]
+
+# 匹配过程中, 如果存在多层模式嵌套, 返回的结果则按照表达式从左到右, 结果以多叉树的前序遍历返回
+>>> re.findall(r"((\w?)(\w+)) (\w+)", "You are very happy")
+[('You', 'Y', 'ou', 'are'), ('very', 'v', 'ery', 'happy')]
+# 第一个是((\w?)(\w+)), 第二个是(\w?), 第三个是(\w+), 第四个是(\w+)
+```
+
+`(?:...)`
+	非捕获组合，但是在匹配结果中不显示对应的子模式，相当于标准的子模式
+```python
+# 均不捕获子模式
+>>> re.findall(r"(?:\w+) (?:\w+)", "You are very happy")
+['You are', 'very happy']
+
+# 捕获主模式的最后一个子模式
+>>> re.findall(r"(?:\w+) (\w+)", "You are very happy")
+['are', 'happy']
+```
+
+### 注释语法
+
+`(?#...)`
+	注释语法，包含的内容会被忽略
+```python
+>>> re.findall(r"\w+(?#match some words)", "You are very happy")
+['You', 'are', 'very', 'happy']
+```
 
 # re的修饰符
 
@@ -55,6 +90,16 @@ re.match(pattern, string, flags=0) -> re.Match, None
 re.fullmatch(pattern, string, flags=0) -> re.Match, None
 ```
 - 确定`string`的**整个字符串**是否与`pattern`匹配，匹配则返回`re.Match`， 否则返回`None`
+
+## 确定搜索结果
+
+可以使用`if+re.` 的方式
+```python
+>>> if re.match("\w+ \w+", "hello world!"):
+...     print("found a two-word-scentence!")
+...
+found a two-word-scentence!
+```
 
 ## 字符串的分割
 
