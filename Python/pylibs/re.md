@@ -195,7 +195,8 @@ re.escape(pattern)
 以下是成员变量
 - `Pattern.pattern` 编译的原始样式字符串
 - `Pattern.flags` 编译时的修饰符
-- `Pattern.groups` 捕获到的模式串中组的数量
+- `Pattern.groups` 模式串中组的数量
+- `Pattern.groupindex` 模式串中组的索引
 
 以下是成员函数
 ```python
@@ -223,6 +224,16 @@ re.Pattern.subn(repl, string, count=0)
 
 ## `re.Match`
 - 由成功的 `match` 和 `search` 所返回的匹配对象，可以理解为匹配的结果
+- `Match` 的功能特点应该在`re` 的语法扩展——分组捕获中体现
+
+成员函数如下：
+- `Match.string`： 输入的原样字符串
+- `Match.re`：模式串的正则对象`re.Pattern`
+- `Match.pos`： 在`search`或`match`方法中指定的起始搜索位置`pos`
+- `Match.endpos`： 在`search`或`match`方法中指定的结束搜索位置`endpos`
+- `Match.lastindex`： 最后一组的数字索引，也是捕获的组数量
+- `Match.lastgroup`： 最后一组的名字
+### 求分组
 
 ```python
 Match.group([group1, ...]) -> tuple, string
@@ -270,3 +281,16 @@ Match.groupdict() -> dict
 {'first_name': 'Malcolm', 'last_name': 'Reynolds'}
 ```
 
+### 求分组的位置
+
+```python
+Match.start([group]) -> int
+Match.end([group]) -> int
+```
+- 返回捕获分组在输入字符串中的起始位置和结束位置
+- 匹配对象相当于`input_string[Match.start():Match.end()]`，所以`end()` 对应的那个字符是不在匹配对象里面的
+
+```python
+Match.span([group]) -> tuple
+```
+- 返回`(Match.start(..), Match.end(..))`
