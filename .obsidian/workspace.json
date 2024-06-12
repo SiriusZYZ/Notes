@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/python libs.md",
+                "file": "misc/Encoding.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "86c5159d6c142717",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -52,7 +62,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/python libs.md"
+                "file": "misc/Encoding.md"
               }
             }
           },
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python libs.md",
+                "file": "misc/Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python libs.md",
+                "file": "misc/Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,23 +222,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "160fc222aaf2d350",
+  "active": "86c5159d6c142717",
   "lastOpenFiles": [
+    "misc/Cryptography.md",
+    "misc/bitwise operation.md",
+    "misc/regex.md",
+    "Python/python libs.md",
     "Python/pylibs/codecs.md",
     "Python/pylibs/re.md",
     "Python/pylibs/collections.md",
-    "Python/python libs.md",
     "Python/pylibs/cProfile.md",
     "Python/pylibs/logging.md",
     "Python/pylibs/matplotlib.md",
     "Python/pylibs/pandas.md",
     "Python/pylibs/random.md",
     "Python/pylibs/time.md",
-    "misc/bitwise operation.md",
     "linux&shell/2.Linux用户和权限.md",
-    "misc/regex.md",
     "misc/regex-sirius's Mac mini.md",
-    "misc/Cryptography.md",
     "templates/notes-templates.md",
     "Python/python_plus.md",
     "OS/2.进程.md",
