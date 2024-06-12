@@ -6,6 +6,9 @@
 
 基础语法详见[regex](../../misc/regex)
 
+## `re`所支持的语法扩展
+
+
 # re的修饰符
 
 - [`re.A`](https://docs.python.org/zh-cn/3/library/re.html#re.A "re.A") (仅限 ASCII 匹配)
