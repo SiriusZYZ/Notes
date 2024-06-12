@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "160fc222aaf2d350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/python libs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/pylibs/re.md"
+                "file": "Python/python libs.md"
               }
             }
           },
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/pylibs/re.md",
+                "file": "Python/python libs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/pylibs/re.md",
+                "file": "Python/python libs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5,
-    "collapsed": true
+    "width": 252.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,11 +212,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8e21e45d5b91e44b",
+  "active": "160fc222aaf2d350",
   "lastOpenFiles": [
+    "Python/pylibs/codecs.md",
+    "Python/pylibs/re.md",
     "Python/pylibs/collections.md",
     "Python/python libs.md",
-    "Python/pylibs/re.md",
     "Python/pylibs/cProfile.md",
     "Python/pylibs/logging.md",
     "Python/pylibs/matplotlib.md",
@@ -229,7 +242,6 @@
     "templates",
     "misc/pending-prometheus & Zabbix.md",
     "linux&shell/5.shell变量.md",
-    "linux&shell/4.shell简介.md",
     "linux&shell/devops/未命名.canvas",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
