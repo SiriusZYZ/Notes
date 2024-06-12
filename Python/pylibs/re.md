@@ -16,6 +16,8 @@
 # 在主模式匹配成功后, 加了括号的组合会被分别捕获
 >>> re.findall(r"(\w+) (\w+)", "i am very happy")
 [('i', 'am'), ('very', 'happy')]
+>>> re.findall(r'(\w+)=(\d+)', 'set width=20 and height=10')
+[('width', '20'), ('height', '10')]
 
 # 匹配过程中, 如果存在多层模式嵌套, 返回的结果则按照表达式从左到右, 结果以多叉树的前序遍历返回
 >>> re.findall(r"((\w?)(\w+)) (\w+)", "You are very happy")
@@ -33,6 +35,17 @@
 # 捕获主模式的最后一个子模式
 >>> re.findall(r"(?:\w+) (\w+)", "You are very happy")
 ['are', 'happy']
+```
+
+### 标记捕获语法
+
+`(?P<name>...)`
+	捕获`...` 子模式并将其标记为`name`
+```python
+>>> re.match(r"(?P<varname>\w+)=(?P<value>\d+)", "A=5 B=7").group("varname")
+'A'
+>>> re.match(r"(?P<varname>\w+)=(?P<value>\d+)", "A=5 B=7").group("value")
+'5'
 ```
 
 ### 注释语法
