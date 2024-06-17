@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "86c5159d6c142717",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,7 +212,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86c5159d6c142717",
+  "active": "160fc222aaf2d350",
   "lastOpenFiles": [
     "misc/Cryptography.md",
     "misc/bitwise operation.md",
