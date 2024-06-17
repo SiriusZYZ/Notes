@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "misc/Encoding.md",
+                "file": "linux&shell/5.shell变量.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "misc/Encoding.md"
+                "file": "linux&shell/5.shell变量.md"
               }
             }
           },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/Encoding.md",
+                "file": "linux&shell/5.shell变量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "misc/Encoding.md",
+                "file": "linux&shell/5.shell变量.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,9 +214,10 @@
   },
   "active": "160fc222aaf2d350",
   "lastOpenFiles": [
+    "misc/regex.md",
+    "misc/Encoding.md",
     "misc/Cryptography.md",
     "misc/bitwise operation.md",
-    "misc/regex.md",
     "Python/python libs.md",
     "Python/pylibs/codecs.md",
     "Python/pylibs/re.md",
@@ -241,7 +242,6 @@
     "archive/flask/0.安装和部署.md",
     "templates",
     "misc/pending-prometheus & Zabbix.md",
-    "linux&shell/5.shell变量.md",
     "linux&shell/devops/未命名.canvas",
     "assets/Pasted image 20240416101743.png",
     "assets/Pasted image 20240416100118.png",
